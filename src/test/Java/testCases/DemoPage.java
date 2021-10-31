@@ -31,4 +31,17 @@ public class DemoPage extends Base {
             logger.info("Title is incorrect");
         }
     }
+
+    @Test
+    public void checkSubTitle() {
+        DemoPagePOM demoPage = new DemoPagePOM(driver);
+        if(demoPage.getSubTitle().equalsIgnoreCase("TRAVEL TECHNOLOGY PARTNER")){
+            Assert.assertTrue(true);
+            logger.info("Subtitle is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Subtitle is incorrect");
+        }
+    }
 }

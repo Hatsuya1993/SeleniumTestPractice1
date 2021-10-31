@@ -19,8 +19,14 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement title;
 
+    @FindBy(id = "TRAVEL_TECHNOLOGY_PARTNER")
+    @CacheLookup
+    WebElement subTitle;
+
     public String getTitle(){
         return title.getText();
     }
+
+    public String getSubTitle() { return subTitle.getText(); }
 
 }
