@@ -23,10 +23,16 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement subTitle;
 
+    @FindBy(id = "header-title")
+    @CacheLookup
+    WebElement headerTitle;
+
     public String getTitle(){
         return title.getText();
     }
 
     public String getSubTitle() { return subTitle.getText(); }
+
+    public String getheaderTitle() { return headerTitle.getText(); }
 
 }

@@ -3,6 +3,7 @@ package testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.DemoPagePOM;
+import helper.helper;
 
 public class DemoPage extends Base {
 
@@ -42,6 +43,20 @@ public class DemoPage extends Base {
         else{
             Assert.fail();
             logger.info("Subtitle is incorrect");
+        }
+    }
+
+    @Test
+    public void checkHeaderTitle() throws InterruptedException {
+        DemoPagePOM demoPage = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        if(demoPage.getheaderTitle().equalsIgnoreCase("Application Test Drive")){
+            Assert.assertTrue(true);
+            logger.info("HeaderTitle is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("HeaderTitle is incorrect");
         }
     }
 }
