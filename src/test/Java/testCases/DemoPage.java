@@ -59,4 +59,19 @@ public class DemoPage extends Base {
             logger.info("HeaderTitle is incorrect");
         }
     }
+
+    @Test
+    public void checkHeaderDesc() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        if(demoPagePOM.getHeaderDesc().equalsIgnoreCase("Test drive online the demo product available with complete features")){
+            Assert.assertTrue(true);
+            logger.info("Header Desc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Heaer Desc is incorrect");
+        }
+    }
+
 }

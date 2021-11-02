@@ -37,3 +37,9 @@
 2021-11-01 09:21:47,833 - TestPhpTravels -INFO - Subtitle is correct
 2021-11-01 09:21:47,865 - TestPhpTravels -INFO - Title is correct
 2021-11-01 09:21:47,872 - TestPhpTravels -INFO - URL is correnct
+2021-11-02 09:25:34,426 - TestPhpTravels -INFO - URL opened
+2021-11-02 09:25:37,547 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-02 09:25:40,611 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-02 09:25:40,649 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-02 09:25:40,686 - TestPhpTravels -INFO - Title is correct
+2021-11-02 09:25:40,703 - TestPhpTravels -INFO - URL is correnct
