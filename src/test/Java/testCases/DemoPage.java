@@ -74,4 +74,18 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkMainTitle() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        if(demoPagePOM.getMainTitle().equalsIgnoreCase("Demo Credentials for Frontend and Backend")){
+            Assert.assertTrue(true);
+            logger.info("Main title is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Main title is incorrect");
+        }
+    }
+
 }

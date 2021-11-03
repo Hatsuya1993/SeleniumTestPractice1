@@ -31,6 +31,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement headerDesc;
 
+    @FindBy(className = "main-title")
+    @CacheLookup
+    WebElement mainTitle;
+
     public String getTitle(){
         return title.getText();
     }
@@ -40,5 +44,7 @@ public class DemoPagePOM {
     public String getheaderTitle() { return headerTitle.getText(); }
 
     public String getHeaderDesc() { return headerDesc.getText(); }
+
+    public String getMainTitle() { return mainTitle.getText(); }
 
 }
