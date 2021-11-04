@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.DemoPagePOM;
 import helper.helper;
+import helper.available;
 
 public class DemoPage extends Base {
 
@@ -85,6 +86,20 @@ public class DemoPage extends Base {
         else{
             Assert.fail();
             logger.info("Main title is incorrect");
+        }
+    }
+
+    @Test
+    public void checkNavOption() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        if(available.displayed(demoPagePOM.getNavOption())){
+            Assert.assertTrue(true);
+            logger.info("Nav option is available");
+        }
+        else{
+            Assert.fail();
+            logger.info("Nav option is not available");
         }
     }
 

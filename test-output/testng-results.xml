@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-03T09:30:17 SGT" name="All Test Suite" finished-at="2021-11-03T09:30:31 SGT" duration-ms="13553">
+  <suite started-at="2021-11-04T12:42:43 SGT" name="All Test Suite" finished-at="2021-11-04T12:43:02 SGT" duration-ms="19273">
     <groups>
     </groups>
-    <test started-at="2021-11-03T09:30:17 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-11-03T09:30:31 SGT" duration-ms="13553">
+    <test started-at="2021-11-04T12:42:43 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-11-04T12:43:02 SGT" duration-ms="19273">
       <class name="testCases.DemoPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:17 SGT" name="setup" finished-at="2021-11-03T09:30:21 SGT" duration-ms="3425" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:42:43 SGT" name="setup" finished-at="2021-11-04T12:42:46 SGT" duration-ms="3181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,34 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkHeaderDesc()[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:21 SGT" name="checkHeaderDesc" finished-at="2021-11-03T09:30:24 SGT" duration-ms="3106" status="PASS">
+        <test-method signature="checkHeaderDesc()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:42:46 SGT" name="checkHeaderDesc" finished-at="2021-11-04T12:42:49 SGT" duration-ms="3080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeaderDesc -->
-        <test-method signature="checkHeaderTitle()[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:24 SGT" name="checkHeaderTitle" finished-at="2021-11-03T09:30:27 SGT" duration-ms="3041" status="PASS">
+        <test-method signature="checkHeaderTitle()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:42:49 SGT" name="checkHeaderTitle" finished-at="2021-11-04T12:42:52 SGT" duration-ms="3034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeaderTitle -->
-        <test-method signature="checkMainTitle()[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:27 SGT" name="checkMainTitle" finished-at="2021-11-03T09:30:30 SGT" duration-ms="3044" status="PASS">
+        <test-method signature="checkMainTitle()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:42:52 SGT" name="checkMainTitle" finished-at="2021-11-04T12:42:55 SGT" duration-ms="3047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMainTitle -->
-        <test-method signature="checkSubTitle()[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:30 SGT" name="checkSubTitle" finished-at="2021-11-03T09:30:30 SGT" duration-ms="32" status="PASS">
+        <test-method signature="checkNavOption()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:42:55 SGT" name="checkNavOption" finished-at="2021-11-04T12:43:01 SGT" duration-ms="6012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNavOption -->
+        <test-method signature="checkSubTitle()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:43:01 SGT" name="checkSubTitle" finished-at="2021-11-04T12:43:01 SGT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSubTitle -->
-        <test-method signature="checkTitle()[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:30 SGT" name="checkTitle" finished-at="2021-11-03T09:30:30 SGT" duration-ms="31" status="PASS">
+        <test-method signature="checkTitle()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:43:01 SGT" name="checkTitle" finished-at="2021-11-04T12:43:01 SGT" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method signature="checkURL()[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:30 SGT" name="checkURL" finished-at="2021-11-03T09:30:30 SGT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkURL -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@6e509ffa]" started-at="2021-11-03T09:30:30 SGT" name="teardown" finished-at="2021-11-03T09:30:31 SGT" duration-ms="683" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:43:01 SGT" name="teardown" finished-at="2021-11-04T12:43:02 SGT" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
+        <test-method signature="checkURL()[pri:0, instance:testCases.DemoPage@3098cf3b]" started-at="2021-11-04T12:43:01 SGT" name="checkURL" finished-at="2021-11-04T12:43:01 SGT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkURL -->
       </class> <!-- testCases.DemoPage -->
     </test> <!-- C:/Users/hal19/IdeaProjects/TestPhpTravels -->
   </suite> <!-- All Test Suite -->

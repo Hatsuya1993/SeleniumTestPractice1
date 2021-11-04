@@ -35,6 +35,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement mainTitle;
 
+    @FindBy(css = "nav.clearfix")
+    @CacheLookup
+    WebElement navOption;
+
     public String getTitle(){
         return title.getText();
     }
@@ -46,5 +50,7 @@ public class DemoPagePOM {
     public String getHeaderDesc() { return headerDesc.getText(); }
 
     public String getMainTitle() { return mainTitle.getText(); }
+
+    public WebElement getNavOption() { return navOption; }
 
 }

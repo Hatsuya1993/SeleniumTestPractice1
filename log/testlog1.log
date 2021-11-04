@@ -50,3 +50,11 @@
 2021-11-03 09:30:30,382 [main] INFO TestPhpTravels - Subtitle is correct
 2021-11-03 09:30:30,429 [main] INFO TestPhpTravels - Title is correct
 2021-11-03 09:30:30,429 [main] INFO TestPhpTravels - URL is correnct
+2021-11-04 12:42:46,673 [main] INFO TestPhpTravels - URL opened
+2021-11-04 12:42:49,764 [main] INFO TestPhpTravels - Header Desc is correct
+2021-11-04 12:42:52,807 [main] INFO TestPhpTravels - HeaderTitle is correct
+2021-11-04 12:42:55,854 [main] INFO TestPhpTravels - Main title is correct
+2021-11-04 12:43:01,867 [main] INFO TestPhpTravels - Nav option is available
+2021-11-04 12:43:01,898 [main] INFO TestPhpTravels - Subtitle is correct
+2021-11-04 12:43:01,945 [main] INFO TestPhpTravels - Title is correct
+2021-11-04 12:43:01,945 [main] INFO TestPhpTravels - URL is correnct
