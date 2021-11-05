@@ -39,6 +39,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement navOption;
 
+    @FindBy(css = ".row")
+    @CacheLookup
+    WebElement rowOfItems;
+
     public String getTitle(){
         return title.getText();
     }
@@ -52,5 +56,7 @@ public class DemoPagePOM {
     public String getMainTitle() { return mainTitle.getText(); }
 
     public WebElement getNavOption() { return navOption; }
+
+    public WebElement getRowOfItems() { return rowOfItems; }
 
 }

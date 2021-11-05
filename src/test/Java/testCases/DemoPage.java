@@ -1,5 +1,6 @@
 package testCases;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.DemoPagePOM;
@@ -100,6 +101,22 @@ public class DemoPage extends Base {
         else{
             Assert.fail();
             logger.info("Nav option is not available");
+        }
+    }
+
+    @Test
+    public void checkRowofItems() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        if(available.displayed(demoPagePOM.getRowOfItems())){
+            int countRow = driver.findElements(By.cssSelector("div.resource-box")).size();
+            System.out.println(countRow);
+            Assert.assertEquals(countRow, 6);
+            logger.info("Correct number of rows");
+        }
+        else{
+            Assert.fail();
+            logger.info("Incorrect number of rows");
         }
     }
 
