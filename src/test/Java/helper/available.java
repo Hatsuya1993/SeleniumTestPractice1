@@ -18,4 +18,14 @@ public class available {
         }
     }
 
+    public static void clickItem(WebElement item) throws InterruptedException {
+         Thread.sleep(helper.shortWait);
+             if(displayed(item)){
+                 item.click();
+             }
+             else{
+                 System.out.println("clickItem Failed");
+             }
+    }
+
 }

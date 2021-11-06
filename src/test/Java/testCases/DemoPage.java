@@ -120,4 +120,20 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkDemoLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getDemoLink());
+        logger.info("clicked on Pricing");
+        if(driver.getCurrentUrl().contains("demo")){
+            Assert.assertTrue(true);
+            logger.info("Pricing page url is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Pricing page url is incorrect");
+        }
+    }
+
 }

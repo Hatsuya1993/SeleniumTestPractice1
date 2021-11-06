@@ -90,3 +90,14 @@
 2021-11-05 09:20:38,127 [main] INFO TestPhpTravels - Subtitle is correct
 2021-11-05 09:20:38,167 [main] INFO TestPhpTravels - Title is correct
 2021-11-05 09:20:38,183 [main] INFO TestPhpTravels - URL is correnct
+2021-11-06 09:27:13,097 [main] INFO TestPhpTravels - URL opened
+2021-11-06 09:27:22,871 [main] INFO TestPhpTravels - clicked on Pricing
+2021-11-06 09:27:22,885 [main] INFO TestPhpTravels - Pricing page url is correct
+2021-11-06 09:27:25,954 [main] INFO TestPhpTravels - Header Desc is correct
+2021-11-06 09:27:28,996 [main] INFO TestPhpTravels - HeaderTitle is correct
+2021-11-06 09:27:32,052 [main] INFO TestPhpTravels - Main title is correct
+2021-11-06 09:27:38,063 [main] INFO TestPhpTravels - Nav option is available
+2021-11-06 09:27:44,120 [main] INFO TestPhpTravels - Correct number of rows
+2021-11-06 09:27:44,151 [main] INFO TestPhpTravels - Subtitle is correct
+2021-11-06 09:27:44,182 [main] INFO TestPhpTravels - Title is correct
+2021-11-06 09:27:44,182 [main] INFO TestPhpTravels - URL is correnct
