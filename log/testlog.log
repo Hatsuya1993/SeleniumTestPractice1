@@ -101,3 +101,49 @@
 2021-11-06 09:27:44,151 - TestPhpTravels -INFO - Subtitle is correct
 2021-11-06 09:27:44,182 - TestPhpTravels -INFO - Title is correct
 2021-11-06 09:27:44,182 - TestPhpTravels -INFO - URL is correnct
+2021-11-07 09:46:22,333 - TestPhpTravels -INFO - URL opened
+2021-11-07 09:46:32,019 - TestPhpTravels -INFO - clicked on Demo
+2021-11-07 09:46:32,038 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-07 09:46:35,112 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-07 09:46:38,156 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-07 09:46:41,199 - TestPhpTravels -INFO - Main title is correct
+2021-11-07 09:46:47,215 - TestPhpTravels -INFO - Nav option is available
+2021-11-07 09:46:56,959 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-07 09:46:56,966 - TestPhpTravels -INFO - Pricing page url is correct
+2021-11-07 09:47:13,136 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-07 09:47:13,188 - TestPhpTravels -INFO - Title is correct
+2021-11-07 09:47:56,364 - TestPhpTravels -INFO - URL opened
+2021-11-07 09:48:06,164 - TestPhpTravels -INFO - clicked on Demo
+2021-11-07 09:48:06,192 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-07 09:48:09,268 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-07 09:48:12,308 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-07 09:48:15,357 - TestPhpTravels -INFO - Main title is correct
+2021-11-07 09:48:21,385 - TestPhpTravels -INFO - Nav option is available
+2021-11-07 09:48:31,328 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-07 09:48:31,345 - TestPhpTravels -INFO - Pricing page url is correct
+2021-11-07 09:48:47,617 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-07 09:48:47,682 - TestPhpTravels -INFO - Title is correct
+2021-11-07 09:53:22,871 - TestPhpTravels -INFO - URL opened
+2021-11-07 09:53:32,405 - TestPhpTravels -INFO - clicked on Demo
+2021-11-07 09:53:32,413 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-07 09:53:35,480 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-07 09:53:38,532 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-07 09:53:41,584 - TestPhpTravels -INFO - Main title is correct
+2021-11-07 09:53:47,587 - TestPhpTravels -INFO - Nav option is available
+2021-11-07 09:53:57,700 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-07 09:53:57,723 - TestPhpTravels -INFO - Pricing page url is correct
+2021-11-07 09:54:13,871 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-07 09:54:13,902 - TestPhpTravels -INFO - Title is correct
+2021-11-07 09:55:52,602 - TestPhpTravels -INFO - URL opened
+2021-11-07 09:55:52,631 - TestPhpTravels -INFO - URL is correnct
+2021-11-07 09:55:52,684 - TestPhpTravels -INFO - Title is correct
+2021-11-07 09:55:52,711 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-07 09:55:55,766 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-07 09:55:58,802 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-07 09:56:01,855 - TestPhpTravels -INFO - Main title is correct
+2021-11-07 09:56:07,873 - TestPhpTravels -INFO - Nav option is available
+2021-11-07 09:56:13,923 - TestPhpTravels -INFO - Correct number of rows
+2021-11-07 09:56:23,597 - TestPhpTravels -INFO - clicked on Demo
+2021-11-07 09:56:23,611 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-07 09:56:33,637 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-07 09:56:33,670 - TestPhpTravels -INFO - Pricing page url is correct

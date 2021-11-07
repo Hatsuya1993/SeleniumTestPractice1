@@ -9,9 +9,18 @@
         <classes>
             <class name="testCases.DemoPage">
                 <methods>
-                    <include name=".*"/>
+                    <include name="checkURL"/>
+                    <include name="checkTitle"/>
+                    <include name="checkSubTitle"/>
+                    <include name="checkHeaderTitle"/>
+                    <include name="checkHeaderDesc"/>
+                    <include name="checkMainTitle"/>
+                    <include name="checkNavOption"/>
+                    <include name="checkRowofItems"/>
+                    <include name="checkDemoLink"/>
+                    <include name="checkPricingLink"/>
                 </methods>
             </class>
         </classes>
     </test>
-</suite><!---->
+</suite>

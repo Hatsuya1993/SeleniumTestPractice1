@@ -9,9 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import utilities.ReadConfig;
 
 import java.io.File;
@@ -27,7 +25,7 @@ public class Base {
     public static Logger logger;
 
     @Parameters("browser")
-    @BeforeClass
+    @BeforeTest
     public void setup(String br) {
         logger = Logger.getLogger("TestPhpTravels");
         PropertyConfigurator.configure("log4j.properties");
@@ -46,7 +44,7 @@ public class Base {
         logger.info("URL opened");
     }
 
-    @AfterClass
+    @AfterTest
     public void teardown() {
         driver.quit();
     }

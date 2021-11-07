@@ -47,6 +47,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement demoLink;
 
+    @FindBy(linkText = "Pricing")
+    @CacheLookup
+    WebElement pricingLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -64,5 +68,7 @@ public class DemoPagePOM {
     public WebElement getRowOfItems() { return rowOfItems; }
 
     public WebElement getDemoLink() { return demoLink; }
+
+    public WebElement getpricingLink() { return pricingLink; }
 
 }
