@@ -19,6 +19,7 @@
                     <include name="checkRowofItems"/>
                     <include name="checkDemoLink"/>
                     <include name="checkPricingLink"/>
+                    <include name="checkIntegrationLink"/>
                 </methods>
             </class>
         </classes>

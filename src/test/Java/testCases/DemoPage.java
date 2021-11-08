@@ -152,4 +152,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkIntegrationLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        if(driver.getCurrentUrl().contains("integrations")){
+            Assert.assertTrue(true);
+            logger.info("Integration link is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Integration link is incorrect");
+        }
+    }
+
 }
