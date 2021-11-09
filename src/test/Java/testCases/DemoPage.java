@@ -167,4 +167,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void countTabsForDocs() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getDocsLink());
+        if(driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened when docs is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("Issues with 2 tabs opened when docs is clicked");
+        }
+    }
+
 }

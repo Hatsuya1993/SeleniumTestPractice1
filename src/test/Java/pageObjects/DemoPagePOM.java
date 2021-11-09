@@ -55,6 +55,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement integrationLink;
 
+    @FindBy(linkText = "Docs")
+    @CacheLookup
+    WebElement docsLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -76,5 +80,7 @@ public class DemoPagePOM {
     public WebElement getpricingLink() { return pricingLink; }
 
     public WebElement getIntegrationLink() { return integrationLink; }
+
+    public WebElement getDocsLink() { return docsLink; }
 
 }

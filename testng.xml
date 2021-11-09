@@ -20,6 +20,7 @@
                     <include name="checkDemoLink"/>
                     <include name="checkPricingLink"/>
                     <include name="checkIntegrationLink"/>
+                    <include name="countTabsForDocs"/>
                 </methods>
             </class>
         </classes>
