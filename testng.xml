@@ -21,6 +21,7 @@
                     <include name="checkPricingLink"/>
                     <include name="checkIntegrationLink"/>
                     <include name="countTabsForDocs"/>
+                    <include name="checkDocTabUrl"/>
                 </methods>
             </class>
         </classes>

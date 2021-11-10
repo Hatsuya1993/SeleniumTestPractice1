@@ -182,4 +182,22 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkDocTabUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getDemoLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("docs")){
+            Assert.assertTrue(true);
+            logger.info("URL for docs tab is correct");
+            available.goBackCurrent(0, driver);
+        }
+        else{
+            Assert.fail();
+            logger.info("URL for docs tab is incorrect");
+            available.goBackCurrent(0, driver);
+        }
+    }
+
 }
