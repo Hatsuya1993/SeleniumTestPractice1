@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">14 methods,   14 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -160,6 +160,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="testCases.DemoPage" class="method navigator-link" hash-for-method="checkURL">checkURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testCases.DemoPage" class="method navigator-link" hash-for-method="countTabsForBlog">countTabsForBlog</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -271,6 +276,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="countTabsForBlog">
+                  </a> <!-- countTabsForBlog -->
+                  <span class="method-name">countTabsForBlog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="countTabsForDocs">
                   </a> <!-- countTabsForDocs -->
                   <span class="method-name">countTabsForDocs</span>
@@ -309,6 +321,7 @@
           &lt;include name=&quot;checkIntegrationLink&quot;/&gt;
           &lt;include name=&quot;countTabsForDocs&quot;/&gt;
           &lt;include name=&quot;checkDocTabUrl&quot;/&gt;
+          &lt;include name=&quot;countTabsForBlog&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- testCases.DemoPage --&gt;
     &lt;/classes&gt;
@@ -350,59 +363,63 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkDocTabUrl')
 data.setCell(0, 2, 'testCases.DemoPage')
-data.setCell(0, 3, 16587);
+data.setCell(0, 3, 15799);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkIntegrationLink')
 data.setCell(1, 2, 'testCases.DemoPage')
-data.setCell(1, 3, 10377);
+data.setCell(1, 3, 10468);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkPricingLink')
 data.setCell(2, 2, 'testCases.DemoPage')
-data.setCell(2, 3, 10185);
+data.setCell(2, 3, 10108);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'checkDemoLink')
 data.setCell(3, 2, 'testCases.DemoPage')
-data.setCell(3, 3, 9708);
+data.setCell(3, 3, 9666);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'countTabsForDocs')
+data.setCell(4, 1, 'countTabsForBlog')
 data.setCell(4, 2, 'testCases.DemoPage')
-data.setCell(4, 3, 9146);
+data.setCell(4, 3, 9179);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkRowofItems')
+data.setCell(5, 1, 'countTabsForDocs')
 data.setCell(5, 2, 'testCases.DemoPage')
-data.setCell(5, 3, 6057);
+data.setCell(5, 3, 9151);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkNavOption')
+data.setCell(6, 1, 'checkRowofItems')
 data.setCell(6, 2, 'testCases.DemoPage')
-data.setCell(6, 3, 6021);
+data.setCell(6, 3, 6061);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'checkHeaderTitle')
+data.setCell(7, 1, 'checkNavOption')
 data.setCell(7, 2, 'testCases.DemoPage')
-data.setCell(7, 3, 3043);
+data.setCell(7, 3, 6022);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkMainTitle')
+data.setCell(8, 1, 'checkHeaderTitle')
 data.setCell(8, 2, 'testCases.DemoPage')
-data.setCell(8, 3, 3040);
+data.setCell(8, 3, 3061);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'checkHeaderDesc')
 data.setCell(9, 2, 'testCases.DemoPage')
-data.setCell(9, 3, 3033);
+data.setCell(9, 3, 3044);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'checkTitle')
+data.setCell(10, 1, 'checkMainTitle')
 data.setCell(10, 2, 'testCases.DemoPage')
-data.setCell(10, 3, 57);
+data.setCell(10, 3, 3035);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'checkSubTitle')
+data.setCell(11, 1, 'checkTitle')
 data.setCell(11, 2, 'testCases.DemoPage')
-data.setCell(11, 3, 27);
+data.setCell(11, 3, 94);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'checkURL')
+data.setCell(12, 1, 'checkSubTitle')
 data.setCell(12, 2, 'testCases.DemoPage')
-data.setCell(12, 3, 8);
+data.setCell(12, 3, 41);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkURL')
+data.setCell(13, 2, 'testCases.DemoPage')
+data.setCell(13, 3, 14);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
@@ -440,59 +457,63 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">checkURL</span>
-                <span class="method-start">3236 ms</span>
+                <span class="method-start">3870 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkTitle</span>
-                <span class="method-start">3252 ms</span>
+                <span class="method-start">3902 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkSubTitle</span>
-                <span class="method-start">3310 ms</span>
+                <span class="method-start">3996 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkHeaderTitle</span>
-                <span class="method-start">3338 ms</span>
+                <span class="method-start">4039 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkHeaderDesc</span>
-                <span class="method-start">6382 ms</span>
+                <span class="method-start">7101 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkMainTitle</span>
-                <span class="method-start">9415 ms</span>
+                <span class="method-start">10145 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkNavOption</span>
-                <span class="method-start">12456 ms</span>
+                <span class="method-start">13180 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkRowofItems</span>
-                <span class="method-start">18477 ms</span>
+                <span class="method-start">19205 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkDemoLink</span>
-                <span class="method-start">24534 ms</span>
+                <span class="method-start">25267 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkPricingLink</span>
-                <span class="method-start">34244 ms</span>
+                <span class="method-start">34933 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkIntegrationLink</span>
-                <span class="method-start">44429 ms</span>
+                <span class="method-start">45041 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">countTabsForDocs</span>
-                <span class="method-start">54806 ms</span>
+                <span class="method-start">55510 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkDocTabUrl</span>
-                <span class="method-start">63953 ms</span>
+                <span class="method-start">64661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">countTabsForBlog</span>
+                <span class="method-start">80460 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">80542 ms</span>
+                <span class="method-start">89641 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -200,4 +200,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void countTabsForBlog() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getBlogLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened when blog is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("Issues with 2 tabs opened when blog is clicked");
+        }
+    }
+
 }

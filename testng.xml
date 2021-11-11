@@ -22,6 +22,7 @@
                     <include name="checkIntegrationLink"/>
                     <include name="countTabsForDocs"/>
                     <include name="checkDocTabUrl"/>
+                    <include name="countTabsForBlog"/>
                 </methods>
             </class>
         </classes>
