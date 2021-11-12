@@ -215,4 +215,23 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkBlogUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getBlogLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("blog")){
+            Assert.assertTrue(true);
+            logger.info("URL for blog tab is correct");
+            available.goBackCurrent(0, driver);
+        }
+        else{
+            Assert.fail();
+            logger.info("URL for blog is incorrect");
+            available.goBackCurrent(0, driver);
+        }
+
+    }
+
 }

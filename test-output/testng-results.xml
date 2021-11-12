@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-11T09:39:37 SGT" name="All Test Suite" finished-at="2021-11-11T09:41:08 SGT" duration-ms="90558">
+  <suite started-at="2021-11-12T09:02:56 SGT" name="All Test Suite" finished-at="2021-11-12T09:04:41 SGT" duration-ms="105658">
     <groups>
     </groups>
-    <test started-at="2021-11-11T09:39:37 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-11-11T09:41:08 SGT" duration-ms="90558">
+    <test started-at="2021-11-12T09:02:56 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-11-12T09:04:41 SGT" duration-ms="105658">
       <class name="testCases.DemoPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:37 SGT" name="setup" finished-at="2021-11-11T09:39:41 SGT" duration-ms="3834" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:02:56 SGT" name="setup" finished-at="2021-11-12T09:03:00 SGT" duration-ms="3952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,63 +18,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkURL()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:41 SGT" name="checkURL" finished-at="2021-11-11T09:39:41 SGT" duration-ms="14" status="PASS">
+        <test-method signature="checkURL()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:00 SGT" name="checkURL" finished-at="2021-11-12T09:03:00 SGT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkURL -->
-        <test-method signature="checkTitle()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:41 SGT" name="checkTitle" finished-at="2021-11-11T09:39:41 SGT" duration-ms="94" status="PASS">
+        <test-method signature="checkTitle()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:00 SGT" name="checkTitle" finished-at="2021-11-12T09:03:00 SGT" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method signature="checkSubTitle()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:41 SGT" name="checkSubTitle" finished-at="2021-11-11T09:39:41 SGT" duration-ms="41" status="PASS">
+        <test-method signature="checkSubTitle()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:00 SGT" name="checkSubTitle" finished-at="2021-11-12T09:03:00 SGT" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSubTitle -->
-        <test-method signature="checkHeaderTitle()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:41 SGT" name="checkHeaderTitle" finished-at="2021-11-11T09:39:44 SGT" duration-ms="3061" status="PASS">
+        <test-method signature="checkHeaderTitle()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:00 SGT" name="checkHeaderTitle" finished-at="2021-11-12T09:03:03 SGT" duration-ms="3065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeaderTitle -->
-        <test-method signature="checkHeaderDesc()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:44 SGT" name="checkHeaderDesc" finished-at="2021-11-11T09:39:47 SGT" duration-ms="3044" status="PASS">
+        <test-method signature="checkHeaderDesc()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:03 SGT" name="checkHeaderDesc" finished-at="2021-11-12T09:03:06 SGT" duration-ms="3048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeaderDesc -->
-        <test-method signature="checkMainTitle()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:47 SGT" name="checkMainTitle" finished-at="2021-11-11T09:39:51 SGT" duration-ms="3035" status="PASS">
+        <test-method signature="checkMainTitle()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:06 SGT" name="checkMainTitle" finished-at="2021-11-12T09:03:09 SGT" duration-ms="3041" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMainTitle -->
-        <test-method signature="checkNavOption()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:51 SGT" name="checkNavOption" finished-at="2021-11-11T09:39:57 SGT" duration-ms="6022" status="PASS">
+        <test-method signature="checkNavOption()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:09 SGT" name="checkNavOption" finished-at="2021-11-12T09:03:15 SGT" duration-ms="6020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNavOption -->
-        <test-method signature="checkRowofItems()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:39:57 SGT" name="checkRowofItems" finished-at="2021-11-11T09:40:03 SGT" duration-ms="6061" status="PASS">
+        <test-method signature="checkRowofItems()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:15 SGT" name="checkRowofItems" finished-at="2021-11-12T09:03:21 SGT" duration-ms="6048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRowofItems -->
-        <test-method signature="checkDemoLink()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:40:03 SGT" name="checkDemoLink" finished-at="2021-11-11T09:40:12 SGT" duration-ms="9666" status="PASS">
+        <test-method signature="checkDemoLink()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:21 SGT" name="checkDemoLink" finished-at="2021-11-12T09:03:31 SGT" duration-ms="9617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDemoLink -->
-        <test-method signature="checkPricingLink()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:40:12 SGT" name="checkPricingLink" finished-at="2021-11-11T09:40:22 SGT" duration-ms="10108" status="PASS">
+        <test-method signature="checkPricingLink()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:31 SGT" name="checkPricingLink" finished-at="2021-11-12T09:03:41 SGT" duration-ms="10156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPricingLink -->
-        <test-method signature="checkIntegrationLink()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:40:22 SGT" name="checkIntegrationLink" finished-at="2021-11-11T09:40:33 SGT" duration-ms="10468" status="PASS">
+        <test-method signature="checkIntegrationLink()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:41 SGT" name="checkIntegrationLink" finished-at="2021-11-12T09:03:51 SGT" duration-ms="10032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIntegrationLink -->
-        <test-method signature="countTabsForDocs()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:40:33 SGT" name="countTabsForDocs" finished-at="2021-11-11T09:40:42 SGT" duration-ms="9151" status="PASS">
+        <test-method signature="countTabsForDocs()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:03:51 SGT" name="countTabsForDocs" finished-at="2021-11-12T09:04:00 SGT" duration-ms="9137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countTabsForDocs -->
-        <test-method signature="checkDocTabUrl()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:40:42 SGT" name="checkDocTabUrl" finished-at="2021-11-11T09:40:58 SGT" duration-ms="15799" status="PASS">
+        <test-method signature="checkDocTabUrl()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:04:00 SGT" name="checkDocTabUrl" finished-at="2021-11-12T09:04:16 SGT" duration-ms="15757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDocTabUrl -->
-        <test-method signature="countTabsForBlog()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:40:58 SGT" name="countTabsForBlog" finished-at="2021-11-11T09:41:07 SGT" duration-ms="9179" status="PASS">
+        <test-method signature="countTabsForBlog()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:04:16 SGT" name="countTabsForBlog" finished-at="2021-11-12T09:04:25 SGT" duration-ms="9176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countTabsForBlog -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@6a2b953e]" started-at="2021-11-11T09:41:07 SGT" name="teardown" finished-at="2021-11-11T09:41:08 SGT" duration-ms="729" status="PASS">
+        <test-method signature="checkBlogUrl()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:04:25 SGT" name="checkBlogUrl" finished-at="2021-11-12T09:04:41 SGT" duration-ms="15365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBlogUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@68567e20]" started-at="2021-11-12T09:04:41 SGT" name="teardown" finished-at="2021-11-12T09:04:41 SGT" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
