@@ -227,3 +227,56 @@
 2021-11-12 09:04:13,460 - TestPhpTravels -INFO - URL for docs tab is correct
 2021-11-12 09:04:25,752 - TestPhpTravels -INFO - 2 tabs opened when blog is clicked
 2021-11-12 09:04:38,029 - TestPhpTravels -INFO - URL for blog tab is correct
+2021-11-13 09:32:03,469 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:32:03,512 - TestPhpTravels -INFO - URL is correnct
+2021-11-13 09:32:03,604 - TestPhpTravels -INFO - Title is correct
+2021-11-13 09:32:03,644 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-13 09:32:06,698 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-13 09:32:09,741 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-13 09:32:12,792 - TestPhpTravels -INFO - Main title is correct
+2021-11-13 09:32:18,805 - TestPhpTravels -INFO - Nav option is available
+2021-11-13 09:32:24,851 - TestPhpTravels -INFO - Correct number of rows
+2021-11-13 09:32:34,544 - TestPhpTravels -INFO - clicked on Demo
+2021-11-13 09:32:34,556 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-13 09:32:44,480 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-13 09:32:44,500 - TestPhpTravels -INFO - Pricing page url is correct
+2021-11-13 09:32:54,936 - TestPhpTravels -INFO - Integration link is correct
+2021-11-13 09:33:04,059 - TestPhpTravels -INFO - 2 tabs opened when docs is clicked
+2021-11-13 09:33:16,654 - TestPhpTravels -INFO - URL for docs tab is correct
+2021-11-13 09:33:28,866 - TestPhpTravels -INFO - 2 tabs opened when blog is clicked
+2021-11-13 09:33:41,064 - TestPhpTravels -INFO - URL for blog tab is correct
+2021-11-13 09:35:37,853 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:35:37,863 - TestPhpTravels -INFO - URL is correnct
+2021-11-13 09:35:40,628 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:35:40,685 - TestPhpTravels -INFO - Title is correct
+2021-11-13 09:35:43,458 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:35:43,484 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-13 09:35:46,315 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:35:49,366 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-13 09:35:52,167 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:35:55,215 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-13 09:35:58,069 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:36:01,112 - TestPhpTravels -INFO - Main title is correct
+2021-11-13 09:36:03,957 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:36:09,973 - TestPhpTravels -INFO - Nav option is available
+2021-11-13 09:36:12,865 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:36:18,916 - TestPhpTravels -INFO - Correct number of rows
+2021-11-13 09:36:21,805 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:36:31,433 - TestPhpTravels -INFO - clicked on Demo
+2021-11-13 09:36:31,447 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-13 09:36:34,413 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:36:45,424 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-13 09:36:45,446 - TestPhpTravels -INFO - Pricing page url is correct
+2021-11-13 09:36:48,991 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:36:59,598 - TestPhpTravels -INFO - Integration link is correct
+2021-11-13 09:37:02,700 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:37:11,819 - TestPhpTravels -INFO - 2 tabs opened when docs is clicked
+2021-11-13 09:37:15,607 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:37:31,431 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:37:40,543 - TestPhpTravels -INFO - 2 tabs opened when blog is clicked
+2021-11-13 09:37:43,722 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:37:55,877 - TestPhpTravels -INFO - URL for blog tab is correct
+2021-11-13 09:38:02,049 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:38:11,161 - TestPhpTravels -INFO - 2 tabs opened when login is clicked
+2021-11-13 09:39:35,349 - TestPhpTravels -INFO - URL opened
+2021-11-13 09:39:47,553 - TestPhpTravels -INFO - URL for docs tab is correct

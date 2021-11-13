@@ -25,7 +25,7 @@ public class Base {
     public static Logger logger;
 
     @Parameters("browser")
-    @BeforeTest
+    @BeforeMethod
     public void setup(String br) {
         logger = Logger.getLogger("TestPhpTravels");
         PropertyConfigurator.configure("log4j.properties");
@@ -44,7 +44,7 @@ public class Base {
         logger.info("URL opened");
     }
 
-    @AfterTest
+    @AfterMethod
     public void teardown() {
         driver.quit();
     }

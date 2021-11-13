@@ -186,7 +186,7 @@ public class DemoPage extends Base {
     public void checkDocTabUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getDemoLink());
+        available.clickItem(demoPagePOM.getDocsLink());
         available.switchTab(1, driver);
         if(driver.getCurrentUrl().contains("docs")){
             Assert.assertTrue(true);
@@ -231,7 +231,21 @@ public class DemoPage extends Base {
             logger.info("URL for blog is incorrect");
             available.goBackCurrent(0, driver);
         }
+    }
 
+    @Test
+    public void countTabsForLogin() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getBlogLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened when login is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("Issues with 2 tabs opened when login is clicked");
+        }
     }
 
 }

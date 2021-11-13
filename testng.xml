@@ -24,6 +24,7 @@
                     <include name="checkDocTabUrl"/>
                     <include name="countTabsForBlog"/>
                     <include name="checkBlogUrl"/>
+                    <include name="countTabsForLogin"/>
                 </methods>
             </class>
         </classes>
