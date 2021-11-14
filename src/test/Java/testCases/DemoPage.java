@@ -248,4 +248,22 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkLoginUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getLoginLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("login")){
+            Assert.assertTrue(true);
+            logger.info("URL for login is correct");
+            available.goBackCurrent(0, driver);
+        }
+        else{
+            Assert.fail();
+            logger.info("URL for login is incorrect");
+            available.goBackCurrent(0, driver);
+        }
+    }
+
 }

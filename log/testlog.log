@@ -280,3 +280,39 @@
 2021-11-13 09:38:11,161 - TestPhpTravels -INFO - 2 tabs opened when login is clicked
 2021-11-13 09:39:35,349 - TestPhpTravels -INFO - URL opened
 2021-11-13 09:39:47,553 - TestPhpTravels -INFO - URL for docs tab is correct
+2021-11-14 09:16:45,629 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:16:45,648 - TestPhpTravels -INFO - URL is correnct
+2021-11-14 09:16:48,779 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:16:48,874 - TestPhpTravels -INFO - Title is correct
+2021-11-14 09:16:51,907 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:16:51,955 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-14 09:16:55,228 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:16:58,292 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-14 09:17:01,379 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:17:04,425 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-14 09:17:07,474 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:17:10,522 - TestPhpTravels -INFO - Main title is correct
+2021-11-14 09:17:13,527 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:17:19,547 - TestPhpTravels -INFO - Nav option is available
+2021-11-14 09:17:22,608 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:17:28,686 - TestPhpTravels -INFO - Correct number of rows
+2021-11-14 09:17:31,908 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:17:41,522 - TestPhpTravels -INFO - clicked on Demo
+2021-11-14 09:17:41,540 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-14 09:17:44,657 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:17:54,972 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-14 09:17:54,975 - TestPhpTravels -INFO - Pricing page url is correct
+2021-11-14 09:17:58,174 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:18:08,752 - TestPhpTravels -INFO - Integration link is correct
+2021-11-14 09:18:11,767 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:18:20,899 - TestPhpTravels -INFO - 2 tabs opened when docs is clicked
+2021-11-14 09:18:23,830 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:18:35,981 - TestPhpTravels -INFO - URL for docs tab is correct
+2021-11-14 09:18:42,010 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:18:51,170 - TestPhpTravels -INFO - 2 tabs opened when blog is clicked
+2021-11-14 09:18:54,085 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:19:06,296 - TestPhpTravels -INFO - URL for blog tab is correct
+2021-11-14 09:19:12,288 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:19:21,456 - TestPhpTravels -INFO - 2 tabs opened when login is clicked
+2021-11-14 09:19:24,455 - TestPhpTravels -INFO - URL opened
+2021-11-14 09:19:37,223 - TestPhpTravels -INFO - URL for login is correct
