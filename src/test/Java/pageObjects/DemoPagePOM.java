@@ -67,6 +67,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement loginLink;
 
+    @FindBy(linkText = "Desktop App")
+    @CacheLookup
+    WebElement desktopApp;
+
     public String getTitle(){
         return title.getText();
     }
@@ -94,5 +98,7 @@ public class DemoPagePOM {
     public WebElement getBlogLink() { return blogLink; }
 
     public WebElement getLoginLink() { return loginLink; }
+
+    public WebElement getDesktopApp() { return desktopApp; }
 
 }

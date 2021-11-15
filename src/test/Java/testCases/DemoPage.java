@@ -266,4 +266,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void countTabsForDesktopApp() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getDesktopApp());
+        if(driver.getCurrentUrl().contains("desktop-application")){
+            Assert.assertTrue(true);
+            logger.info("URl is correct when desktop application is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URl is incorrect when desktop application is clicked");
+        }
+    }
+
 }

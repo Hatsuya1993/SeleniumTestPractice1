@@ -26,6 +26,7 @@
                     <include name="checkBlogUrl"/>
                     <include name="countTabsForLogin"/>
                     <include name="checkLoginUrl"/>
+                    <include name="countTabsForDesktopApp"/>
                 </methods>
             </class>
         </classes>
