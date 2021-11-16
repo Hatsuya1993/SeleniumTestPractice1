@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">All Test Suite</span>
+              <span class="suite-name border-passed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
-                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="testCases.DemoPage" class="method navigator-link" hash-for-method="countTabsForDesktopApp">countTabsForDesktopApp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                    <span class="method-stats">19 methods,   19 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -129,6 +115,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="testCases.DemoPage" class="method navigator-link" hash-for-method="checkDocTabUrl">checkDocTabUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testCases.DemoPage" class="method navigator-link" hash-for-method="checkForDesktopAppUrl">checkForDesktopAppUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testCases.DemoPage" class="method navigator-link" hash-for-method="checkForMobileAppUrl">checkForMobileAppUrl</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -213,77 +209,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.DemoPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="countTabsForDesktopApp">
-                  </a> <!-- countTabsForDesktopApp -->
-                  <span class="method-name">countTabsForDesktopApp</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;lvl-1 link nav-link&quot; href=&quot;https://phptravels.com/desktop-application/&quot;&gt;...&lt;/a&gt; is not clickable at point (589, 385). Other element would receive the click: &lt;strong&gt;...&lt;/strong&gt;
-  (Session info: chrome=95.0.4638.69)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-UITE9RG&apos;, ip: &apos;192.168.18.27&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\hal19\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53953}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 63ba1cf9de75a24c7c3f5df21ad13f1e
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at helper.available.clickItem(available.java:27)
-	at testCases.DemoPage.countTabsForDesktopApp(DemoPage.java:273)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -309,6 +234,20 @@ Session ID: 63ba1cf9de75a24c7c3f5df21ad13f1e
                   <a name="checkDocTabUrl">
                   </a> <!-- checkDocTabUrl -->
                   <span class="method-name">checkDocTabUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForDesktopAppUrl">
+                  </a> <!-- checkForDesktopAppUrl -->
+                  <span class="method-name">checkForDesktopAppUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkForMobileAppUrl">
+                  </a> <!-- checkForMobileAppUrl -->
+                  <span class="method-name">checkForMobileAppUrl</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -446,7 +385,8 @@ Session ID: 63ba1cf9de75a24c7c3f5df21ad13f1e
           &lt;include name=&quot;checkBlogUrl&quot;/&gt;
           &lt;include name=&quot;countTabsForLogin&quot;/&gt;
           &lt;include name=&quot;checkLoginUrl&quot;/&gt;
-          &lt;include name=&quot;countTabsForDesktopApp&quot;/&gt;
+          &lt;include name=&quot;checkForDesktopAppUrl&quot;/&gt;
+          &lt;include name=&quot;checkForMobileAppUrl&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- testCases.DemoPage --&gt;
     &lt;/classes&gt;
@@ -488,79 +428,83 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(19);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkLoginUrl')
 data.setCell(0, 2, 'testCases.DemoPage')
-data.setCell(0, 3, 15855);
+data.setCell(0, 3, 16004);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkDocTabUrl')
 data.setCell(1, 2, 'testCases.DemoPage')
-data.setCell(1, 3, 15288);
+data.setCell(1, 3, 15290);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkBlogUrl')
 data.setCell(2, 2, 'testCases.DemoPage')
-data.setCell(2, 3, 15243);
+data.setCell(2, 3, 15192);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'checkIntegrationLink')
 data.setCell(3, 2, 'testCases.DemoPage')
-data.setCell(3, 3, 10446);
+data.setCell(3, 3, 10794);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'countTabsForDesktopApp')
+data.setCell(4, 1, 'checkForMobileAppUrl')
 data.setCell(4, 2, 'testCases.DemoPage')
-data.setCell(4, 3, 10119);
+data.setCell(4, 3, 10599);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'checkPricingLink')
 data.setCell(5, 2, 'testCases.DemoPage')
-data.setCell(5, 3, 9844);
+data.setCell(5, 3, 10040);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkDemoLink')
+data.setCell(6, 1, 'checkForDesktopAppUrl')
 data.setCell(6, 2, 'testCases.DemoPage')
-data.setCell(6, 3, 9525);
+data.setCell(6, 3, 9883);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'countTabsForBlog')
+data.setCell(7, 1, 'checkDemoLink')
 data.setCell(7, 2, 'testCases.DemoPage')
-data.setCell(7, 3, 9143);
+data.setCell(7, 3, 9752);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'countTabsForLogin')
+data.setCell(8, 1, 'countTabsForDocs')
 data.setCell(8, 2, 'testCases.DemoPage')
-data.setCell(8, 3, 9138);
+data.setCell(8, 3, 9125);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'countTabsForDocs')
+data.setCell(9, 1, 'countTabsForLogin')
 data.setCell(9, 2, 'testCases.DemoPage')
-data.setCell(9, 3, 9138);
+data.setCell(9, 3, 9116);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'checkRowofItems')
+data.setCell(10, 1, 'countTabsForBlog')
 data.setCell(10, 2, 'testCases.DemoPage')
-data.setCell(10, 3, 6049);
+data.setCell(10, 3, 9098);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'checkNavOption')
+data.setCell(11, 1, 'checkRowofItems')
 data.setCell(11, 2, 'testCases.DemoPage')
-data.setCell(11, 3, 6021);
+data.setCell(11, 3, 6074);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'checkHeaderDesc')
+data.setCell(12, 1, 'checkNavOption')
 data.setCell(12, 2, 'testCases.DemoPage')
-data.setCell(12, 3, 3055);
+data.setCell(12, 3, 6028);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'checkHeaderTitle')
 data.setCell(13, 2, 'testCases.DemoPage')
-data.setCell(13, 3, 3053);
+data.setCell(13, 3, 3056);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'checkMainTitle')
 data.setCell(14, 2, 'testCases.DemoPage')
-data.setCell(14, 3, 3052);
+data.setCell(14, 3, 3048);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'checkTitle')
+data.setCell(15, 1, 'checkHeaderDesc')
 data.setCell(15, 2, 'testCases.DemoPage')
-data.setCell(15, 3, 43);
+data.setCell(15, 3, 3039);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'checkSubTitle')
+data.setCell(16, 1, 'checkTitle')
 data.setCell(16, 2, 'testCases.DemoPage')
-data.setCell(16, 3, 42);
+data.setCell(16, 3, 56);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'checkURL')
+data.setCell(17, 1, 'checkSubTitle')
 data.setCell(17, 2, 'testCases.DemoPage')
-data.setCell(17, 3, 10);
+data.setCell(17, 3, 24);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkURL')
+data.setCell(18, 2, 'testCases.DemoPage')
+data.setCell(18, 3, 8);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
@@ -598,217 +542,227 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkURL</span>
-                <span class="method-start">2828 ms</span>
+                <span class="method-start">2698 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">2846 ms</span>
+                <span class="method-start">2714 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">3504 ms</span>
+                <span class="method-start">3371 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkTitle</span>
-                <span class="method-start">5628 ms</span>
+                <span class="method-start">5594 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">5672 ms</span>
+                <span class="method-start">5651 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">6334 ms</span>
+                <span class="method-start">6295 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkSubTitle</span>
-                <span class="method-start">8439 ms</span>
+                <span class="method-start">8470 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">8481 ms</span>
+                <span class="method-start">8494 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">9111 ms</span>
+                <span class="method-start">9130 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkHeaderTitle</span>
-                <span class="method-start">11328 ms</span>
+                <span class="method-start">11234 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">14381 ms</span>
+                <span class="method-start">14290 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">15038 ms</span>
+                <span class="method-start">14969 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkHeaderDesc</span>
-                <span class="method-start">17101 ms</span>
+                <span class="method-start">17068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">20157 ms</span>
+                <span class="method-start">20107 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">20825 ms</span>
+                <span class="method-start">20759 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkMainTitle</span>
-                <span class="method-start">22966 ms</span>
+                <span class="method-start">22781 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">26018 ms</span>
+                <span class="method-start">25830 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">26685 ms</span>
+                <span class="method-start">26494 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkNavOption</span>
-                <span class="method-start">28859 ms</span>
+                <span class="method-start">28585 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">34881 ms</span>
+                <span class="method-start">34614 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">35552 ms</span>
+                <span class="method-start">35283 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkRowofItems</span>
-                <span class="method-start">38602 ms</span>
+                <span class="method-start">37371 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">44651 ms</span>
+                <span class="method-start">43446 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">45318 ms</span>
+                <span class="method-start">44095 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkDemoLink</span>
-                <span class="method-start">47467 ms</span>
+                <span class="method-start">46215 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">56993 ms</span>
+                <span class="method-start">55967 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">57650 ms</span>
+                <span class="method-start">56622 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkPricingLink</span>
-                <span class="method-start">59951 ms</span>
+                <span class="method-start">58726 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">69795 ms</span>
+                <span class="method-start">68766 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">70476 ms</span>
+                <span class="method-start">69441 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkIntegrationLink</span>
-                <span class="method-start">72686 ms</span>
+                <span class="method-start">71534 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">83132 ms</span>
+                <span class="method-start">82328 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">83787 ms</span>
+                <span class="method-start">83004 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">countTabsForDocs</span>
-                <span class="method-start">85896 ms</span>
+                <span class="method-start">85163 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">95034 ms</span>
+                <span class="method-start">94288 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">95698 ms</span>
+                <span class="method-start">94942 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkDocTabUrl</span>
-                <span class="method-start">97778 ms</span>
+                <span class="method-start">97011 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">113066 ms</span>
+                <span class="method-start">112302 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">113751 ms</span>
+                <span class="method-start">112981 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">countTabsForBlog</span>
-                <span class="method-start">115908 ms</span>
+                <span class="method-start">115088 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">125051 ms</span>
+                <span class="method-start">124187 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">125697 ms</span>
+                <span class="method-start">124865 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkBlogUrl</span>
-                <span class="method-start">127807 ms</span>
+                <span class="method-start">127060 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">143051 ms</span>
+                <span class="method-start">142253 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">143690 ms</span>
+                <span class="method-start">142925 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">countTabsForLogin</span>
-                <span class="method-start">146090 ms</span>
+                <span class="method-start">144992 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">155228 ms</span>
+                <span class="method-start">154109 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">155879 ms</span>
+                <span class="method-start">154784 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkLoginUrl</span>
-                <span class="method-start">158049 ms</span>
+                <span class="method-start">156899 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">173904 ms</span>
+                <span class="method-start">172903 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup(chrome)</span>
-                <span class="method-start">174599 ms</span>
+                <span class="method-start">173587 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">countTabsForDesktopApp</span>
-                <span class="method-start">176725 ms</span>
+                <span class="method-name">checkForDesktopAppUrl</span>
+                <span class="method-start">175761 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">186847 ms</span>
+                <span class="method-start">185645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">186311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkForMobileAppUrl</span>
+                <span class="method-start">188956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">199556 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

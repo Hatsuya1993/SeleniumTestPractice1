@@ -267,7 +267,7 @@ public class DemoPage extends Base {
     }
 
     @Test
-    public void countTabsForDesktopApp() throws InterruptedException {
+    public void checkForDesktopAppUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getDesktopApp());
@@ -278,6 +278,21 @@ public class DemoPage extends Base {
         else{
             Assert.fail();
             logger.info("URl is incorrect when desktop application is clicked");
+        }
+    }
+
+    @Test
+    public void checkForMobileAppUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getMobileApp());
+        if(driver.getCurrentUrl().contains("mobile-applications")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when mobile apps is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect when mobile apps is clicked");
         }
     }
 
