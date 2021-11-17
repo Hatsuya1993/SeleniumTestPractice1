@@ -437,3 +437,45 @@
 2021-11-16 08:57:06,047 - TestPhpTravels -INFO - URl is correct when desktop application is clicked
 2021-11-16 08:57:09,359 - TestPhpTravels -INFO - URL opened
 2021-11-16 08:57:19,959 - TestPhpTravels -INFO - URL is correct when mobile apps is clicked
+2021-11-17 09:00:51,003 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:00:51,019 - TestPhpTravels -INFO - URL is correnct
+2021-11-17 09:00:53,781 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:00:53,829 - TestPhpTravels -INFO - Title is correct
+2021-11-17 09:00:56,529 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:00:56,556 - TestPhpTravels -INFO - Subtitle is correct
+2021-11-17 09:00:59,272 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:01:02,331 - TestPhpTravels -INFO - HeaderTitle is correct
+2021-11-17 09:01:05,213 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:01:08,263 - TestPhpTravels -INFO - Header Desc is correct
+2021-11-17 09:01:11,075 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:01:14,129 - TestPhpTravels -INFO - Main title is correct
+2021-11-17 09:01:17,074 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:01:23,086 - TestPhpTravels -INFO - Nav option is available
+2021-11-17 09:01:25,899 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:01:31,955 - TestPhpTravels -INFO - Correct number of rows
+2021-11-17 09:01:34,991 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:01:44,571 - TestPhpTravels -INFO - clicked on Demo
+2021-11-17 09:01:44,586 - TestPhpTravels -INFO - Demo page url is correct
+2021-11-17 09:01:47,405 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:01:57,622 - TestPhpTravels -INFO - clicked on Pricing
+2021-11-17 09:01:57,649 - TestPhpTravels -INFO - Pricing page url is correct
+2021-11-17 09:02:00,528 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:02:10,557 - TestPhpTravels -INFO - Integration link is correct
+2021-11-17 09:02:14,341 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:02:23,479 - TestPhpTravels -INFO - 2 tabs opened when docs is clicked
+2021-11-17 09:02:26,994 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:02:39,161 - TestPhpTravels -INFO - URL for docs tab is correct
+2021-11-17 09:02:45,391 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:02:54,501 - TestPhpTravels -INFO - 2 tabs opened when blog is clicked
+2021-11-17 09:02:57,266 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:03:09,421 - TestPhpTravels -INFO - URL for blog tab is correct
+2021-11-17 09:03:15,400 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:03:24,522 - TestPhpTravels -INFO - 2 tabs opened when login is clicked
+2021-11-17 09:03:27,624 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:03:40,370 - TestPhpTravels -INFO - URL for login is correct
+2021-11-17 09:03:46,679 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:03:56,457 - TestPhpTravels -INFO - URl is correct when desktop application is clicked
+2021-11-17 09:03:59,909 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:04:10,853 - TestPhpTravels -INFO - URL is correct when mobile apps is clicked
+2021-11-17 09:04:13,706 - TestPhpTravels -INFO - URL opened
+2021-11-17 09:04:23,280 - TestPhpTravels -INFO - URL is correct when features is clicked

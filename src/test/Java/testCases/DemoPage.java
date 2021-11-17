@@ -296,4 +296,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForFeaturesUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getFeaturesLink());
+        if(driver.getCurrentUrl().contains("features")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when features is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect when features is clicked");
+        }
+    }
+
 }

@@ -28,6 +28,7 @@
                     <include name="checkLoginUrl"/>
                     <include name="checkForDesktopAppUrl"/>
                     <include name="checkForMobileAppUrl"/>
+                    <include name="checkForFeaturesUrl"/>
                 </methods>
             </class>
         </classes>

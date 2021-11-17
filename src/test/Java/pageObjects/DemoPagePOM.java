@@ -75,6 +75,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement mobileApps;
 
+    @FindBy(linkText = "Features")
+    @CacheLookup
+    WebElement featuresLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -106,5 +110,7 @@ public class DemoPagePOM {
     public WebElement getDesktopApp() { return desktopApp; }
 
     public WebElement getMobileApp() { return mobileApps; }
+
+    public WebElement getFeaturesLink() { return featuresLink; }
 
 }

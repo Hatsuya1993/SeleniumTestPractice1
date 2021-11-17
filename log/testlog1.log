@@ -437,3 +437,45 @@
 2021-11-16 08:57:06,047 [main] INFO TestPhpTravels - URl is correct when desktop application is clicked
 2021-11-16 08:57:09,359 [main] INFO TestPhpTravels - URL opened
 2021-11-16 08:57:19,959 [main] INFO TestPhpTravels - URL is correct when mobile apps is clicked
+2021-11-17 09:00:51,003 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:00:51,019 [main] INFO TestPhpTravels - URL is correnct
+2021-11-17 09:00:53,781 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:00:53,829 [main] INFO TestPhpTravels - Title is correct
+2021-11-17 09:00:56,529 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:00:56,556 [main] INFO TestPhpTravels - Subtitle is correct
+2021-11-17 09:00:59,272 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:01:02,331 [main] INFO TestPhpTravels - HeaderTitle is correct
+2021-11-17 09:01:05,213 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:01:08,263 [main] INFO TestPhpTravels - Header Desc is correct
+2021-11-17 09:01:11,075 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:01:14,129 [main] INFO TestPhpTravels - Main title is correct
+2021-11-17 09:01:17,074 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:01:23,086 [main] INFO TestPhpTravels - Nav option is available
+2021-11-17 09:01:25,899 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:01:31,955 [main] INFO TestPhpTravels - Correct number of rows
+2021-11-17 09:01:34,991 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:01:44,571 [main] INFO TestPhpTravels - clicked on Demo
+2021-11-17 09:01:44,586 [main] INFO TestPhpTravels - Demo page url is correct
+2021-11-17 09:01:47,405 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:01:57,622 [main] INFO TestPhpTravels - clicked on Pricing
+2021-11-17 09:01:57,649 [main] INFO TestPhpTravels - Pricing page url is correct
+2021-11-17 09:02:00,528 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:02:10,557 [main] INFO TestPhpTravels - Integration link is correct
+2021-11-17 09:02:14,341 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:02:23,479 [main] INFO TestPhpTravels - 2 tabs opened when docs is clicked
+2021-11-17 09:02:26,994 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:02:39,161 [main] INFO TestPhpTravels - URL for docs tab is correct
+2021-11-17 09:02:45,391 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:02:54,501 [main] INFO TestPhpTravels - 2 tabs opened when blog is clicked
+2021-11-17 09:02:57,266 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:03:09,421 [main] INFO TestPhpTravels - URL for blog tab is correct
+2021-11-17 09:03:15,400 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:03:24,522 [main] INFO TestPhpTravels - 2 tabs opened when login is clicked
+2021-11-17 09:03:27,624 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:03:40,370 [main] INFO TestPhpTravels - URL for login is correct
+2021-11-17 09:03:46,679 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:03:56,457 [main] INFO TestPhpTravels - URl is correct when desktop application is clicked
+2021-11-17 09:03:59,909 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:04:10,853 [main] INFO TestPhpTravels - URL is correct when mobile apps is clicked
+2021-11-17 09:04:13,706 [main] INFO TestPhpTravels - URL opened
+2021-11-17 09:04:23,280 [main] INFO TestPhpTravels - URL is correct when features is clicked

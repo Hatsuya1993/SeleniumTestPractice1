@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-16T08:54:00 SGT" name="All Test Suite" finished-at="2021-11-16T08:57:20 SGT" duration-ms="200377">
+  <suite started-at="2021-11-17T09:00:47 SGT" name="All Test Suite" finished-at="2021-11-17T09:04:23 SGT" duration-ms="216285">
     <groups>
     </groups>
-    <test started-at="2021-11-16T08:54:00 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-11-16T08:57:20 SGT" duration-ms="200377">
+    <test started-at="2021-11-17T09:00:47 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-11-17T09:04:23 SGT" duration-ms="216285">
       <class name="testCases.DemoPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:00 SGT" name="setup" finished-at="2021-11-16T08:54:03 SGT" duration-ms="2697" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:47 SGT" name="setup" finished-at="2021-11-17T09:00:51 SGT" duration-ms="3189" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkURL()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:03 SGT" name="checkURL" finished-at="2021-11-16T08:54:03 SGT" duration-ms="8" status="PASS">
+        <test-method signature="checkURL()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:51 SGT" name="checkURL" finished-at="2021-11-17T09:00:51 SGT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkURL -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:03 SGT" name="teardown" finished-at="2021-11-16T08:54:03 SGT" duration-ms="656" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:51 SGT" name="teardown" finished-at="2021-11-17T09:00:51 SGT" duration-ms="612" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:03 SGT" name="setup" finished-at="2021-11-16T08:54:05 SGT" duration-ms="2223" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:51 SGT" name="setup" finished-at="2021-11-17T09:00:53 SGT" duration-ms="2144" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTitle()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:05 SGT" name="checkTitle" finished-at="2021-11-16T08:54:06 SGT" duration-ms="56" status="PASS">
+        <test-method signature="checkTitle()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:53 SGT" name="checkTitle" finished-at="2021-11-17T09:00:53 SGT" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:06 SGT" name="teardown" finished-at="2021-11-16T08:54:06 SGT" duration-ms="644" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:53 SGT" name="teardown" finished-at="2021-11-17T09:00:54 SGT" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:06 SGT" name="setup" finished-at="2021-11-16T08:54:08 SGT" duration-ms="2175" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:54 SGT" name="setup" finished-at="2021-11-17T09:00:56 SGT" duration-ms="2074" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,15 +56,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkSubTitle()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:08 SGT" name="checkSubTitle" finished-at="2021-11-16T08:54:08 SGT" duration-ms="24" status="PASS">
+        <test-method signature="checkSubTitle()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:56 SGT" name="checkSubTitle" finished-at="2021-11-17T09:00:56 SGT" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSubTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:08 SGT" name="teardown" finished-at="2021-11-16T08:54:09 SGT" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:56 SGT" name="teardown" finished-at="2021-11-17T09:00:57 SGT" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:09 SGT" name="setup" finished-at="2021-11-16T08:54:11 SGT" duration-ms="2103" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:57 SGT" name="setup" finished-at="2021-11-17T09:00:59 SGT" duration-ms="2064" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkHeaderTitle()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:11 SGT" name="checkHeaderTitle" finished-at="2021-11-16T08:54:14 SGT" duration-ms="3056" status="PASS">
+        <test-method signature="checkHeaderTitle()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:00:59 SGT" name="checkHeaderTitle" finished-at="2021-11-17T09:01:02 SGT" duration-ms="3059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeaderTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:14 SGT" name="teardown" finished-at="2021-11-16T08:54:15 SGT" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:02 SGT" name="teardown" finished-at="2021-11-17T09:01:03 SGT" duration-ms="698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:15 SGT" name="setup" finished-at="2021-11-16T08:54:17 SGT" duration-ms="2098" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:03 SGT" name="setup" finished-at="2021-11-17T09:01:05 SGT" duration-ms="2183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkHeaderDesc()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:17 SGT" name="checkHeaderDesc" finished-at="2021-11-16T08:54:20 SGT" duration-ms="3039" status="PASS">
+        <test-method signature="checkHeaderDesc()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:05 SGT" name="checkHeaderDesc" finished-at="2021-11-17T09:01:08 SGT" duration-ms="3050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkHeaderDesc -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:20 SGT" name="teardown" finished-at="2021-11-16T08:54:21 SGT" duration-ms="651" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:08 SGT" name="teardown" finished-at="2021-11-17T09:01:08 SGT" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:21 SGT" name="setup" finished-at="2021-11-16T08:54:23 SGT" duration-ms="2022" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:08 SGT" name="setup" finished-at="2021-11-17T09:01:11 SGT" duration-ms="2165" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,15 +113,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkMainTitle()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:23 SGT" name="checkMainTitle" finished-at="2021-11-16T08:54:26 SGT" duration-ms="3048" status="PASS">
+        <test-method signature="checkMainTitle()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:11 SGT" name="checkMainTitle" finished-at="2021-11-17T09:01:14 SGT" duration-ms="3053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMainTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:26 SGT" name="teardown" finished-at="2021-11-16T08:54:26 SGT" duration-ms="664" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:14 SGT" name="teardown" finished-at="2021-11-17T09:01:14 SGT" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:26 SGT" name="setup" finished-at="2021-11-16T08:54:28 SGT" duration-ms="2091" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:14 SGT" name="setup" finished-at="2021-11-17T09:01:17 SGT" duration-ms="2286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,15 +132,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkNavOption()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:28 SGT" name="checkNavOption" finished-at="2021-11-16T08:54:35 SGT" duration-ms="6028" status="PASS">
+        <test-method signature="checkNavOption()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:17 SGT" name="checkNavOption" finished-at="2021-11-17T09:01:23 SGT" duration-ms="6012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNavOption -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:35 SGT" name="teardown" finished-at="2021-11-16T08:54:35 SGT" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:23 SGT" name="teardown" finished-at="2021-11-17T09:01:23 SGT" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:35 SGT" name="setup" finished-at="2021-11-16T08:54:37 SGT" duration-ms="2087" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:23 SGT" name="setup" finished-at="2021-11-17T09:01:25 SGT" duration-ms="2162" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,15 +151,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkRowofItems()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:37 SGT" name="checkRowofItems" finished-at="2021-11-16T08:54:43 SGT" duration-ms="6074" status="PASS">
+        <test-method signature="checkRowofItems()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:25 SGT" name="checkRowofItems" finished-at="2021-11-17T09:01:31 SGT" duration-ms="6056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRowofItems -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:43 SGT" name="teardown" finished-at="2021-11-16T08:54:44 SGT" duration-ms="649" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:31 SGT" name="teardown" finished-at="2021-11-17T09:01:32 SGT" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:44 SGT" name="setup" finished-at="2021-11-16T08:54:46 SGT" duration-ms="2120" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:32 SGT" name="setup" finished-at="2021-11-17T09:01:34 SGT" duration-ms="2377" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -170,15 +170,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkDemoLink()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:46 SGT" name="checkDemoLink" finished-at="2021-11-16T08:54:56 SGT" duration-ms="9752" status="PASS">
+        <test-method signature="checkDemoLink()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:34 SGT" name="checkDemoLink" finished-at="2021-11-17T09:01:44 SGT" duration-ms="9593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDemoLink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:56 SGT" name="teardown" finished-at="2021-11-16T08:54:57 SGT" duration-ms="654" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:44 SGT" name="teardown" finished-at="2021-11-17T09:01:45 SGT" duration-ms="660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:57 SGT" name="setup" finished-at="2021-11-16T08:54:59 SGT" duration-ms="2103" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:45 SGT" name="setup" finished-at="2021-11-17T09:01:47 SGT" duration-ms="2160" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,15 +189,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkPricingLink()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:54:59 SGT" name="checkPricingLink" finished-at="2021-11-16T08:55:09 SGT" duration-ms="10040" status="PASS">
+        <test-method signature="checkPricingLink()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:47 SGT" name="checkPricingLink" finished-at="2021-11-17T09:01:57 SGT" duration-ms="10242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPricingLink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:09 SGT" name="teardown" finished-at="2021-11-16T08:55:09 SGT" duration-ms="675" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:57 SGT" name="teardown" finished-at="2021-11-17T09:01:58 SGT" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:09 SGT" name="setup" finished-at="2021-11-16T08:55:11 SGT" duration-ms="2093" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:01:58 SGT" name="setup" finished-at="2021-11-17T09:02:00 SGT" duration-ms="2231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -208,15 +208,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkIntegrationLink()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:11 SGT" name="checkIntegrationLink" finished-at="2021-11-16T08:55:22 SGT" duration-ms="10794" status="PASS">
+        <test-method signature="checkIntegrationLink()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:00 SGT" name="checkIntegrationLink" finished-at="2021-11-17T09:02:10 SGT" duration-ms="10028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkIntegrationLink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:22 SGT" name="teardown" finished-at="2021-11-16T08:55:23 SGT" duration-ms="676" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:10 SGT" name="teardown" finished-at="2021-11-17T09:02:11 SGT" duration-ms="865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:23 SGT" name="setup" finished-at="2021-11-16T08:55:25 SGT" duration-ms="2159" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:11 SGT" name="setup" finished-at="2021-11-17T09:02:14 SGT" duration-ms="2917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,15 +227,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="countTabsForDocs()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:25 SGT" name="countTabsForDocs" finished-at="2021-11-16T08:55:34 SGT" duration-ms="9125" status="PASS">
+        <test-method signature="countTabsForDocs()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:14 SGT" name="countTabsForDocs" finished-at="2021-11-17T09:02:23 SGT" duration-ms="9137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countTabsForDocs -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:34 SGT" name="teardown" finished-at="2021-11-16T08:55:35 SGT" duration-ms="654" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:23 SGT" name="teardown" finished-at="2021-11-17T09:02:24 SGT" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:35 SGT" name="setup" finished-at="2021-11-16T08:55:37 SGT" duration-ms="2069" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:24 SGT" name="setup" finished-at="2021-11-17T09:02:26 SGT" duration-ms="2819" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,15 +246,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkDocTabUrl()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:37 SGT" name="checkDocTabUrl" finished-at="2021-11-16T08:55:52 SGT" duration-ms="15290" status="PASS">
+        <test-method signature="checkDocTabUrl()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:26 SGT" name="checkDocTabUrl" finished-at="2021-11-17T09:02:42 SGT" duration-ms="15273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDocTabUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:52 SGT" name="teardown" finished-at="2021-11-16T08:55:53 SGT" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:42 SGT" name="teardown" finished-at="2021-11-17T09:02:42 SGT" duration-ms="679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:53 SGT" name="setup" finished-at="2021-11-16T08:55:55 SGT" duration-ms="2106" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:42 SGT" name="setup" finished-at="2021-11-17T09:02:45 SGT" duration-ms="2443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,15 +265,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="countTabsForBlog()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:55:55 SGT" name="countTabsForBlog" finished-at="2021-11-16T08:56:04 SGT" duration-ms="9098" status="PASS">
+        <test-method signature="countTabsForBlog()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:45 SGT" name="countTabsForBlog" finished-at="2021-11-17T09:02:54 SGT" duration-ms="9108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countTabsForBlog -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:04 SGT" name="teardown" finished-at="2021-11-16T08:56:05 SGT" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:54 SGT" name="teardown" finished-at="2021-11-17T09:02:55 SGT" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:05 SGT" name="setup" finished-at="2021-11-16T08:56:07 SGT" duration-ms="2194" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:55 SGT" name="setup" finished-at="2021-11-17T09:02:57 SGT" duration-ms="2114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,15 +284,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkBlogUrl()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:07 SGT" name="checkBlogUrl" finished-at="2021-11-16T08:56:22 SGT" duration-ms="15192" status="PASS">
+        <test-method signature="checkBlogUrl()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:02:57 SGT" name="checkBlogUrl" finished-at="2021-11-17T09:03:12 SGT" duration-ms="15226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkBlogUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:22 SGT" name="teardown" finished-at="2021-11-16T08:56:23 SGT" duration-ms="672" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:12 SGT" name="teardown" finished-at="2021-11-17T09:03:13 SGT" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:23 SGT" name="setup" finished-at="2021-11-16T08:56:25 SGT" duration-ms="2066" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:13 SGT" name="setup" finished-at="2021-11-17T09:03:15 SGT" duration-ms="2244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,15 +303,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="countTabsForLogin()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:25 SGT" name="countTabsForLogin" finished-at="2021-11-16T08:56:34 SGT" duration-ms="9116" status="PASS">
+        <test-method signature="countTabsForLogin()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:15 SGT" name="countTabsForLogin" finished-at="2021-11-17T09:03:24 SGT" duration-ms="9121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countTabsForLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:34 SGT" name="teardown" finished-at="2021-11-16T08:56:35 SGT" duration-ms="675" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:24 SGT" name="teardown" finished-at="2021-11-17T09:03:25 SGT" duration-ms="642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:35 SGT" name="setup" finished-at="2021-11-16T08:56:37 SGT" duration-ms="2114" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:25 SGT" name="setup" finished-at="2021-11-17T09:03:27 SGT" duration-ms="2459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -322,15 +322,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkLoginUrl()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:37 SGT" name="checkLoginUrl" finished-at="2021-11-16T08:56:53 SGT" duration-ms="16004" status="PASS">
+        <test-method signature="checkLoginUrl()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:27 SGT" name="checkLoginUrl" finished-at="2021-11-17T09:03:43 SGT" duration-ms="15810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:53 SGT" name="teardown" finished-at="2021-11-16T08:56:53 SGT" duration-ms="684" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:43 SGT" name="teardown" finished-at="2021-11-17T09:03:44 SGT" duration-ms="667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:53 SGT" name="setup" finished-at="2021-11-16T08:56:56 SGT" duration-ms="2174" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:44 SGT" name="setup" finished-at="2021-11-17T09:03:46 SGT" duration-ms="2578" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -341,15 +341,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkForDesktopAppUrl()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:56:56 SGT" name="checkForDesktopAppUrl" finished-at="2021-11-16T08:57:06 SGT" duration-ms="9883" status="PASS">
+        <test-method signature="checkForDesktopAppUrl()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:46 SGT" name="checkForDesktopAppUrl" finished-at="2021-11-17T09:03:56 SGT" duration-ms="9777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForDesktopAppUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:57:06 SGT" name="teardown" finished-at="2021-11-16T08:57:06 SGT" duration-ms="666" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:56 SGT" name="teardown" finished-at="2021-11-17T09:03:57 SGT" duration-ms="660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:57:06 SGT" name="setup" finished-at="2021-11-16T08:57:09 SGT" duration-ms="2645" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:57 SGT" name="setup" finished-at="2021-11-17T09:03:59 SGT" duration-ms="2791" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -360,11 +360,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkForMobileAppUrl()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:57:09 SGT" name="checkForMobileAppUrl" finished-at="2021-11-16T08:57:19 SGT" duration-ms="10599" status="PASS">
+        <test-method signature="checkForMobileAppUrl()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:03:59 SGT" name="checkForMobileAppUrl" finished-at="2021-11-17T09:04:10 SGT" duration-ms="10943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForMobileAppUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@399c4be1]" started-at="2021-11-16T08:57:19 SGT" name="teardown" finished-at="2021-11-16T08:57:20 SGT" duration-ms="671" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:04:10 SGT" name="teardown" finished-at="2021-11-17T09:04:11 SGT" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:04:11 SGT" name="setup" finished-at="2021-11-17T09:04:13 SGT" duration-ms="2207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkForFeaturesUrl()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:04:13 SGT" name="checkForFeaturesUrl" finished-at="2021-11-17T09:04:23 SGT" duration-ms="9574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForFeaturesUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@4961f6af]" started-at="2021-11-17T09:04:23 SGT" name="teardown" finished-at="2021-11-17T09:04:23 SGT" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
