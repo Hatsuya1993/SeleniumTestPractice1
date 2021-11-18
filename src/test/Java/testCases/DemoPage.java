@@ -311,4 +311,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForRequirementsUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getRequirementsLink());
+        if(driver.getCurrentUrl().contains("requirements")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when requirements is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect when requirements is clicked");
+        }
+    }
+
 }
