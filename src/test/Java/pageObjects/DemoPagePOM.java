@@ -83,6 +83,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement requirementsLink;
 
+    @FindBy(linkText = "Technology")
+    @CacheLookup
+    WebElement technologyLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -118,5 +122,7 @@ public class DemoPagePOM {
     public WebElement getFeaturesLink() { return featuresLink; }
 
     public WebElement getRequirementsLink() { return requirementsLink; }
+
+    public WebElement getTechnologyLink() { return technologyLink; }
 
 }

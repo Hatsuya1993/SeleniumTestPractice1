@@ -326,4 +326,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForTechnologyUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getTechnologyLink());
+        if(driver.getCurrentUrl().contains("technology")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when technology is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect when technology is clicked");
+        }
+    }
+
 }
