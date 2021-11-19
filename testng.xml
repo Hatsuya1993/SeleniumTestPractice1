@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.DemoPage">
 <!--                <methods>-->
-<!--                    <include name="checkForTechnologyUrl"/>-->
+<!--                    <include name="checkForChangeLogUrl"/>-->
 <!--                </methods>-->
             </class>
         </classes>

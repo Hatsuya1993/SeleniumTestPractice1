@@ -525,3 +525,5 @@
 2021-11-18 10:41:15,468 [main] INFO TestPhpTravels - 2 tabs opened when login is clicked
 2021-11-19 09:14:13,195 [main] INFO TestPhpTravels - URL opened
 2021-11-19 09:14:22,907 [main] INFO TestPhpTravels - URL is correct when technology is clicked
+2021-11-20 06:59:49,858 [main] INFO TestPhpTravels - URL opened
+2021-11-20 07:00:01,327 [main] INFO TestPhpTravels - URL is correct when changelog is clicked
