@@ -356,4 +356,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForUpdatesLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getUpdatesLink());
+        if(driver.getCurrentUrl().contains("updates")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when updates is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect when updates is clicked");
+        }
+    }
+
 }

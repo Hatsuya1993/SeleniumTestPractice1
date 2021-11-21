@@ -91,6 +91,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement changeLogLink;
 
+    @FindBy(linkText = "Updates")
+    @CacheLookup
+    WebElement updateLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -130,5 +134,7 @@ public class DemoPagePOM {
     public WebElement getTechnologyLink() { return technologyLink; }
 
     public WebElement getChangeLogLink() { return changeLogLink; }
+
+    public WebElement getUpdatesLink() { return updateLink; }
 
 }
