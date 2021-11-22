@@ -371,4 +371,19 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForProvidersLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getProvidersLink());
+        if(driver.getCurrentUrl().contains("providers")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when providers is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect wen providers is clicked");
+        }
+    }
+
 }

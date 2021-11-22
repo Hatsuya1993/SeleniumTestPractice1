@@ -95,6 +95,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement updateLink;
 
+    @FindBy(linkText = "Providers")
+    @CacheLookup
+    WebElement providersLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -136,5 +140,7 @@ public class DemoPagePOM {
     public WebElement getChangeLogLink() { return changeLogLink; }
 
     public WebElement getUpdatesLink() { return updateLink; }
+
+    public WebElement getProvidersLink() { return providersLink; }
 
 }
