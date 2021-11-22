@@ -531,3 +531,5 @@
 2021-11-21 10:53:46,043 - TestPhpTravels -INFO - URL is correct when updates is clicked
 2021-11-22 08:26:18,975 - TestPhpTravels -INFO - URL opened
 2021-11-22 08:26:29,431 - TestPhpTravels -INFO - URL is correct when providers is clicked
+2021-11-23 07:52:53,242 - TestPhpTravels -INFO - URL opened
+2021-11-23 07:53:02,991 - TestPhpTravels -INFO - URL is correct when affiliate is clicked

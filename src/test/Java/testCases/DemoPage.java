@@ -382,7 +382,22 @@ public class DemoPage extends Base {
         }
         else{
             Assert.fail();
-            logger.info("URL is incorrect wen providers is clicked");
+            logger.info("URL is incorrect when providers is clicked");
+        }
+    }
+
+    @Test
+    public void checkForAffiliateLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getAffiliateLink());
+        if(driver.getCurrentUrl().contains("affiliate")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when affiliate is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect when affiliate is clicked");
         }
     }
 

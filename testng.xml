@@ -8,9 +8,9 @@
     <test verbose="2" preserve-order="true" name="C:/Users/hal19/IdeaProjects/TestPhpTravels">
         <classes>
             <class name="testCases.DemoPage">
-                <methods>
-                    <include name="checkForProvidersLink"/>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="checkForAffiliateLink"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>

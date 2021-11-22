@@ -99,6 +99,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement providersLink;
 
+    @FindBy(linkText = "Affiliate")
+    @CacheLookup
+    WebElement affiliateLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -143,4 +147,5 @@ public class DemoPagePOM {
 
     public WebElement getProvidersLink() { return providersLink; }
 
+    public WebElement getAffiliateLink() { return affiliateLink; }
 }
