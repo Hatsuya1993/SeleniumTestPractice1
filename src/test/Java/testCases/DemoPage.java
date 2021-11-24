@@ -401,4 +401,20 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForRoadmapLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getAffiliateLink());
+        if(driver.getCurrentUrl().contains("roadmap")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when roadmap is clicked");
+        }
+        else {
+            Assert.fail();
+            logger.info("URL is incorrect when roadmap is clicked");
+        }
+    }
+
+
 }

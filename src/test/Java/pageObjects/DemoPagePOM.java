@@ -103,6 +103,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement affiliateLink;
 
+    @FindBy(linkText = "Road Map")
+    @CacheLookup
+    WebElement roadMapLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -148,4 +152,6 @@ public class DemoPagePOM {
     public WebElement getProvidersLink() { return providersLink; }
 
     public WebElement getAffiliateLink() { return affiliateLink; }
+
+    public WebElement getRoadMapLink() { return roadMapLink; }
 }

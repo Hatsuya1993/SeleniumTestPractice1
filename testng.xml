@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.DemoPage">
 <!--                <methods>-->
-<!--                    <include name="checkForAffiliateLink"/>-->
+<!--                    <include name="checkForRoadmapLink"/>-->
 <!--                </methods>-->
             </class>
         </classes>
