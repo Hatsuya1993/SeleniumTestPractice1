@@ -405,7 +405,7 @@ public class DemoPage extends Base {
     public void checkForRoadmapLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getAffiliateLink());
+        available.clickItem(demoPagePOM.getRoadMapLink());
         if(driver.getCurrentUrl().contains("roadmap")){
             Assert.assertTrue(true);
             logger.info("URL is correct when roadmap is clicked");
@@ -413,6 +413,21 @@ public class DemoPage extends Base {
         else {
             Assert.fail();
             logger.info("URL is incorrect when roadmap is clicked");
+        }
+    }
+
+    @Test
+    public void checkForAboutUsLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getAboutUsLink());
+        if(driver.getCurrentUrl().contains("about-us")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when about us link is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect when about us page is clicked");
         }
     }
 
