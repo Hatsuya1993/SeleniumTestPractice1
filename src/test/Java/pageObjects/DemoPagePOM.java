@@ -111,6 +111,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement aboutUsLink;
 
+    @FindBy(linkText = "Contact Us")
+    @CacheLookup
+    WebElement contactUsLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -160,4 +164,6 @@ public class DemoPagePOM {
     public WebElement getRoadMapLink() { return roadMapLink; }
 
     public WebElement getAboutUsLink() { return aboutUsLink; }
+
+    public WebElement getContactUsLink() { return contactUsLink; }
 }

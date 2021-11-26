@@ -536,3 +536,5 @@
 2021-11-24 08:36:16,964 [main] INFO TestPhpTravels - URL opened
 2021-11-25 08:38:56,161 [main] INFO TestPhpTravels - URL opened
 2021-11-25 08:39:07,284 [main] INFO TestPhpTravels - URL is correct when about us link is clicked
+2021-11-26 08:24:05,645 [main] INFO TestPhpTravels - URL opened
+2021-11-26 08:24:15,638 [main] INFO TestPhpTravels - URL is correct when contact us is clicked
