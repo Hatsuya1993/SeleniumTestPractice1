@@ -446,5 +446,20 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForJobsLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getJobsLink());
+        if(driver.getCurrentUrl().contains("jobs")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when job is clicked");
+        }
+        else {
+            Assert.fail();
+            logger.info("URl is incorrect when jobs is selected");
+        }
+    }
+
 
 }

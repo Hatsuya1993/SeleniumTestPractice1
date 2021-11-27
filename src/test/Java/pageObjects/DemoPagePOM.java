@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -115,6 +116,7 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement contactUsLink;
 
+
     public String getTitle(){
         return title.getText();
     }
@@ -166,4 +168,6 @@ public class DemoPagePOM {
     public WebElement getAboutUsLink() { return aboutUsLink; }
 
     public WebElement getContactUsLink() { return contactUsLink; }
+
+    public WebElement getJobsLink() { return driver.findElement(By.cssSelector("span.jobs")); }
 }
