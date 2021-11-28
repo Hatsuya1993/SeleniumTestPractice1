@@ -547,3 +547,5 @@
 2021-11-27 09:29:58,223 [main] INFO TestPhpTravels - URL opened
 2021-11-27 09:31:15,245 [main] INFO TestPhpTravels - URL opened
 2021-11-27 09:31:24,932 [main] INFO TestPhpTravels - URL is correct when job is clicked
+2021-11-28 09:05:25,113 [main] INFO TestPhpTravels - URL opened
+2021-11-28 09:05:35,827 [main] INFO TestPhpTravels - URL is correct when teams link is clicked

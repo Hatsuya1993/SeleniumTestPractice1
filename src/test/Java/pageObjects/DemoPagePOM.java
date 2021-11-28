@@ -116,6 +116,9 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement contactUsLink;
 
+    @FindBy(linkText = "The Team")
+    @CacheLookup
+    WebElement theTeamLink;
 
     public String getTitle(){
         return title.getText();
@@ -170,4 +173,6 @@ public class DemoPagePOM {
     public WebElement getContactUsLink() { return contactUsLink; }
 
     public WebElement getJobsLink() { return driver.findElement(By.cssSelector("span.jobs")); }
+
+    public WebElement getTheTeamLink() { return theTeamLink; }
 }

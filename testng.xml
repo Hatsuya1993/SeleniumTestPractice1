@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.DemoPage">
                 <methods>
-                    <include name="checkForJobsLink"/>
+                    <include name="checkForTheTeamsLink"/>
                 </methods>
             </class>
         </classes>

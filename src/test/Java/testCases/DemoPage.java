@@ -461,5 +461,20 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForTheTeamsLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getTheTeamLink());
+        if(driver.getCurrentUrl().contains("the-team")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when teams link is clicked");
+        }
+        else {
+            Assert.fail();
+            logger.info("URl is incorrect when team links is selected");
+        }
+    }
+
 
 }
