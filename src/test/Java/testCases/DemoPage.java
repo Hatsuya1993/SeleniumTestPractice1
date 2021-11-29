@@ -476,5 +476,33 @@ public class DemoPage extends Base {
         }
     }
 
+    @Test
+    public void checkForTermsOfServiceLink() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getTermsOfService());
+        if(driver.getCurrentUrl().contains("terms-and-conditions")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when terms and conditions link is clicked");
+        }
+        else {
+            Assert.fail();
+            logger.info("URl is incorrect when terms and condition links is selected");
+        }
+    }
 
+    @Test
+    public void getPrivacyPolicy() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getPrivacyPolicy());
+        if(driver.getCurrentUrl().contains("privacy-statement")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when privacy policy link is clicked");
+        }
+        else {
+            Assert.fail();
+            logger.info("URl is incorrect when privacy policy links is selected");
+        }
+    }
 }

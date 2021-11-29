@@ -120,6 +120,14 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement theTeamLink;
 
+    @FindBy(linkText = "Terms of Service")
+    @CacheLookup
+    WebElement termsOfService;
+
+    @FindBy(linkText = "Privacy Policy")
+    @CacheLookup
+    WebElement termsOfServiceLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -175,4 +183,8 @@ public class DemoPagePOM {
     public WebElement getJobsLink() { return driver.findElement(By.cssSelector("span.jobs")); }
 
     public WebElement getTheTeamLink() { return theTeamLink; }
+
+    public WebElement getTermsOfService() { return termsOfService; }
+
+    public WebElement getPrivacyPolicy() { return termsOfServiceLink; }
 }
