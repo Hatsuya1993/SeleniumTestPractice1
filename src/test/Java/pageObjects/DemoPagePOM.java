@@ -128,6 +128,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement termsOfServiceLink;
 
+    @FindBy(linkText = "Live Chat")
+    @CacheLookup
+    WebElement liveChatLink;
+
     public String getTitle(){
         return title.getText();
     }
@@ -187,4 +191,6 @@ public class DemoPagePOM {
     public WebElement getTermsOfService() { return termsOfService; }
 
     public WebElement getPrivacyPolicy() { return termsOfServiceLink; }
+
+    public WebElement getLiveChatLink() { return liveChatLink; }
 }

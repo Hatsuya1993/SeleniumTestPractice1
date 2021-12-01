@@ -505,4 +505,19 @@ public class DemoPage extends Base {
             logger.info("URl is incorrect when privacy policy links is selected");
         }
     }
+
+    @Test
+    public void countTabsForLiveChat() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getLiveChatLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened when live chat is clicked");
+        }
+        else{
+            Assert.fail();
+            logger.info("Issues with 2 tabs opened when chat live is clicked");
+        }
+    }
 }

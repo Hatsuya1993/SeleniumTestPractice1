@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.DemoPage">
                 <methods>
-                    <include name="getPrivacyPolicy"/>
+                    <include name="countTabsForLiveChat"/>
                 </methods>
             </class>
         </classes>

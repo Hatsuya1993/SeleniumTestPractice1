@@ -553,3 +553,5 @@
 2021-11-29 09:58:09,936 - TestPhpTravels -INFO - URL is correct when terms and conditions link is clicked
 2021-11-30 07:40:37,611 - TestPhpTravels -INFO - URL opened
 2021-11-30 07:40:47,286 - TestPhpTravels -INFO - URL is correct when privacy policy link is clicked
+2021-12-01 08:17:25,788 - TestPhpTravels -INFO - URL opened
+2021-12-01 08:17:34,963 - TestPhpTravels -INFO - 2 tabs opened when live chat is clicked
