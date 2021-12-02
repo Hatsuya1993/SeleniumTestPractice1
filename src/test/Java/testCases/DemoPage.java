@@ -520,4 +520,22 @@ public class DemoPage extends Base {
             logger.info("Issues with 2 tabs opened when chat live is clicked");
         }
     }
+
+    @Test
+    public void checkLiveChatUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getLiveChatLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("chat")){
+            Assert.assertTrue(true);
+            logger.info("URL for live chat is correct");
+            available.goBackCurrent(0, driver);
+        }
+        else{
+            Assert.fail();
+            logger.info("URL for live chat is incorrect");
+            available.goBackCurrent(0, driver);
+        }
+    }
 }

@@ -132,6 +132,7 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement liveChatLink;
 
+
     public String getTitle(){
         return title.getText();
     }
