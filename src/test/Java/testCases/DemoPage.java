@@ -538,4 +538,19 @@ public class DemoPage extends Base {
             available.goBackCurrent(0, driver);
         }
     }
+
+    @Test
+    public void getContentProgramUrl() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.contentProgramLink());
+        if(driver.getCurrentUrl().contains("earn-with-phptravels")){
+            Assert.assertTrue(true);
+            logger.info("URL is correct when content program link is clicked");
+        }
+        else {
+            Assert.fail();
+            logger.info("URl is incorrect when content program links is selected");
+        }
+    }
 }

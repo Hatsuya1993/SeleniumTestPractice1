@@ -132,6 +132,10 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement liveChatLink;
 
+    @FindBy(linkText = "Content Program")
+    @CacheLookup
+    WebElement contentProgramLink;
+
 
     public String getTitle(){
         return title.getText();
@@ -194,4 +198,7 @@ public class DemoPagePOM {
     public WebElement getPrivacyPolicy() { return termsOfServiceLink; }
 
     public WebElement getLiveChatLink() { return liveChatLink; }
+
+    public WebElement contentProgramLink() { return contentProgramLink; }
+
 }
