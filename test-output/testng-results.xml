@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="35" total="36" passed="1" failed="0" skipped="0">
+<testng-results ignored="36" total="37" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-03T08:14:37 SGT" name="All Test Suite" finished-at="2021-12-03T08:14:51 SGT" duration-ms="13896">
+  <suite started-at="2021-12-04T08:58:54 SGT" name="All Test Suite" finished-at="2021-12-04T08:59:10 SGT" duration-ms="16179">
     <groups>
     </groups>
-    <test started-at="2021-12-03T08:14:37 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-03T08:14:51 SGT" duration-ms="13896">
+    <test started-at="2021-12-04T08:58:54 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-04T08:59:10 SGT" duration-ms="16179">
       <class name="testCases.DemoPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@1757cd72]" started-at="2021-12-03T08:14:37 SGT" name="setup" finished-at="2021-12-03T08:14:40 SGT" duration-ms="3106" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.DemoPage@5b94b04d]" started-at="2021-12-04T08:58:54 SGT" name="setup" finished-at="2021-12-04T08:58:58 SGT" duration-ms="4015" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getContentProgramUrl()[pri:0, instance:testCases.DemoPage@1757cd72]" started-at="2021-12-03T08:14:40 SGT" name="getContentProgramUrl" finished-at="2021-12-03T08:14:50 SGT" duration-ms="9935" status="PASS">
+        <test-method signature="getChatUrl()[pri:0, instance:testCases.DemoPage@5b94b04d]" started-at="2021-12-04T08:58:58 SGT" name="getChatUrl" finished-at="2021-12-04T08:59:09 SGT" duration-ms="10994" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getContentProgramUrl -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@1757cd72]" started-at="2021-12-03T08:14:50 SGT" name="teardown" finished-at="2021-12-03T08:14:51 SGT" duration-ms="694" status="PASS">
+        </test-method> <!-- getChatUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.DemoPage@5b94b04d]" started-at="2021-12-04T08:59:09 SGT" name="teardown" finished-at="2021-12-04T08:59:10 SGT" duration-ms="816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

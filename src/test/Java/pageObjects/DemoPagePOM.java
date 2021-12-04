@@ -136,6 +136,11 @@ public class DemoPagePOM {
     @CacheLookup
     WebElement contentProgramLink;
 
+    @FindBy(linkText = "Public Chat")
+    @CacheLookup
+    WebElement publicChatlink;
+
+
 
     public String getTitle(){
         return title.getText();
@@ -201,4 +206,5 @@ public class DemoPagePOM {
 
     public WebElement contentProgramLink() { return contentProgramLink; }
 
+    public WebElement getPublicChatlink() { return publicChatlink; }
 }
