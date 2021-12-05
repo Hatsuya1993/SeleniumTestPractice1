@@ -1,9 +1,9 @@
 package helper;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 
@@ -42,6 +42,16 @@ public class available {
         ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
         driver.close();
         driver.switchTo().window(tabs2.get(tab));
+    }
+
+    public static boolean checkEnabled (WebElement item, WebDriver driver) throws InterruptedException {
+        Thread.sleep(helper.shortWait);
+        if(item.isEnabled()){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
 }

@@ -7,9 +7,9 @@
     <parameter name="browser" value="chrome"></parameter>
     <test verbose="2" preserve-order="true" name="C:/Users/hal19/IdeaProjects/TestPhpTravels">
         <classes>
-            <class name="testCases.DemoPage">
+            <class name="testCases.Order">
                 <methods>
-                    <include name="getChatUrl"/>
+                    <include name="checkDefaultButtonBuyNow"/>
                 </methods>
             </class>
         </classes>

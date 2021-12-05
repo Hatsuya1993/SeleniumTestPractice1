@@ -7,4 +7,5 @@ public class helper {
     public static int longerWait = 10000;
     public static int longestWait = 15000;
 
+
 }
