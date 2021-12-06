@@ -1,5 +1,7 @@
 package pageObjects;
 
+import helper.available;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -19,7 +21,17 @@ public class OrderPOM {
     @CacheLookup
     WebElement buyNowButton;
 
-    public WebElement getBuyNowButton() { return buyNowButton; }
+    public WebElement getBuyNowButton() {
+        return buyNowButton;
+    }
 
-
+    public boolean selectCheckBox(String idNum) throws InterruptedException {
+        if (available.displayed(driver.findElement(By.id((idNum))))){
+            driver.findElement(By.id(idNum)).click();
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }

@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.Order">
                 <methods>
-                    <include name="checkDefaultButtonBuyNow"/>
+                    <include name="checkButtonActive"/>
                 </methods>
             </class>
         </classes>
