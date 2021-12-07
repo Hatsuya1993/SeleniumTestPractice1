@@ -31,7 +31,7 @@ public class Order extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getpricingLink());
         OrderPOM order = new OrderPOM(driver);
-        if(order.selectCheckBox("323")){
+        if(order.selectCheckBox("1")){
             if(available.checkEnabled(order.getBuyNowButton(), driver) == true){
                 Assert.assertTrue(true);
                 logger.info("Order page buy now button is active");
@@ -46,5 +46,24 @@ public class Order extends Base{
             logger.info("No checkbox found");
         }
     }
+
+    @Test
+    public void checkURLForConfirmOrder() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getpricingLink());
+        OrderPOM order = new OrderPOM(driver);
+        order.selectCheckBox("1");
+        available.clickItem(order.getBuyNowButton());
+        if(driver.getCurrentUrl().contains("order-confirm")){
+            Assert.assertTrue(true);
+            logger.info("URl is correct for confirm order");
+        }
+        else{
+            Assert.fail();
+            logger.info("URL is incorrect for confirm order");
+        }
+    }
+
 
 }
