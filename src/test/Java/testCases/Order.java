@@ -53,16 +53,20 @@ public class Order extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getpricingLink());
         OrderPOM order = new OrderPOM(driver);
-        order.selectCheckBox("1");
-        available.clickItem(order.getBuyNowButton());
-        if(driver.getCurrentUrl().contains("order-confirm")){
-            Assert.assertTrue(true);
-            logger.info("URl is correct for confirm order");
-        }
-        else{
-            Assert.fail();
-            logger.info("URL is incorrect for confirm order");
-        }
+        if(order.selectCheckBox("1")){
+            if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
+                available.clickItem(order.getBuyNowButton());
+                if(driver.getCurrentUrl().contains("order-confirm")){
+                    Assert.assertTrue(true);
+                    logger.info("URl is correct for confirm order");
+                }
+                else{
+                    Assert.fail();
+                    logger.info("URL is incorrect for confirm order");
+                }
+            }
+            }
+
     }
 
 

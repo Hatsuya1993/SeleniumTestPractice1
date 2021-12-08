@@ -41,6 +41,7 @@ public class Base {
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(baseURL);
+        driver.manage().window().maximize();
         logger.info("URL opened");
     }
 

@@ -27,7 +27,7 @@ public class OrderPOM {
 
     public boolean selectCheckBox(String idNum) throws InterruptedException {
         if (available.displayed(driver.findElement(By.id((idNum))))){
-            driver.findElement(By.id(idNum)).click();
+            available.clickItem(driver.findElement(By.id(idNum)));
             return true;
         }
         else{
