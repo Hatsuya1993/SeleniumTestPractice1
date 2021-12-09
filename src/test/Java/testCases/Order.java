@@ -2,6 +2,7 @@ package testCases;
 
 import helper.available;
 import helper.helper;
+import helper.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.DemoPagePOM;
@@ -53,8 +54,10 @@ public class Order extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getpricingLink());
         OrderPOM order = new OrderPOM(driver);
+        Actions actions = new Actions(driver);
         if(order.selectCheckBox("1")){
             if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
+                actions.scrollHelper(200);
                 available.clickItem(order.getBuyNowButton());
                 if(driver.getCurrentUrl().contains("order-confirm")){
                     Assert.assertTrue(true);
