@@ -583,3 +583,5 @@
 2021-12-09 08:53:48,008 - TestPhpTravels -INFO - URl is correct for confirm order
 2021-12-09 09:00:47,732 - TestPhpTravels -INFO - URL opened
 2021-12-09 09:01:16,860 - TestPhpTravels -INFO - URl is correct for confirm order
+2021-12-10 08:49:42,160 - TestPhpTravels -INFO - URL opened
+2021-12-10 08:50:14,150 - TestPhpTravels -INFO - Confirm order button is false by default

@@ -6,6 +6,7 @@ import helper.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.DemoPagePOM;
+import pageObjects.OrderConfirmPOM;
 import pageObjects.OrderPOM;
 
 public class Order extends Base{
@@ -69,6 +70,31 @@ public class Order extends Base{
                 }
             }
             }
+
+    }
+
+    @Test
+    public void checkButtonDisabledDefaultForOrder() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getpricingLink());
+        OrderPOM order = new OrderPOM(driver);
+        Actions actions = new Actions(driver);
+        OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);
+        if(order.selectCheckBox("1")){
+            if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
+                actions.scrollHelper(200);
+                available.clickItem(order.getBuyNowButton());
+                if(available.checkEnabled(orderConfirmPOM.getConfirmOrder(), driver) == false){
+                    Assert.assertTrue(true);
+                    logger.info("Confirm order button is false by default");
+                }
+                else{
+                    Assert.fail();
+                    logger.info("Confirm order button is not false by default");
+                }
+            }
+        }
 
     }
 

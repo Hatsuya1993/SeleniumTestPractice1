@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-09T09:00:43 SGT" name="All Test Suite" finished-at="2021-12-09T09:01:17 SGT" duration-ms="33938">
+  <suite started-at="2021-12-10T08:49:37 SGT" name="All Test Suite" finished-at="2021-12-10T08:50:14 SGT" duration-ms="37238">
     <groups>
     </groups>
-    <test started-at="2021-12-09T09:00:43 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-09T09:01:17 SGT" duration-ms="33938">
+    <test started-at="2021-12-10T08:49:37 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-10T08:50:14 SGT" duration-ms="37238">
       <class name="testCases.Order">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Order@7d8704ef]" started-at="2021-12-09T09:00:43 SGT" name="setup" finished-at="2021-12-09T09:00:47 SGT" duration-ms="3748" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Order@45b4c3a9]" started-at="2021-12-10T08:49:37 SGT" name="setup" finished-at="2021-12-10T08:49:42 SGT" duration-ms="4293" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkURLForConfirmOrder()[pri:0, instance:testCases.Order@7d8704ef]" started-at="2021-12-09T09:00:47 SGT" name="checkURLForConfirmOrder" finished-at="2021-12-09T09:01:16 SGT" duration-ms="29117" status="PASS">
+        <test-method signature="checkButtonDisabledDefaultForOrder()[pri:0, instance:testCases.Order@45b4c3a9]" started-at="2021-12-10T08:49:42 SGT" name="checkButtonDisabledDefaultForOrder" finished-at="2021-12-10T08:50:14 SGT" duration-ms="31977" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkURLForConfirmOrder -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Order@7d8704ef]" started-at="2021-12-09T09:01:16 SGT" name="teardown" finished-at="2021-12-09T09:01:17 SGT" duration-ms="682" status="PASS">
+        </test-method> <!-- checkButtonDisabledDefaultForOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Order@45b4c3a9]" started-at="2021-12-10T08:50:14 SGT" name="teardown" finished-at="2021-12-10T08:50:14 SGT" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
