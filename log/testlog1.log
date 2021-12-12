@@ -585,3 +585,10 @@
 2021-12-09 09:01:16,860 [main] INFO TestPhpTravels - URl is correct for confirm order
 2021-12-10 08:49:42,160 [main] INFO TestPhpTravels - URL opened
 2021-12-10 08:50:14,150 [main] INFO TestPhpTravels - Confirm order button is false by default
+2021-12-12 10:28:12,385 [main] INFO TestPhpTravels - URL opened
+2021-12-12 10:29:25,005 [main] INFO TestPhpTravels - URL opened
+2021-12-12 10:29:54,293 [main] INFO TestPhpTravels - firstName input received
+2021-12-12 10:29:54,306 [main] INFO TestPhpTravels - lastName input received
+2021-12-12 10:29:54,320 [main] INFO TestPhpTravels - business name input received
+2021-12-12 10:29:54,337 [main] INFO TestPhpTravels - email input received
+2021-12-12 10:29:54,351 [main] INFO TestPhpTravels - mobile input received

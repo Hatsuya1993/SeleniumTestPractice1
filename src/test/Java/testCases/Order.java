@@ -9,6 +9,8 @@ import pageObjects.DemoPagePOM;
 import pageObjects.OrderConfirmPOM;
 import pageObjects.OrderPOM;
 
+import java.util.HashMap;
+
 public class Order extends Base{
 
     @Test
@@ -92,6 +94,70 @@ public class Order extends Base{
                 else{
                     Assert.fail();
                     logger.info("Confirm order button is not false by default");
+                }
+            }
+        }
+
+    }
+
+    @Test
+    public void checkTheInputsAfterDataAdded() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getpricingLink());
+        OrderPOM order = new OrderPOM(driver);
+        Actions actions = new Actions(driver);
+        OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);
+        if(order.selectCheckBox("1")){
+            if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
+                actions.scrollHelper(200);
+                available.clickItem(order.getBuyNowButton());
+                HashMap<String, String> testData = new HashMap<String, String>();
+                testData.put("firstNameInput","testName");
+                testData.put("lastNameInput","testLast");
+                testData.put("businessNameInput","testBusiness");
+                testData.put("emailInput","testEmail");
+                testData.put("mobileInput","123456");
+                orderConfirmPOM.handleConfirmOrderForm(testData.get("firstNameInput"), testData.get("lastNameInput"), testData.get("businessNameInput"), testData.get("emailInput"), testData.get("mobileInput"));
+                if(orderConfirmPOM.getFirstName().getAttribute("value").contains(testData.get("firstNameInput"))){
+                    Assert.assertTrue(true);
+                    logger.info("firstName input received");
+                }
+                else{
+                    Assert.fail();
+                    logger.info("firstName input not received");
+                }
+                if(orderConfirmPOM.getLastName().getAttribute("value").contains(testData.get("lastNameInput"))){
+                    Assert.assertTrue(true);
+                    logger.info("lastName input received");
+                }
+                else{
+                    Assert.fail();
+                    logger.info("lastName input not received");
+                }
+                if(orderConfirmPOM.getBizName().getAttribute("value").contains(testData.get("businessNameInput"))){
+                    Assert.assertTrue(true);
+                    logger.info("business name input received");
+                }
+                else{
+                    Assert.fail();
+                    logger.info("business name input not received");
+                }
+                if(orderConfirmPOM.getEmail().getAttribute("value").contains(testData.get("emailInput"))){
+                    Assert.assertTrue(true);
+                    logger.info("email input received");
+                }
+                else{
+                    Assert.fail();
+                    logger.info("email input not received");
+                }
+                if(orderConfirmPOM.getMobile().getAttribute("value").contains(testData.get("mobileInput"))){
+                    Assert.assertTrue(true);
+                    logger.info("mobile input received");
+                }
+                else{
+                    Assert.fail();
+                    logger.info("mobile input not received");
                 }
             }
         }
