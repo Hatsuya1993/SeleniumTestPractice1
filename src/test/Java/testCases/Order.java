@@ -14,6 +14,22 @@ import java.util.HashMap;
 public class Order extends Base{
 
     @Test
+    public void checkDefaultDataDisplayed()throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getpricingLink());
+        OrderPOM order = new OrderPOM(driver);
+        if(order.getOrderPage().isDisplayed()){
+            Assert.assertTrue(true);
+            logger.info("Default order page is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Default order page is not displayed");
+        }
+    }
+
+    @Test
     public void checkDefaultButtonBuyNow() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);

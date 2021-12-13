@@ -21,8 +21,16 @@ public class OrderPOM {
     @CacheLookup
     WebElement buyNowButton;
 
+    @FindBy(id = "order")
+    @CacheLookup
+    WebElement orderPage;
+
     public WebElement getBuyNowButton() {
         return buyNowButton;
+    }
+
+    public WebElement getOrderPage() {
+        return orderPage;
     }
 
     public boolean selectCheckBox(String idNum) throws InterruptedException {

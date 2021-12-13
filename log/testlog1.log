@@ -592,3 +592,5 @@
 2021-12-12 10:29:54,320 [main] INFO TestPhpTravels - business name input received
 2021-12-12 10:29:54,337 [main] INFO TestPhpTravels - email input received
 2021-12-12 10:29:54,351 [main] INFO TestPhpTravels - mobile input received
+2021-12-13 09:38:43,633 [main] INFO TestPhpTravels - URL opened
+2021-12-13 09:38:53,835 [main] INFO TestPhpTravels - Default order page is displayed

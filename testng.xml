@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.Order">
                 <methods>
-                    <include name="checkTheInputsAfterDataAdded"/>
+                    <include name="checkDefaultDataDisplayed"/>
                 </methods>
             </class>
         </classes>
