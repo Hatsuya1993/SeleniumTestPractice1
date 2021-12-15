@@ -24,6 +24,7 @@ public class available {
          Thread.sleep(helper.shortWait);
              if(displayed(item)){
                  item.click();
+                 Thread.sleep(helper.shortWait);
              }
              else{
                  System.out.println("clickItem Failed");

@@ -594,3 +594,25 @@
 2021-12-12 10:29:54,351 [main] INFO TestPhpTravels - mobile input received
 2021-12-13 09:38:43,633 [main] INFO TestPhpTravels - URL opened
 2021-12-13 09:38:53,835 [main] INFO TestPhpTravels - Default order page is displayed
+2021-12-14 08:24:01,149 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:24:40,083 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:26:48,133 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:30:28,410 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:34:53,853 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:38:18,814 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:43:10,018 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:44:28,168 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:46:04,847 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:47:06,964 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:48:10,594 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:48:55,854 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:52:01,363 [main] INFO TestPhpTravels - URL opened
+2021-12-14 08:58:20,428 [main] INFO TestPhpTravels - URL opened
+2021-12-14 09:02:23,514 [main] INFO TestPhpTravels - URL opened
+2021-12-14 09:05:09,511 [main] INFO TestPhpTravels - URL opened
+2021-12-14 09:05:57,347 [main] INFO TestPhpTravels - URL opened
+2021-12-14 09:06:48,764 [main] INFO TestPhpTravels - URL opened
+2021-12-14 09:07:52,562 [main] INFO TestPhpTravels - URL opened
+2021-12-14 09:09:38,085 [main] INFO TestPhpTravels - URL opened
+2021-12-15 08:37:50,249 [main] INFO TestPhpTravels - URL opened
+2021-12-15 08:38:03,153 [main] INFO TestPhpTravels - Default content for integration is correct
