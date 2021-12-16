@@ -618,3 +618,5 @@
 2021-12-15 08:38:03,153 [main] INFO TestPhpTravels - Default content for integration is correct
 2021-12-16 08:38:10,128 [main] INFO TestPhpTravels - URL opened
 2021-12-16 08:38:32,015 [main] INFO TestPhpTravels - 2 tabs opened for integration is correct
+2021-12-17 06:24:56,701 [main] INFO TestPhpTravels - URL opened
+2021-12-17 06:25:21,763 [main] INFO TestPhpTravels - Url for travel port is correct

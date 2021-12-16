@@ -45,4 +45,22 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheLinkForTravelPort() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getTravelPortLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("travelport")){
+            Assert.assertTrue(true);
+            logger.info("Url for travel port is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the travel port is incorrect");
+        }
+    }
+
 }
