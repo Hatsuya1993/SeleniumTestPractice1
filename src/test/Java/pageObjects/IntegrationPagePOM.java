@@ -15,8 +15,10 @@ public class IntegrationPagePOM {
     }
 
 
+
     public WebElement getPageContent() {
         return driver.findElement(By.cssSelector("div.container.module"));
     }
 
+    public WebElement getTravelPortLink() { return driver.findElement(By.cssSelector("a[href*='travelport']")); }
 }
