@@ -37,11 +37,11 @@ public class Integration extends Base{
         available.clickItem(integrationPagePOM.getTravelPortLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
-            logger.info("2 tabs opened for integration is correct");
+            logger.info("2 tabs opened for travel port is correct");
         }
         else{
             Assert.fail();
-            logger.info("2 tabs opened for integration is incorrect");
+            logger.info("2 tabs opened for travel port is incorrect");
         }
     }
 
@@ -63,4 +63,20 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheTabForTravelPortDoc() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getTravelPortDoc());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for travel port doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for travel port doc is incorrect");
+        }
+    }
 }
