@@ -23,4 +23,6 @@ public class IntegrationPagePOM {
     public WebElement getTravelPortLink() { return driver.findElement(By.cssSelector("a[href*='travelport']")); }
 
     public WebElement getTravelPortDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/travelport']")); }
+
+    public WebElement getTravelPayout() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']")); }
 }

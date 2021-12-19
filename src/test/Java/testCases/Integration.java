@@ -79,4 +79,21 @@ public class Integration extends Base{
             logger.info("2 tabs opened for travel port doc is incorrect");
         }
     }
+
+    @Test
+    public void checkTheTabForTravelPayOut() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getTravelPayout());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for travelpayout is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for travelpayout is incorrect");
+        }
+    }
 }
