@@ -626,3 +626,6 @@
 2021-12-19 11:05:55,449 [main] INFO TestPhpTravels - 2 tabs opened for travelpayout is correct
 2021-12-20 08:39:23,036 [main] INFO TestPhpTravels - URL opened
 2021-12-20 08:39:49,092 [main] INFO TestPhpTravels - Url for travelpayouts is correct
+2021-12-21 08:27:12,587 [main] INFO TestPhpTravels - URL opened
+2021-12-21 08:29:00,456 [main] INFO TestPhpTravels - URL opened
+2021-12-21 08:29:13,372 [main] INFO TestPhpTravels - Modules for integration is correct

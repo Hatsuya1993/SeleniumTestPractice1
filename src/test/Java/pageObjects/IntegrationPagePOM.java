@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class IntegrationPagePOM {
 
     WebDriver driver;
@@ -25,4 +27,6 @@ public class IntegrationPagePOM {
     public WebElement getTravelPortDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/travelport']")); }
 
     public WebElement getTravelPayout() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']")); }
+
+    public List<WebElement> modulesInfo() { return driver.findElements(By.cssSelector(".module h4")); }
 }

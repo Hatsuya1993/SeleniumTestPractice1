@@ -8,6 +8,9 @@ import pageObjects.IntegrationPagePOM;
 import helper.available;
 import helper.Actions;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Integration extends Base{
 
     @Test
@@ -98,20 +101,20 @@ public class Integration extends Base{
     }
 
     @Test
-    public void checkTheLinkForTravelPayOut() throws InterruptedException {
+    public void checkTheTitleDataForModules() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
-        available.clickItem(integrationPagePOM.getTravelPayout());
-        available.switchTab(1, driver);
-        if(driver.getCurrentUrl().contains("travelpayouts")){
+        List<String> data = Arrays.asList("Flights Modules", "Hotels Modules", "Tours Modules", "Cars Modules", "Multi-Vendor Manual Modules");
+        Boolean results = available.checkEachValue(data, integrationPagePOM.modulesInfo());
+        if(results){
             Assert.assertTrue(true);
-            logger.info("Url for travelpayouts is correct");
+            logger.info("Modules for integration is correct");
         }
         else{
             Assert.fail();
-            logger.info("Url for the travelpayouts is incorrect");
+            logger.info("Modules for integration is incorrect");
         }
     }
 }

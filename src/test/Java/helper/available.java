@@ -4,7 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class available {
 
@@ -52,6 +55,15 @@ public class available {
         else{
             return false;
         }
+    }
+
+    public static boolean checkEachValue (List<String> data, List<WebElement> dataEl) {
+         if(data.size() != dataEl.size()) return false;
+         for(WebElement i : dataEl){
+             System.out.println(i.getText());
+             if(!data.contains(i.getText())) return false;
+         }
+         return true;
     }
 
 }
