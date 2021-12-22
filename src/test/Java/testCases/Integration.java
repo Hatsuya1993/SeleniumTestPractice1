@@ -117,6 +117,23 @@ public class Integration extends Base{
             logger.info("Url for the travelpayouts is incorrect");
         }
     }
+    @Test
+    public void checkTheTabForTravelPayOutDoc() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getTravelPayoutDoc());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for travelpayoutdoc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for travelpayoutdoc is incorrect");
+        }
+    }
+
 
     @Test
     public void checkTheTitleDataForModules() throws InterruptedException {

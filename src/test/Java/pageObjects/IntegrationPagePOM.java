@@ -28,5 +28,7 @@ public class IntegrationPagePOM {
 
     public WebElement getTravelPayout() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']")); }
 
+    public WebElement getTravelPayoutDoc() { return driver.findElement(By.cssSelector("a[href*='flights/travelpayouts-flights']")); }
+
     public List<WebElement> modulesInfo() { return driver.findElements(By.cssSelector(".module h4")); }
 }
