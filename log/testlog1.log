@@ -629,3 +629,5 @@
 2021-12-21 08:27:12,587 [main] INFO TestPhpTravels - URL opened
 2021-12-21 08:29:00,456 [main] INFO TestPhpTravels - URL opened
 2021-12-21 08:29:13,372 [main] INFO TestPhpTravels - Modules for integration is correct
+2021-12-22 08:03:27,386 [main] INFO TestPhpTravels - URL opened
+2021-12-22 08:03:55,583 [main] INFO TestPhpTravels - Url for travelpayouts is correct
