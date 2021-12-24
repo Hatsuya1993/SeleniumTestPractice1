@@ -89,7 +89,7 @@ public class Integration extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
-        available.clickItem(integrationPagePOM.getTravelPayout());
+        available.clickItem(integrationPagePOM.getTravelPayoutLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
             logger.info("2 tabs opened for travelpayout is correct");
@@ -106,7 +106,7 @@ public class Integration extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
-        available.clickItem(integrationPagePOM.getTravelPayout());
+        available.clickItem(integrationPagePOM.getTravelPayoutLink());
         available.switchTab(1, driver);
         if(driver.getCurrentUrl().contains("travelpayouts")){
             Assert.assertTrue(true);
@@ -153,5 +153,24 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheLinkForHotelBeds() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getHotelBedsLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("hotelbeds")){
+            Assert.assertTrue(true);
+            logger.info("Url for hotelbeds is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the hotelbeds is incorrect");
+        }
+    }
+
+//    Check for the number of tabs opened for hotelbeds
 
 }

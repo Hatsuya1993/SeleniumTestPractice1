@@ -26,9 +26,11 @@ public class IntegrationPagePOM {
 
     public WebElement getTravelPortDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/travelport']")); }
 
-    public WebElement getTravelPayout() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']")); }
+    public WebElement getTravelPayoutLink() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']")); }
 
     public WebElement getTravelPayoutDoc() { return driver.findElement(By.cssSelector("a[href*='flights/travelpayouts-flights']")); }
 
     public List<WebElement> modulesInfo() { return driver.findElements(By.cssSelector(".module h4")); }
+
+    public WebElement getHotelBedsLink() { return driver.findElement(By.cssSelector("a[href*=hotelbeds]")); }
 }

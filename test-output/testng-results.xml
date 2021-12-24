@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-23T07:14:19 SGT" name="All Test Suite" finished-at="2021-12-23T07:14:45 SGT" duration-ms="26521">
+  <suite started-at="2021-12-24T09:44:30 SGT" name="All Test Suite" finished-at="2021-12-24T09:45:00 SGT" duration-ms="30009">
     <groups>
     </groups>
-    <test started-at="2021-12-23T07:14:19 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-23T07:14:45 SGT" duration-ms="26521">
+    <test started-at="2021-12-24T09:44:30 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-24T09:45:00 SGT" duration-ms="30009">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@33c911a1]" started-at="2021-12-23T07:14:19 SGT" name="setup" finished-at="2021-12-23T07:14:23 SGT" duration-ms="3640" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@58a9760d]" started-at="2021-12-24T09:44:30 SGT" name="setup" finished-at="2021-12-24T09:44:34 SGT" duration-ms="3710" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheTabForTravelPayOutDoc()[pri:0, instance:testCases.Integration@33c911a1]" started-at="2021-12-23T07:14:23 SGT" name="checkTheTabForTravelPayOutDoc" finished-at="2021-12-23T07:14:45 SGT" duration-ms="21834" status="PASS">
+        <test-method signature="checkTheLinkForHotelBeds()[pri:0, instance:testCases.Integration@58a9760d]" started-at="2021-12-24T09:44:34 SGT" name="checkTheLinkForHotelBeds" finished-at="2021-12-24T09:44:59 SGT" duration-ms="25266" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheTabForTravelPayOutDoc -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@33c911a1]" started-at="2021-12-23T07:14:45 SGT" name="teardown" finished-at="2021-12-23T07:14:45 SGT" duration-ms="769" status="PASS">
+        </test-method> <!-- checkTheLinkForHotelBeds -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@58a9760d]" started-at="2021-12-24T09:44:59 SGT" name="teardown" finished-at="2021-12-24T09:45:00 SGT" duration-ms="824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
