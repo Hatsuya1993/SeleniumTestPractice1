@@ -171,6 +171,21 @@ public class Integration extends Base{
         }
     }
 
-//    Check for the number of tabs opened for hotelbeds
+    @Test
+    public void checkTheTabForHotelbeds() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getHotelBedsLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for hotelbeds is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for hotelbeds is incorrect");
+        }
+    }
 
 }
