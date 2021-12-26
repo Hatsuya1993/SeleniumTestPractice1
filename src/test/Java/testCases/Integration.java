@@ -172,19 +172,19 @@ public class Integration extends Base{
     }
 
     @Test
-    public void checkTheTabForHotelbeds() throws InterruptedException {
+    public void checkTheTabForHotelston() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
-        available.clickItem(integrationPagePOM.getHotelBedsLink());
+        available.clickItem(integrationPagePOM.getHotelstonLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
-            logger.info("2 tabs opened for hotelbeds is correct");
+            logger.info("2 tabs opened for Hotelston is correct");
         }
         else{
             Assert.fail();
-            logger.info("2 tabs opened for hotelbeds is incorrect");
+            logger.info("2 tabs opened for Hotelston is incorrect");
         }
     }
 

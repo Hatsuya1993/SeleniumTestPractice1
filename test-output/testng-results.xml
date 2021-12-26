@@ -2,12 +2,12 @@
 <testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-25T10:28:33 SGT" name="All Test Suite" finished-at="2021-12-25T10:29:00 SGT" duration-ms="26750">
+  <suite started-at="2021-12-26T10:49:44 SGT" name="All Test Suite" finished-at="2021-12-26T10:50:10 SGT" duration-ms="26662">
     <groups>
     </groups>
-    <test started-at="2021-12-25T10:28:33 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-25T10:29:00 SGT" duration-ms="26750">
+    <test started-at="2021-12-26T10:49:44 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-26T10:50:10 SGT" duration-ms="26662">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@4c39bec8]" started-at="2021-12-25T10:28:33 SGT" name="setup" finished-at="2021-12-25T10:28:37 SGT" duration-ms="3780" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@26b3fd41]" started-at="2021-12-26T10:49:44 SGT" name="setup" finished-at="2021-12-26T10:49:48 SGT" duration-ms="3698" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheTabForHotelbeds()[pri:0, instance:testCases.Integration@4c39bec8]" started-at="2021-12-25T10:28:37 SGT" name="checkTheTabForHotelbeds" finished-at="2021-12-25T10:28:59 SGT" duration-ms="21982" status="PASS">
+        <test-method signature="checkTheTabForHotelston()[pri:0, instance:testCases.Integration@26b3fd41]" started-at="2021-12-26T10:49:48 SGT" name="checkTheTabForHotelston" finished-at="2021-12-26T10:50:10 SGT" duration-ms="21988" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheTabForHotelbeds -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@4c39bec8]" started-at="2021-12-25T10:28:59 SGT" name="teardown" finished-at="2021-12-25T10:29:00 SGT" duration-ms="764" status="PASS">
+        </test-method> <!-- checkTheTabForHotelston -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@26b3fd41]" started-at="2021-12-26T10:50:10 SGT" name="teardown" finished-at="2021-12-26T10:50:10 SGT" duration-ms="776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

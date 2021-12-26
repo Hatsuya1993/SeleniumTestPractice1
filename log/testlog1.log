@@ -637,3 +637,5 @@
 2021-12-24 09:44:59,867 [main] INFO TestPhpTravels - Url for hotelbeds is correct
 2021-12-25 10:28:37,309 [main] INFO TestPhpTravels - URL opened
 2021-12-25 10:28:59,304 [main] INFO TestPhpTravels - 2 tabs opened for hotelbeds is correct
+2021-12-26 10:49:48,017 [main] INFO TestPhpTravels - URL opened
+2021-12-26 10:50:10,018 [main] INFO TestPhpTravels - 2 tabs opened for Hotelston is correct

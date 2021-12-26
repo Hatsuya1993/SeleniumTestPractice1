@@ -33,4 +33,6 @@ public class IntegrationPagePOM {
     public List<WebElement> modulesInfo() { return driver.findElements(By.cssSelector(".module h4")); }
 
     public WebElement getHotelBedsLink() { return driver.findElement(By.cssSelector("a[href*=hotelbeds]")); }
+
+    public WebElement getHotelstonLink() { return driver.findElement(By.cssSelector("a[href*=hotelston]")); }
 }
