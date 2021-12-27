@@ -188,4 +188,22 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheLinkForHotelston() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getHotelstonLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("hotelston")){
+            Assert.assertTrue(true);
+            logger.info("Url for hotelston is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the hotelston is incorrect");
+        }
+    }
+
 }
