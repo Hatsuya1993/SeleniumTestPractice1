@@ -35,4 +35,6 @@ public class IntegrationPagePOM {
     public WebElement getHotelBedsLink() { return driver.findElement(By.cssSelector("a[href*=hotelbeds]")); }
 
     public WebElement getHotelstonLink() { return driver.findElement(By.cssSelector("a[href*=hotelston]")); }
+
+    public WebElement getHotelstonDoc() { return driver.findElement(By.cssSelector("a[href*='modules/hotels/hotelston']"));}
 }
