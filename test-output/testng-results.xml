@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
+<testng-results ignored="13" total="14" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-29T07:06:46 SGT" name="All Test Suite" finished-at="2021-12-29T07:07:16 SGT" duration-ms="30307">
+  <suite started-at="2021-12-30T06:50:42 SGT" name="All Test Suite" finished-at="2021-12-30T06:51:09 SGT" duration-ms="26839">
     <groups>
     </groups>
-    <test started-at="2021-12-29T07:06:46 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-29T07:07:16 SGT" duration-ms="30307">
+    <test started-at="2021-12-30T06:50:42 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2021-12-30T06:51:09 SGT" duration-ms="26839">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@6a2f6f80]" started-at="2021-12-29T07:06:46 SGT" name="setup" finished-at="2021-12-29T07:06:50 SGT" duration-ms="4130" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@7d8704ef]" started-at="2021-12-30T06:50:42 SGT" name="setup" finished-at="2021-12-30T06:50:46 SGT" duration-ms="3813" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheLinkForHotelstonDoc()[pri:0, instance:testCases.Integration@6a2f6f80]" started-at="2021-12-29T07:06:50 SGT" name="checkTheLinkForHotelstonDoc" finished-at="2021-12-29T07:07:15 SGT" duration-ms="25076" status="PASS">
+        <test-method signature="checkTheTabForEjuniper()[pri:0, instance:testCases.Integration@7d8704ef]" started-at="2021-12-30T06:50:46 SGT" name="checkTheTabForEjuniper" finished-at="2021-12-30T06:51:08 SGT" duration-ms="21823" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheLinkForHotelstonDoc -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@6a2f6f80]" started-at="2021-12-29T07:07:15 SGT" name="teardown" finished-at="2021-12-29T07:07:16 SGT" duration-ms="778" status="PASS">
+        </test-method> <!-- checkTheTabForEjuniper -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@7d8704ef]" started-at="2021-12-30T06:51:08 SGT" name="teardown" finished-at="2021-12-30T06:51:09 SGT" duration-ms="929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
