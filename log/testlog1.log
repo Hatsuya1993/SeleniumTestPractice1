@@ -647,3 +647,5 @@
 2021-12-29 07:07:15,660 [main] INFO TestPhpTravels - Url for hotelston doc is correct
 2021-12-30 06:50:46,349 [main] INFO TestPhpTravels - URL opened
 2021-12-30 06:51:08,185 [main] INFO TestPhpTravels - 2 tabs opened for ejuniper is correct
+2021-12-31 06:23:41,604 [main] INFO TestPhpTravels - URL opened
+2021-12-31 06:24:08,103 [main] INFO TestPhpTravels - Url for Ejuniper is correct

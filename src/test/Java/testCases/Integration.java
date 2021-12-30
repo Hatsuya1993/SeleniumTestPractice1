@@ -258,4 +258,22 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheLinkForEjuniper() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getEjuniperLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("ejuniper")){
+            Assert.assertTrue(true);
+            logger.info("Url for Ejuniper is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the Ejuniper is incorrect");
+        }
+    }
+
 }
