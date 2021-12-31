@@ -39,4 +39,6 @@ public class IntegrationPagePOM {
     public WebElement getHotelstonDoc() { return driver.findElement(By.cssSelector("a[href*='modules/hotels/hotelston']"));}
 
     public WebElement getEjuniperLink() { return driver.findElement(By.cssSelector("a[href='http://www.ejuniper.com/']")); }
+
+    public WebElement getEjuniperDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/ejuniper-hotels']"));}
 }

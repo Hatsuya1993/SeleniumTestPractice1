@@ -276,4 +276,21 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheTabForEjuniperDoc() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getEjuniperDoc());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for ejuniper doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for ejuniper doc is incorrect");
+        }
+    }
+
 }
