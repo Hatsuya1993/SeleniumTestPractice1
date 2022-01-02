@@ -651,3 +651,6 @@
 2021-12-31 06:24:08,103 [main] INFO TestPhpTravels - Url for Ejuniper is correct
 2022-01-01 06:59:31,235 [main] INFO TestPhpTravels - URL opened
 2022-01-01 06:59:52,989 [main] INFO TestPhpTravels - 2 tabs opened for ejuniper doc is correct
+2022-01-02 09:24:46,612 [main] INFO TestPhpTravels - URL opened
+2022-01-02 09:25:51,659 [main] INFO TestPhpTravels - URL opened
+2022-01-02 09:26:17,601 [main] INFO TestPhpTravels - Url for Ejuniper doc is correct
