@@ -654,3 +654,5 @@
 2022-01-02 09:24:46,612 [main] INFO TestPhpTravels - URL opened
 2022-01-02 09:25:51,659 [main] INFO TestPhpTravels - URL opened
 2022-01-02 09:26:17,601 [main] INFO TestPhpTravels - Url for Ejuniper doc is correct
+2022-01-03 06:51:56,285 [main] INFO TestPhpTravels - URL opened
+2022-01-03 06:52:22,172 [main] INFO TestPhpTravels - Url for expedia doc is correct

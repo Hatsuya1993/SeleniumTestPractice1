@@ -18,27 +18,27 @@ public class IntegrationPagePOM {
 
 
 
-    public WebElement getPageContent() {
-        return driver.findElement(By.cssSelector("div.container.module"));
-    }
+    public WebElement getPageContent() { return driver.findElement(By.cssSelector("div.container.module"));}
 
-    public WebElement getTravelPortLink() { return driver.findElement(By.cssSelector("a[href*='travelport']")); }
+    public WebElement getTravelPortLink() { return driver.findElement(By.cssSelector("a[href*='travelport']"));}
 
-    public WebElement getTravelPortDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/travelport']")); }
+    public WebElement getTravelPortDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/travelport']"));}
 
-    public WebElement getTravelPayoutLink() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']")); }
+    public WebElement getTravelPayoutLink() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']"));}
 
-    public WebElement getTravelPayoutDoc() { return driver.findElement(By.cssSelector("a[href*='flights/travelpayouts-flights']")); }
+    public WebElement getTravelPayoutDoc() { return driver.findElement(By.cssSelector("a[href*='flights/travelpayouts-flights']"));}
 
-    public List<WebElement> modulesInfo() { return driver.findElements(By.cssSelector(".module h4")); }
+    public List<WebElement> modulesInfo() { return driver.findElements(By.cssSelector(".module h4"));}
 
-    public WebElement getHotelBedsLink() { return driver.findElement(By.cssSelector("a[href*=hotelbeds]")); }
+    public WebElement getHotelBedsLink() { return driver.findElement(By.cssSelector("a[href*=hotelbeds]"));}
 
-    public WebElement getHotelstonLink() { return driver.findElement(By.cssSelector("a[href*=hotelston]")); }
+    public WebElement getHotelstonLink() { return driver.findElement(By.cssSelector("a[href*=hotelston]"));}
 
     public WebElement getHotelstonDoc() { return driver.findElement(By.cssSelector("a[href*='modules/hotels/hotelston']"));}
 
-    public WebElement getEjuniperLink() { return driver.findElement(By.cssSelector("a[href='http://www.ejuniper.com/']")); }
+    public WebElement getEjuniperLink() { return driver.findElement(By.cssSelector("a[href='http://www.ejuniper.com/']"));}
 
     public WebElement getEjuniperDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/ejuniper-hotels']"));}
+
+    public WebElement getExpediaLink() { return driver.findElement(By.cssSelector("a[href*='https://www.expedia.com/']"));}
 }

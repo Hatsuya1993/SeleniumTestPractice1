@@ -311,4 +311,21 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheLinkForExpedia() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getExpediaLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("expedia")){
+            Assert.assertTrue(true);
+            logger.info("Url for expedia is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the expedia is incorrect");
+        }
+    }
 }
