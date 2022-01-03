@@ -328,4 +328,21 @@ public class Integration extends Base{
             logger.info("Url for the expedia is incorrect");
         }
     }
+
+    @Test
+    public void checkTheTabForExpediac() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getExpediaLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Expediac doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for Expediac doc is incorrect");
+        }
+    }
 }

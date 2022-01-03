@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="17" total="18" passed="1" failed="0" skipped="0">
+<testng-results ignored="18" total="19" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-03T06:51:53 SGT" name="All Test Suite" finished-at="2022-01-03T06:52:22 SGT" duration-ms="29949">
+  <suite started-at="2022-01-04T06:52:19 SGT" name="All Test Suite" finished-at="2022-01-04T06:52:45 SGT" duration-ms="26274">
     <groups>
     </groups>
-    <test started-at="2022-01-03T06:51:53 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-01-03T06:52:22 SGT" duration-ms="29949">
+    <test started-at="2022-01-04T06:52:19 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-01-04T06:52:45 SGT" duration-ms="26274">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@4e50c791]" started-at="2022-01-03T06:51:53 SGT" name="setup" finished-at="2022-01-03T06:51:56 SGT" duration-ms="3096" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@399c4be1]" started-at="2022-01-04T06:52:19 SGT" name="setup" finished-at="2022-01-04T06:52:22 SGT" duration-ms="3266" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheLinkForExpedia()[pri:0, instance:testCases.Integration@4e50c791]" started-at="2022-01-03T06:51:56 SGT" name="checkTheLinkForExpedia" finished-at="2022-01-03T06:52:22 SGT" duration-ms="25874" status="PASS">
+        <test-method signature="checkTheTabForExpediac()[pri:0, instance:testCases.Integration@399c4be1]" started-at="2022-01-04T06:52:22 SGT" name="checkTheTabForExpediac" finished-at="2022-01-04T06:52:44 SGT" duration-ms="22003" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheLinkForExpedia -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@4e50c791]" started-at="2022-01-03T06:52:22 SGT" name="teardown" finished-at="2022-01-03T06:52:22 SGT" duration-ms="798" status="PASS">
+        </test-method> <!-- checkTheTabForExpediac -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@399c4be1]" started-at="2022-01-04T06:52:44 SGT" name="teardown" finished-at="2022-01-04T06:52:45 SGT" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
