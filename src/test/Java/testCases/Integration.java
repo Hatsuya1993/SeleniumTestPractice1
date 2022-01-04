@@ -330,7 +330,7 @@ public class Integration extends Base{
     }
 
     @Test
-    public void checkTheTabForExpediac() throws InterruptedException {
+    public void checkTheTabForExpedia() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getIntegrationLink());
@@ -338,11 +338,28 @@ public class Integration extends Base{
         available.clickItem(integrationPagePOM.getExpediaLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
-            logger.info("2 tabs opened for Expediac doc is correct");
+            logger.info("2 tabs opened for Expedia is correct");
         }
         else{
             Assert.fail();
-            logger.info("2 tabs opened for Expediac doc is incorrect");
+            logger.info("2 tabs opened for Expedia is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheTabForExpediaDoc() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getExpediaDoc());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Expedia doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for Expedia doc is incorrect");
         }
     }
 }

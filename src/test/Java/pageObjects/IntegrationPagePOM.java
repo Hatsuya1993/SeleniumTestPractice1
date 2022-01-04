@@ -41,4 +41,6 @@ public class IntegrationPagePOM {
     public WebElement getEjuniperDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/ejuniper-hotels']"));}
 
     public WebElement getExpediaLink() { return driver.findElement(By.cssSelector("a[href*='https://www.expedia.com/']"));}
+
+    public WebElement getExpediaDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/expedia']")); }
 }
