@@ -664,3 +664,6 @@
 2022-01-06 06:50:58,337 - TestPhpTravels -INFO - Url for expedia doc is correct
 2022-01-07 06:54:17,922 - TestPhpTravels -INFO - URL opened
 2022-01-07 06:54:40,810 - TestPhpTravels -INFO - 2 tabs opened for travel payouts is correct
+2022-01-08 06:49:06,388 - TestPhpTravels -INFO - URL opened
+2022-01-08 06:50:09,900 - TestPhpTravels -INFO - URL opened
+2022-01-08 06:50:39,869 - TestPhpTravels -INFO - Url for travelpayouts is correct
