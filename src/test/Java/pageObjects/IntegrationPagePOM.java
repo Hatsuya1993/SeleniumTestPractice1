@@ -45,4 +45,6 @@ public class IntegrationPagePOM {
     public WebElement getExpediaDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/expedia']")); }
 
     public WebElement getTravelPayoutsLink() { return driver.findElement(By.cssSelector("a[href*='travelpayouts']")); }
+
+    public WebElement getTravelPayoutsDoc() { return driver.findElement(By.cssSelector("a[href*='flights/travelpayouts-flights']")); }
 }
