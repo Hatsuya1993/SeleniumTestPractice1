@@ -669,3 +669,5 @@
 2022-01-08 06:50:39,869 [main] INFO TestPhpTravels - Url for travelpayouts is correct
 2022-01-09 07:00:24,286 [main] INFO TestPhpTravels - URL opened
 2022-01-09 07:00:46,515 [main] INFO TestPhpTravels - 2 tabs opened for travel payouts doc is correct
+2022-01-10 09:04:56,825 [main] INFO TestPhpTravels - URL opened
+2022-01-10 09:05:21,689 [main] INFO TestPhpTravels - Url for travelpayouts is correct
