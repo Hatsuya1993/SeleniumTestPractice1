@@ -450,4 +450,21 @@ public class Integration extends Base{
             logger.info("Url for the travelpayouts is incorrect");
         }
     }
+
+    @Test
+    public void checkTheTabForViators() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getViatorsLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for viators doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for viators doc is incorrect");
+        }
+    }
 }
