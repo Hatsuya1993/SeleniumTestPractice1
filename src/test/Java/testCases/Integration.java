@@ -460,11 +460,11 @@ public class Integration extends Base{
         available.clickItem(integrationPagePOM.getViatorsLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
-            logger.info("2 tabs opened for viators doc is correct");
+            logger.info("2 tabs opened for viators is correct");
         }
         else{
             Assert.fail();
-            logger.info("2 tabs opened for viators doc is incorrect");
+            logger.info("2 tabs opened for viators is incorrect");
         }
     }
 
@@ -483,6 +483,23 @@ public class Integration extends Base{
         else{
             Assert.fail();
             logger.info("Url for the viator is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheTabForViatorsDoc() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getViatorsDoc());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for viators doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for viators doc is incorrect");
         }
     }
 
