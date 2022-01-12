@@ -467,4 +467,23 @@ public class Integration extends Base{
             logger.info("2 tabs opened for viators doc is incorrect");
         }
     }
+
+    @Test
+    public void checkTheLinkForViators() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getViatorsLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("viator")){
+            Assert.assertTrue(true);
+            logger.info("Url for viator is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the viator is incorrect");
+        }
+    }
+
 }
