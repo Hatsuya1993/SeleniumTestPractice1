@@ -677,3 +677,5 @@
 2022-01-12 08:26:00,560 [main] INFO TestPhpTravels - Url for viator is correct
 2022-01-13 07:48:52,997 [main] INFO TestPhpTravels - URL opened
 2022-01-13 07:49:15,892 [main] INFO TestPhpTravels - 2 tabs opened for viators doc is correct
+2022-01-14 09:55:09,960 [main] INFO TestPhpTravels - URL opened
+2022-01-14 09:55:35,160 [main] INFO TestPhpTravels - Url for viator doc is correct

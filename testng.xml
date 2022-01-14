@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.Integration">
                 <methods>
-                    <include name="checkTheTabForViatorsDoc"/>
+                    <include name="checkTheLinkForViatorsDoc"/>
                 </methods>
             </class>
         </classes>

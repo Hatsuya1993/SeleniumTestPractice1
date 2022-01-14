@@ -503,4 +503,22 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheLinkForViatorsDoc() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getViatorsDoc());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("modules/tours/viator")){
+            Assert.assertTrue(true);
+            logger.info("Url for viator doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the viator doc is incorrect");
+        }
+    }
+
 }
