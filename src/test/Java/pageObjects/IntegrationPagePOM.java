@@ -51,4 +51,6 @@ public class IntegrationPagePOM {
     public WebElement getViatorsLink() { return driver.findElement(By.cssSelector("a[href*='viator']")); }
 
     public WebElement getViatorsDoc() { return driver.findElement(By.cssSelector("a[href*='tours/viator']")); }
+
+    public WebElement getCartrawlerLink() { return driver.findElement(By.cssSelector("a[href*='cartrawler']")); }
 }
