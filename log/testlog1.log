@@ -681,3 +681,5 @@
 2022-01-14 09:55:35,160 [main] INFO TestPhpTravels - Url for viator doc is correct
 2022-01-15 16:17:38,489 [main] INFO TestPhpTravels - URL opened
 2022-01-15 16:18:00,455 [main] INFO TestPhpTravels - 2 tabs opened for Cartrawler is correct
+2022-01-16 16:31:22,536 [main] INFO TestPhpTravels - URL opened
+2022-01-16 16:31:51,049 [main] INFO TestPhpTravels - Url for cartrawler is correct

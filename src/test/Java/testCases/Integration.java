@@ -538,4 +538,22 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheLinkForCartrawler() throws InterruptedException {
+        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
+        Thread.sleep(helper.shortWait);
+        available.clickItem(demoPagePOM.getIntegrationLink());
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getCartrawlerLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("cartrawler")){
+            Assert.assertTrue(true);
+            logger.info("Url for cartrawler is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the cartrawler is incorrect");
+        }
+    }
+
 }
