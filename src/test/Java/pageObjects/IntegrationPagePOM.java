@@ -4,16 +4,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import utilities.ReadConfig;
 
 import java.util.List;
 
 public class IntegrationPagePOM {
+
+    ReadConfig readConfig = new ReadConfig();
+
+    public String integrationURL = readConfig.getIntegrationURL();
 
     WebDriver driver;
 
     public IntegrationPagePOM(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(this.driver, this);
+        this.driver.get(integrationURL);
     }
 
 
@@ -53,4 +59,6 @@ public class IntegrationPagePOM {
     public WebElement getViatorsDoc() { return driver.findElement(By.cssSelector("a[href*='tours/viator']")); }
 
     public WebElement getCartrawlerLink() { return driver.findElement(By.cssSelector("a[href*='cartrawler']")); }
+
+    public WebElement getKiwitaxiLink() { return driver.findElement(By.cssSelector("a[href*='kiwitaxi']"));}
 }

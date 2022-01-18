@@ -556,4 +556,20 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheTabForKiwitaxi() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getKiwitaxiLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Kiwitaxi is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for Kiwitaxi is incorrect");
+        }
+    }
+
+//    Change all the integration for the old test cases to this current one
+
 }

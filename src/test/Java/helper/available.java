@@ -2,11 +2,10 @@ package helper;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class available {
@@ -65,5 +64,12 @@ public class available {
          }
          return true;
     }
+
+    public static void hoverElement (WebElement data, WebDriver driver) {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(data);
+    }
+
+
 
 }

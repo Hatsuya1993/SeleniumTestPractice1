@@ -28,6 +28,11 @@ public class ReadConfig {
         return url;
     }
 
+    public String getIntegrationURL() {
+        String url = pro.getProperty("integrationURL");
+        return url;
+    }
+
     public String getChromePath() {
         String chromePath = pro.getProperty("chromepath");
         return chromePath;
