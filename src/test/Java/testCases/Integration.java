@@ -14,12 +14,7 @@ import java.util.List;
 public class Integration extends Base{
 
     @Test
-    public void checkTheDefaultContent() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
-        Actions actions = new Actions(driver);
-        actions.scrollHelper(400);
+    public void checkTheDefaultContent() {
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         if(integrationPagePOM.getPageContent().isDisplayed()){
             Assert.assertTrue(true);
@@ -33,9 +28,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForTravelPort() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPortLink());
         if(driver.getWindowHandles().size() == 2){
@@ -50,9 +42,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForTravelPort() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPortLink());
         available.switchTab(1, driver);
@@ -68,9 +57,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForTravelPortDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPortDoc());
         if(driver.getWindowHandles().size() == 2){
@@ -85,9 +71,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForTravelPayOut() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPayoutLink());
         if(driver.getWindowHandles().size() == 2){
@@ -102,9 +85,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForTravelPayOut() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPayoutLink());
         available.switchTab(1, driver);
@@ -119,9 +99,6 @@ public class Integration extends Base{
     }
     @Test
     public void checkTheTabForTravelPayOutDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPayoutDoc());
         if(driver.getWindowHandles().size() == 2){
@@ -137,9 +114,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTitleDataForModules() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         List<String> data = Arrays.asList("Flights Modules", "Hotels Modules", "Tours Modules", "Cars Modules", "Multi-Vendor Manual Modules");
         Boolean results = available.checkEachValue(data, integrationPagePOM.modulesInfo());
@@ -155,9 +129,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForHotelBeds() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getHotelBedsLink());
         available.switchTab(1, driver);
@@ -173,9 +144,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForHotelston() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getHotelstonLink());
         if(driver.getWindowHandles().size() == 2){
@@ -190,9 +158,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForHotelston() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getHotelstonLink());
         available.switchTab(1, driver);
@@ -208,9 +173,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForHotelstonDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getHotelstonDoc());
         if(driver.getWindowHandles().size() == 2){
@@ -225,9 +187,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForHotelstonDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getHotelstonDoc());
         available.switchTab(1, driver);
@@ -243,9 +202,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForEjuniper() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getEjuniperLink());
         if(driver.getWindowHandles().size() == 2){
@@ -260,9 +216,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForEjuniper() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getEjuniperLink());
         available.switchTab(1, driver);
@@ -278,9 +231,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForEjuniperDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getEjuniperDoc());
         if(driver.getWindowHandles().size() == 2){
@@ -295,9 +245,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForEjuniperDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getEjuniperDoc());
         available.switchTab(1, driver);
@@ -313,9 +260,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForExpedia() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getExpediaLink());
         available.switchTab(1, driver);
@@ -331,9 +275,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForExpedia() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getExpediaLink());
         if(driver.getWindowHandles().size() == 2){
@@ -348,9 +289,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForExpediaDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getExpediaDoc());
         if(driver.getWindowHandles().size() == 2){
@@ -365,9 +303,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForExpediaDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getExpediaDoc());
         available.switchTab(1, driver);
@@ -383,9 +318,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForTravelPayouts() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPayoutsLink());
         if(driver.getWindowHandles().size() == 2){
@@ -400,9 +332,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForTravelPayouts() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPayoutsLink());
         available.switchTab(1, driver);
@@ -418,9 +347,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForTravelPayoutsDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPayoutsDoc());
         if(driver.getWindowHandles().size() == 2){
@@ -435,9 +361,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForTravelPayoutsDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getTravelPayoutsDoc());
         available.switchTab(1, driver);
@@ -453,9 +376,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForViators() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getViatorsLink());
         if(driver.getWindowHandles().size() == 2){
@@ -470,9 +390,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForViators() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getViatorsLink());
         available.switchTab(1, driver);
@@ -488,9 +405,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForViatorsDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getViatorsDoc());
         if(driver.getWindowHandles().size() == 2){
@@ -505,9 +419,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForViatorsDoc() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getViatorsDoc());
         available.switchTab(1, driver);
@@ -523,9 +434,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheTabForCartrawler() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getCartrawlerLink());
         if(driver.getWindowHandles().size() == 2){
@@ -540,9 +448,6 @@ public class Integration extends Base{
 
     @Test
     public void checkTheLinkForCartrawler() throws InterruptedException {
-        DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.clickItem(integrationPagePOM.getCartrawlerLink());
         available.switchTab(1, driver);
@@ -570,6 +475,19 @@ public class Integration extends Base{
         }
     }
 
-//    Change all the integration for the old test cases to this current one
+    @Test
+    public void checkTheLinkForKiwitaxi() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getKiwitaxiLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("kiwitaxi")){
+            Assert.assertTrue(true);
+            logger.info("Url for kiwitaxi is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the kiwitaxi is incorrect");
+        }
+    }
 
 }
