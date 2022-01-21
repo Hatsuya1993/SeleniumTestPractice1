@@ -490,4 +490,17 @@ public class Integration extends Base{
         }
     }
 
+    @Test
+    public void checkTheTabForIway() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getIwayLink());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Iway is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for Iway is incorrect");
+        }
+    }
 }

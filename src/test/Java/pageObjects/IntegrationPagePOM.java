@@ -61,4 +61,6 @@ public class IntegrationPagePOM {
     public WebElement getCartrawlerLink() { return driver.findElement(By.cssSelector("a[href*='cartrawler']")); }
 
     public WebElement getKiwitaxiLink() { return driver.findElement(By.cssSelector("a[href*='kiwitaxi']"));}
+
+    public WebElement getIwayLink() { return driver.findElement(By.cssSelector("a[href*=iway]")); }
 }
