@@ -503,4 +503,19 @@ public class Integration extends Base{
             logger.info("2 tabs opened for Iway is incorrect");
         }
     }
+
+    @Test
+    public void checkTheLinkForIway() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getIwayLink());
+        available.switchTab(1, driver);
+        if(driver.getCurrentUrl().contains("iway")){
+            Assert.assertTrue(true);
+            logger.info("Url for iway is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for the iway is incorrect");
+        }
+    }
 }

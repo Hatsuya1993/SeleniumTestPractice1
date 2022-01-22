@@ -691,3 +691,5 @@
 2022-01-20 08:29:16,688 [main] INFO TestPhpTravels - Url for kiwitaxi is correct
 2022-01-21 09:20:18,809 [main] INFO TestPhpTravels - URL opened
 2022-01-21 09:20:32,361 [main] INFO TestPhpTravels - 2 tabs opened for Iway is correct
+2022-01-22 11:36:45,848 [main] INFO TestPhpTravels - URL opened
+2022-01-22 11:36:59,676 [main] INFO TestPhpTravels - Url for iway is correct
