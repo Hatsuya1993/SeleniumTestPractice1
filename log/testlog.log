@@ -695,3 +695,6 @@
 2022-01-22 11:36:59,676 - TestPhpTravels -INFO - Url for iway is correct
 2022-01-23 17:33:06,368 - TestPhpTravels -INFO - URL opened
 2022-01-23 17:33:19,515 - TestPhpTravels -INFO - 2 tabs opened for Flight Module Doc is correct
+2022-01-24 10:02:18,875 - TestPhpTravels -INFO - URL opened
+2022-01-24 10:04:01,367 - TestPhpTravels -INFO - URL opened
+2022-01-24 10:04:21,537 - TestPhpTravels -INFO - Url for FlightModuleDoc is correct
