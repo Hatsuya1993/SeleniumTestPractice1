@@ -547,4 +547,18 @@ public class Integration extends Base{
             logger.info("Url for the FlightModuleDoc is incorrect");
         }
     }
+
+    @Test
+    public void checkTheTabForHotelModuleDoc() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getHotelsModuleDoc());
+        if(driver.getWindowHandles().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Hotel Module Doc is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 tabs opened for Hotel Module Doc is incorrect");
+        }
+    }
 }

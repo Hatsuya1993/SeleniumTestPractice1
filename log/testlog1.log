@@ -698,3 +698,6 @@
 2022-01-24 10:02:18,875 [main] INFO TestPhpTravels - URL opened
 2022-01-24 10:04:01,367 [main] INFO TestPhpTravels - URL opened
 2022-01-24 10:04:21,537 [main] INFO TestPhpTravels - Url for FlightModuleDoc is correct
+2022-01-25 07:42:03,134 [main] INFO TestPhpTravels - URL opened
+2022-01-25 07:42:47,145 [main] INFO TestPhpTravels - URL opened
+2022-01-25 07:42:56,971 [main] INFO TestPhpTravels - 2 tabs opened for Hotel Module Doc is correct
