@@ -69,4 +69,6 @@ public class IntegrationPagePOM {
     public WebElement getHotelsModuleDoc() { return driver.findElement(By.cssSelector("a[href*='hotels/standard-hotels-module']"));}
 
     public WebElement getToursModuleDoc() { return driver.findElement(By.cssSelector("a[href*='modules/tours/viator']"));}
+
+    public WebElement getCarsModuleDoc() { return driver.findElement(By.cssSelector("a[href*='modules/cars/standard-cars-module']"));}
 }
