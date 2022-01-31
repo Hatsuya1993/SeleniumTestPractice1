@@ -71,4 +71,6 @@ public class IntegrationPagePOM {
     public WebElement getToursModuleDoc() { return driver.findElement(By.cssSelector("a[href*='modules/tours/viator']"));}
 
     public WebElement getCarsModuleDoc() { return driver.findElement(By.cssSelector("a[href*='modules/cars/standard-cars-module']"));}
+
+    public WebElement getBoatsModule() { return driver.findElement(By.cssSelector("a[href*='modules/extras/boats-cruises']"));}
 }
