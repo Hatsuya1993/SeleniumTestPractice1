@@ -713,3 +713,6 @@
 2022-01-30 07:45:22,632 [main] INFO TestPhpTravels - Url for Cars Doc is correct
 2022-01-31 09:34:47,797 [main] INFO TestPhpTravels - URL opened
 2022-01-31 09:34:57,916 [main] INFO TestPhpTravels - 2 tabs opened for Boats Module Doc is correct
+2022-02-01 18:59:38,923 [main] INFO TestPhpTravels - URL opened
+2022-02-01 19:00:46,742 [main] INFO TestPhpTravels - URL opened
+2022-02-01 19:00:59,606 [main] INFO TestPhpTravels - Url for Boats Doc is correct
