@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="44" total="45" passed="1" failed="0" skipped="0">
+<testng-results ignored="45" total="46" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-01T19:00:43 SGT" name="All Test Suite" finished-at="2022-02-01T19:01:00 SGT" duration-ms="16506">
+  <suite started-at="2022-02-02T06:52:26 SGT" name="All Test Suite" finished-at="2022-02-02T06:52:39 SGT" duration-ms="13821">
     <groups>
     </groups>
-    <test started-at="2022-02-01T19:00:43 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-01T19:01:00 SGT" duration-ms="16506">
+    <test started-at="2022-02-02T06:52:26 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-02T06:52:39 SGT" duration-ms="13821">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@10d68fcd]" started-at="2022-02-01T19:00:43 SGT" name="setup" finished-at="2022-02-01T19:00:46 SGT" duration-ms="2749" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@1757cd72]" started-at="2022-02-02T06:52:26 SGT" name="setup" finished-at="2022-02-02T06:52:29 SGT" duration-ms="3003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheLinkForBoatsModuleDoc()[pri:0, instance:testCases.Integration@10d68fcd]" started-at="2022-02-01T19:00:46 SGT" name="checkTheLinkForBoatsModuleDoc" finished-at="2022-02-01T19:00:59 SGT" duration-ms="12859" status="PASS">
+        <test-method signature="checkTheTabForRentalsModuleDoc()[pri:0, instance:testCases.Integration@1757cd72]" started-at="2022-02-02T06:52:29 SGT" name="checkTheTabForRentalsModuleDoc" finished-at="2022-02-02T06:52:39 SGT" duration-ms="9911" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheLinkForBoatsModuleDoc -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@10d68fcd]" started-at="2022-02-01T19:00:59 SGT" name="teardown" finished-at="2022-02-01T19:01:00 SGT" duration-ms="686" status="PASS">
+        </test-method> <!-- checkTheTabForRentalsModuleDoc -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@1757cd72]" started-at="2022-02-02T06:52:39 SGT" name="teardown" finished-at="2022-02-02T06:52:39 SGT" duration-ms="722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
