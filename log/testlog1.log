@@ -722,3 +722,21 @@
 2022-02-03 08:18:49,809 [main] INFO TestPhpTravels - Url for Rentals Doc is correct
 2022-02-04 09:44:41,356 [main] INFO TestPhpTravels - URL opened
 2022-02-04 09:44:53,185 [main] INFO TestPhpTravels - Url for Google Map is correct
+2022-02-05 06:55:47,584 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:55:48,434 [main] INFO TestPhpTravels - Default content for integration is correct
+2022-02-05 06:55:51,608 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:56:05,948 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:56:19,942 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:56:34,726 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:56:49,269 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:57:03,146 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:57:17,172 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:57:31,604 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:57:45,800 [main] INFO TestPhpTravels - URL opened
+2022-02-05 06:57:59,892 [main] INFO TestPhpTravels - URL opened
+2022-02-05 07:04:22,996 [main] INFO TestPhpTravels - URL opened
+2022-02-05 07:04:24,737 [main] INFO TestPhpTravels - Default content for integration is correct
+2022-02-05 07:04:27,856 [main] INFO TestPhpTravels - URL opened
+2022-02-05 07:04:40,583 [main] INFO TestPhpTravels - Url for travel port is correct
+2022-02-05 07:04:43,799 [main] INFO TestPhpTravels - URL opened
+2022-02-05 07:04:53,450 [main] INFO TestPhpTravels - 2 tabs opened for travel port is correct

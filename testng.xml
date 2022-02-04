@@ -8,9 +8,9 @@
     <test verbose="2" preserve-order="true" name="C:/Users/hal19/IdeaProjects/TestPhpTravels">
         <classes>
             <class name="testCases.Integration">
-                <methods>
-                    <include name="checkTheTabForGoogleMapLink"/>
-                </methods>
+<!--                <methods>-->
+<!--                    <include name="checkTheTabForGoogleMapLink"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>
