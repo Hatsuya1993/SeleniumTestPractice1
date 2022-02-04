@@ -691,4 +691,18 @@ public class Integration extends Base{
             logger.info("Url for Rentals Doc is incorrect");
         }
     }
+
+    @Test
+    public void checkTheTabForGoogleMapLink() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getGoogleMapLink());
+        if(driver.getCurrentUrl().contains("documentation/javascript/get-api-key")){
+            Assert.assertTrue(true);
+            logger.info("Url for Google Map is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Url for Google Map is incorrect");
+        }
+    }
 }

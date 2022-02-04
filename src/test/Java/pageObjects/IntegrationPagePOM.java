@@ -75,4 +75,6 @@ public class IntegrationPagePOM {
     public WebElement getBoatsModule() { return driver.findElement(By.cssSelector("a[href*='modules/extras/boats-cruises']"));}
 
     public WebElement getRentalsModule() { return driver.findElement(By.cssSelector("a[href*='modules/extras/rentals']"));}
+
+    public WebElement getGoogleMapLink() { return driver.findElement(By.cssSelector("a[href*='google.com/maps/documentation/javascript']")); }
 }
