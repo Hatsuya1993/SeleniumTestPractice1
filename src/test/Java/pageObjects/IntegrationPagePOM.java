@@ -25,4 +25,6 @@ public class IntegrationPagePOM {
     public WebElement getPageContent() { return driver.findElement(By.cssSelector("div.container.module"));}
 
     public WebElement getTravelPort() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/utzhq']"));}
+
+    public WebElement getAmadeus() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/nevel'"));}
 }

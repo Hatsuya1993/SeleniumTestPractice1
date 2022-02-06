@@ -45,4 +45,32 @@ public class Integration extends Base {
             logger.info("Url for the travel port is incorrect");
         }
     }
+
+    @Test
+    public void checkTheTabForAmadeus() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getAmadeus());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Amadeus is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for Amadeus is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForAmadeus() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getAmadeus());
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/nevel")) {
+            Assert.assertTrue(true);
+            logger.info("Url for Amadeus is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the Amadeus is incorrect");
+        }
+    }
+
 }

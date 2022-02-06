@@ -740,3 +740,7 @@
 2022-02-05 07:04:40,583 - TestPhpTravels -INFO - Url for travel port is correct
 2022-02-05 07:04:43,799 - TestPhpTravels -INFO - URL opened
 2022-02-05 07:04:53,450 - TestPhpTravels -INFO - 2 tabs opened for travel port is correct
+2022-02-06 10:46:35,747 - TestPhpTravels -INFO - URL opened
+2022-02-06 10:46:45,568 - TestPhpTravels -INFO - 2 tabs opened for Amadeus is correct
+2022-02-06 10:46:48,665 - TestPhpTravels -INFO - URL opened
+2022-02-06 10:47:01,580 - TestPhpTravels -INFO - Url for Amadeus is correct
