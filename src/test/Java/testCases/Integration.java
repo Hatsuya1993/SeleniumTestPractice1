@@ -73,4 +73,31 @@ public class Integration extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabForAerticket() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getAerticket());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Aerticket is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for Aerticket is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForAerticket() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.clickItem(integrationPagePOM.getAerticket());
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/aerticket")) {
+            Assert.assertTrue(true);
+            logger.info("Url for Aerticket is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the Aerticket is incorrect");
+        }
+    }
+
 }
