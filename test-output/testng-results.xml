@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-07T09:12:23 SGT" name="All Test Suite" finished-at="2022-02-07T09:12:40 SGT" duration-ms="17259">
+  <suite started-at="2022-02-08T08:45:01 SGT" name="All Test Suite" finished-at="2022-02-08T08:45:18 SGT" duration-ms="17006">
     <groups>
     </groups>
-    <test started-at="2022-02-07T09:12:23 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-07T09:12:40 SGT" duration-ms="17259">
+    <test started-at="2022-02-08T08:45:01 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-08T08:45:18 SGT" duration-ms="17006">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@7530ad9c]" started-at="2022-02-07T09:12:23 SGT" name="setup" finished-at="2022-02-07T09:12:26 SGT" duration-ms="3459" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@609cd4d8]" started-at="2022-02-08T08:45:01 SGT" name="setup" finished-at="2022-02-08T08:45:04 SGT" duration-ms="2973" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheLinkForAerticket()[pri:0, instance:testCases.Integration@7530ad9c]" started-at="2022-02-07T09:12:26 SGT" name="checkTheLinkForAerticket" finished-at="2022-02-07T09:12:39 SGT" duration-ms="12787" status="PASS">
+        <test-method signature="checkTheLinkForKiwiFlights()[pri:0, instance:testCases.Integration@609cd4d8]" started-at="2022-02-08T08:45:04 SGT" name="checkTheLinkForKiwiFlights" finished-at="2022-02-08T08:45:17 SGT" duration-ms="13077" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheLinkForAerticket -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@7530ad9c]" started-at="2022-02-07T09:12:39 SGT" name="teardown" finished-at="2022-02-07T09:12:40 SGT" duration-ms="691" status="PASS">
+        </test-method> <!-- checkTheLinkForKiwiFlights -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@609cd4d8]" started-at="2022-02-08T08:45:17 SGT" name="teardown" finished-at="2022-02-08T08:45:18 SGT" duration-ms="724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

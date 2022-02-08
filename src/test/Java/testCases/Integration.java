@@ -100,4 +100,31 @@ public class Integration extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabForKiwiFlights() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getKiwiFlights(), driver);
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for KiwiFlights is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for KiwiFlights is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForKiwiFlights() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getKiwiFlights(), driver);
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/kiwimodule")) {
+            Assert.assertTrue(true);
+            logger.info("Url for KiwiFlights is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the KiwiFlights is incorrect");
+        }
+    }
+
 }

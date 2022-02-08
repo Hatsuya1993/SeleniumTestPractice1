@@ -9,8 +9,7 @@
         <classes>
             <class name="testCases.Integration">
                 <methods>
-<!--                    <include name="checkTheTabForAerticket"/>-->
-                    <include name="checkTheLinkForAerticket"/>
+                    <include name="checkTheLinkForKiwiFlights"/>
                 </methods>
             </class>
         </classes>

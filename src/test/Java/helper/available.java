@@ -2,8 +2,10 @@ package helper;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,6 +70,18 @@ public class available {
     public static void hoverElement (WebElement data, WebDriver driver) {
         Actions actions = new Actions(driver);
         actions.moveToElement(data);
+    }
+
+    public static void hoverClick(WebElement data, WebDriver driver) throws InterruptedException {
+        Thread.sleep(helper.shortWait);
+         Actions actions = new Actions(driver);
+        if(displayed(data)){
+            actions.moveToElement(data).click(data).perform();
+            Thread.sleep(helper.shortWait);
+        }
+        else{
+            System.out.println("clickItem Failed");
+        }
     }
 
 
