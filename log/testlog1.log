@@ -777,3 +777,7 @@
 2022-02-08 08:43:42,661 [main] INFO TestPhpTravels - 2 tabs opened for KiwiFlights is correct
 2022-02-08 08:45:04,305 [main] INFO TestPhpTravels - URL opened
 2022-02-08 08:45:17,392 [main] INFO TestPhpTravels - Url for KiwiFlights is correct
+2022-02-09 09:15:02,846 [main] INFO TestPhpTravels - URL opened
+2022-02-09 09:15:12,872 [main] INFO TestPhpTravels - 2 tabs opened for travelpayouts is correct
+2022-02-09 09:15:15,809 [main] INFO TestPhpTravels - URL opened
+2022-02-09 09:15:28,811 [main] INFO TestPhpTravels - Url for travelpayouts is correct

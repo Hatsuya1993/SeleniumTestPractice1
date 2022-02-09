@@ -127,4 +127,31 @@ public class Integration extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabForTravelPayouts() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getTravelPayouts(), driver);
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for travelpayouts is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for travelpayouts is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForTravelPayouts() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getTravelPayouts(), driver);
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/travelpayouts")) {
+            Assert.assertTrue(true);
+            logger.info("Url for travelpayouts is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the travelpayouts is incorrect");
+        }
+    }
+
 }
