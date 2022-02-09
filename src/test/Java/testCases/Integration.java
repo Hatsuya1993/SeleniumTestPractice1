@@ -154,4 +154,31 @@ public class Integration extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabForViatorTours() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getViatorTours(), driver);
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for ViatorTours is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for ViatorTours is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForViatorTours() throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getViatorTours(), driver);
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/viator")) {
+            Assert.assertTrue(true);
+            logger.info("Url for ViatorTours is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the ViatorTours is incorrect");
+        }
+    }
+
 }

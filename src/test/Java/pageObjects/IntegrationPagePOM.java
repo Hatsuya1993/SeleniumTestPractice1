@@ -33,4 +33,6 @@ public class IntegrationPagePOM {
     public WebElement getKiwiFlights() { return driver.findElement(By.cssSelector(".item_id_Kiwi a[href*='phptravels.gumroad.com/l/bplom']"));}
 
     public WebElement getTravelPayouts() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/vurcy']"));}
+
+    public WebElement getViatorTours() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/fxaax']"));}
 }

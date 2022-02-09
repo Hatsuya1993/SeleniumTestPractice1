@@ -781,3 +781,7 @@
 2022-02-09 09:15:12,872 - TestPhpTravels -INFO - 2 tabs opened for travelpayouts is correct
 2022-02-09 09:15:15,809 - TestPhpTravels -INFO - URL opened
 2022-02-09 09:15:28,811 - TestPhpTravels -INFO - Url for travelpayouts is correct
+2022-02-10 07:39:08,368 - TestPhpTravels -INFO - URL opened
+2022-02-10 07:39:18,577 - TestPhpTravels -INFO - 2 tabs opened for ViatorTours is correct
+2022-02-10 07:39:21,599 - TestPhpTravels -INFO - URL opened
+2022-02-10 07:39:34,543 - TestPhpTravels -INFO - Url for ViatorTours is correct
