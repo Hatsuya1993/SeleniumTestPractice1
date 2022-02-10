@@ -181,4 +181,31 @@ public class Integration extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabForHotelbeds () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getHotelBeds(), driver);
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Hotelbeds is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for Hotelbeds is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForHotelbeds () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getHotelBeds(), driver);
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/hotelbeds")) {
+            Assert.assertTrue(true);
+            logger.info("Url for Hotelbeds is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the Hotelbeds is incorrect");
+        }
+    }
+
 }

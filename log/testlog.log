@@ -785,3 +785,7 @@
 2022-02-10 07:39:18,577 - TestPhpTravels -INFO - 2 tabs opened for ViatorTours is correct
 2022-02-10 07:39:21,599 - TestPhpTravels -INFO - URL opened
 2022-02-10 07:39:34,543 - TestPhpTravels -INFO - Url for ViatorTours is correct
+2022-02-11 06:55:19,017 - TestPhpTravels -INFO - URL opened
+2022-02-11 06:55:29,140 - TestPhpTravels -INFO - 2 tabs opened for Hotelbeds is correct
+2022-02-11 06:55:32,241 - TestPhpTravels -INFO - URL opened
+2022-02-11 06:55:46,047 - TestPhpTravels -INFO - Url for Hotelbeds is correct
