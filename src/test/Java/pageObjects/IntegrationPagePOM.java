@@ -37,4 +37,6 @@ public class IntegrationPagePOM {
     public WebElement getViatorTours() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/fxaax']"));}
 
     public WebElement getHotelBeds() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/yqgbc']"));}
+
+    public WebElement getAgodaHotels() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/xyznu']"));}
 }
