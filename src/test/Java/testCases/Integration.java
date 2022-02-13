@@ -235,4 +235,31 @@ public class Integration extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabForRezliveHote () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getRezliveHotel(), driver);
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for RezliveHote is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for RezliveHote is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForRezliveHote () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getRezliveHotel(), driver);
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/rezlive")) {
+            Assert.assertTrue(true);
+            logger.info("Url for RezliveHote is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the RezliveHote is incorrect");
+        }
+    }
+
 }

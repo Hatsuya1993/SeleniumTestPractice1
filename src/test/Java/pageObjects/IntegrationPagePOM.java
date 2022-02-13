@@ -39,4 +39,6 @@ public class IntegrationPagePOM {
     public WebElement getHotelBeds() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/yqgbc']"));}
 
     public WebElement getAgodaHotels() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/xyznu']"));}
+
+    public WebElement getRezliveHotel() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/xgles']"));}
 }
