@@ -236,7 +236,7 @@ public class Integration extends Base {
     }
 
     @Test
-    public void checkTheTabForRezliveHote () throws InterruptedException {
+    public void checkTheTabForRezliveHotel () throws InterruptedException {
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.hoverClick(integrationPagePOM.getRezliveHotel(), driver);
         if (driver.getWindowHandles().size() == 2) {
@@ -249,7 +249,7 @@ public class Integration extends Base {
     }
 
     @Test
-    public void checkTheLinkForRezliveHote () throws InterruptedException {
+    public void checkTheLinkForRezliveHotel () throws InterruptedException {
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
         available.hoverClick(integrationPagePOM.getRezliveHotel(), driver);
         available.switchTab(1, driver);
@@ -259,6 +259,33 @@ public class Integration extends Base {
         } else {
             Assert.fail();
             logger.info("Url for the RezliveHote is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheTabForHotelstonHotel () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getHotelstonHotel(), driver);
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for HotelstonHotel is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for HotelstonHotel is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForHotelstonHotel () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getHotelstonHotel(), driver);
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/hotelston")) {
+            Assert.assertTrue(true);
+            logger.info("Url for HotelstonHotel is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the HotelstonHotel is incorrect");
         }
     }
 
