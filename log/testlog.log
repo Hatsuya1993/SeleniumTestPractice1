@@ -801,3 +801,7 @@
 2022-02-14 07:09:08,849 - TestPhpTravels -INFO - 2 tabs opened for HotelstonHotel is correct
 2022-02-14 07:09:11,895 - TestPhpTravels -INFO - URL opened
 2022-02-14 07:09:24,916 - TestPhpTravels -INFO - Url for HotelstonHotel is correct
+2022-02-15 08:22:33,240 - TestPhpTravels -INFO - URL opened
+2022-02-15 08:22:43,381 - TestPhpTravels -INFO - 2 tabs opened for getCRMHubSpot is correct
+2022-02-15 08:22:46,330 - TestPhpTravels -INFO - URL opened
+2022-02-15 08:22:59,240 - TestPhpTravels -INFO - Url for getCRMHubSpot is correct
