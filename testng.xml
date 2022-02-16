@@ -9,8 +9,8 @@
         <classes>
             <class name="testCases.Integration">
                 <methods>
-                    <include name="checkTheTabForCRMHubSpot"/>
-                    <include name="checkTheLinkForCRMHubSpot"/>
+                    <include name="checkTheTabForCustomGateways"/>
+                    <include name="checkTheLinkForCustomGateways"/>
                 </methods>
             </class>
         </classes>
