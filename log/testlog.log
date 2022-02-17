@@ -809,3 +809,7 @@
 2022-02-16 08:09:47,619 - TestPhpTravels -INFO - 2 tabs opened for getCustomGateways is correct
 2022-02-16 08:09:50,544 - TestPhpTravels -INFO - URL opened
 2022-02-16 08:10:03,481 - TestPhpTravels -INFO - Url for getCustomGateways is correct
+2022-02-17 08:54:00,858 - TestPhpTravels -INFO - URL opened
+2022-02-17 08:54:10,942 - TestPhpTravels -INFO - 2 tabs opened for SetmposYKB is correct
+2022-02-17 08:54:14,286 - TestPhpTravels -INFO - URL opened
+2022-02-17 08:54:27,599 - TestPhpTravels -INFO - Url for SetmposYKB is correct

@@ -47,4 +47,6 @@ public class IntegrationPagePOM {
     public WebElement getCRMHubSpot() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/fljug']"));}
 
     public WebElement getCustomGateways() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/kblry']"));}
+
+    public WebElement getSetmposYKB() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/hdrpv']"));}
 }

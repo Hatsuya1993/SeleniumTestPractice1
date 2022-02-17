@@ -9,8 +9,8 @@
         <classes>
             <class name="testCases.Integration">
                 <methods>
-                    <include name="checkTheTabForCustomGateways"/>
-                    <include name="checkTheLinkForCustomGateways"/>
+                    <include name="checkTheTabForSetmposYKB"/>
+                    <include name="checkTheLinkForSetmposYKB"/>
                 </methods>
             </class>
         </classes>

@@ -342,4 +342,31 @@ public class Integration extends Base {
             logger.info("Url for the getCustomGateways is incorrect");
         }
     }
+
+    @Test
+    public void checkTheTabForSetmposYKB () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getSetmposYKB(), driver);
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for SetmposYKB is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for SetmposYKB is incorrect");
+        }
+    }
+
+    @Test
+    public void checkTheLinkForSetmposYKB () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getSetmposYKB(), driver);
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/posnet")) {
+            Assert.assertTrue(true);
+            logger.info("Url for SetmposYKB is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the SetmposYKB is incorrect");
+        }
+    }
 }

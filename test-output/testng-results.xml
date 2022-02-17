@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="23" total="25" passed="2" failed="0" skipped="0">
+<testng-results ignored="25" total="27" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-16T08:09:33 SGT" name="All Test Suite" finished-at="2022-02-16T08:10:04 SGT" duration-ms="30763">
+  <suite started-at="2022-02-17T08:53:55 SGT" name="All Test Suite" finished-at="2022-02-17T08:54:28 SGT" duration-ms="32727">
     <groups>
     </groups>
-    <test started-at="2022-02-16T08:09:33 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-16T08:10:04 SGT" duration-ms="30763">
+    <test started-at="2022-02-17T08:53:55 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-17T08:54:28 SGT" duration-ms="32727">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@75db5df9]" started-at="2022-02-16T08:09:33 SGT" name="setup" finished-at="2022-02-16T08:09:37 SGT" duration-ms="3840" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:53:55 SGT" name="setup" finished-at="2022-02-17T08:54:00 SGT" duration-ms="4960" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheTabForCustomGateways()[pri:0, instance:testCases.Integration@75db5df9]" started-at="2022-02-16T08:09:37 SGT" name="checkTheTabForCustomGateways" finished-at="2022-02-16T08:09:47 SGT" duration-ms="10085" status="PASS">
+        <test-method signature="checkTheTabForSetmposYKB()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:00 SGT" name="checkTheTabForSetmposYKB" finished-at="2022-02-17T08:54:10 SGT" duration-ms="10075" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheTabForCustomGateways -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@75db5df9]" started-at="2022-02-16T08:09:47 SGT" name="teardown" finished-at="2022-02-16T08:09:48 SGT" duration-ms="793" status="PASS">
+        </test-method> <!-- checkTheTabForSetmposYKB -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:10 SGT" name="teardown" finished-at="2022-02-17T08:54:11 SGT" duration-ms="813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@75db5df9]" started-at="2022-02-16T08:09:48 SGT" name="setup" finished-at="2022-02-16T08:09:50 SGT" duration-ms="2116" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:11 SGT" name="setup" finished-at="2022-02-17T08:54:14 SGT" duration-ms="2515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheLinkForCustomGateways()[pri:0, instance:testCases.Integration@75db5df9]" started-at="2022-02-16T08:09:50 SGT" name="checkTheLinkForCustomGateways" finished-at="2022-02-16T08:10:03 SGT" duration-ms="12936" status="PASS">
+        <test-method signature="checkTheLinkForSetmposYKB()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:14 SGT" name="checkTheLinkForSetmposYKB" finished-at="2022-02-17T08:54:27 SGT" duration-ms="13310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheLinkForCustomGateways -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@75db5df9]" started-at="2022-02-16T08:10:03 SGT" name="teardown" finished-at="2022-02-16T08:10:04 SGT" duration-ms="795" status="PASS">
+        </test-method> <!-- checkTheLinkForSetmposYKB -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:27 SGT" name="teardown" finished-at="2022-02-17T08:54:28 SGT" duration-ms="743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
