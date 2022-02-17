@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="25" total="27" passed="2" failed="0" skipped="0">
+<testng-results ignored="27" total="28" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-17T08:53:55 SGT" name="All Test Suite" finished-at="2022-02-17T08:54:28 SGT" duration-ms="32727">
+  <suite started-at="2022-02-18T07:11:39 SGT" name="All Test Suite" finished-at="2022-02-18T07:11:54 SGT" duration-ms="14805">
     <groups>
     </groups>
-    <test started-at="2022-02-17T08:53:55 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-17T08:54:28 SGT" duration-ms="32727">
+    <test started-at="2022-02-18T07:11:39 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-02-18T07:11:54 SGT" duration-ms="14805">
       <class name="testCases.Integration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:53:55 SGT" name="setup" finished-at="2022-02-17T08:54:00 SGT" duration-ms="4960" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@37271612]" started-at="2022-02-18T07:11:40 SGT" name="setup" finished-at="2022-02-18T07:11:43 SGT" duration-ms="3099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,30 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheTabForSetmposYKB()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:00 SGT" name="checkTheTabForSetmposYKB" finished-at="2022-02-17T08:54:10 SGT" duration-ms="10075" status="PASS">
+        <test-method signature="checkTheLinkForContactUs()[pri:0, instance:testCases.Integration@37271612]" started-at="2022-02-18T07:11:43 SGT" name="checkTheLinkForContactUs" finished-at="2022-02-18T07:11:53 SGT" duration-ms="10577" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheTabForSetmposYKB -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:10 SGT" name="teardown" finished-at="2022-02-17T08:54:11 SGT" duration-ms="813" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:11 SGT" name="setup" finished-at="2022-02-17T08:54:14 SGT" duration-ms="2515" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkTheLinkForSetmposYKB()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:14 SGT" name="checkTheLinkForSetmposYKB" finished-at="2022-02-17T08:54:27 SGT" duration-ms="13310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkTheLinkForSetmposYKB -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@5aebe890]" started-at="2022-02-17T08:54:27 SGT" name="teardown" finished-at="2022-02-17T08:54:28 SGT" duration-ms="743" status="PASS">
+        </test-method> <!-- checkTheLinkForContactUs -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Integration@37271612]" started-at="2022-02-18T07:11:53 SGT" name="teardown" finished-at="2022-02-18T07:11:54 SGT" duration-ms="808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -369,4 +369,17 @@ public class Integration extends Base {
             logger.info("Url for the SetmposYKB is incorrect");
         }
     }
+
+    @Test
+    public void checkTheLinkForContactUs () throws InterruptedException {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        available.hoverClick(integrationPagePOM.getContactUs(), driver);
+        if (driver.getCurrentUrl().contains("contact-us")) {
+            Assert.assertTrue(true);
+            logger.info("Url for ContactUs is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for the ContactUs is incorrect");
+        }
+    }
 }
