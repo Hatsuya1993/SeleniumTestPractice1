@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import utilities.ReadConfig;
 
+import java.util.List;
+
 public class IntegrationPagePOM {
 
     ReadConfig readConfig = new ReadConfig();
@@ -51,4 +53,6 @@ public class IntegrationPagePOM {
     public WebElement getSetmposYKB() { return driver.findElement(By.cssSelector("a[href*='phptravels.gumroad.com/l/hdrpv']"));}
 
     public WebElement getContactUs() { return driver.findElement(By.linkText("CONTACT US"));}
+
+    public List<WebElement> getSubHeading() { return driver.findElements(By.cssSelector("h2.heading"));}
 }

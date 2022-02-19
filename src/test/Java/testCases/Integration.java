@@ -382,4 +382,17 @@ public class Integration extends Base {
             logger.info("Url for the ContactUs is incorrect");
         }
     }
+
+    @Test
+    public void getHeading() {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        if(integrationPagePOM.getSubHeading().size() == 2){
+            Assert.assertTrue(true);
+            logger.info("2 sub heading module is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("2 sub heading module is not displayed");
+        }
+    }
 }

@@ -9,9 +9,9 @@
         <classes>
             <class name="testCases.Integration">
                 <methods>
-                    <include name="checkTheLinkForContactUs"/>
+                    <include name="getHeading"/>
                 </methods>
             </class>
-        </classes>
+        </classes>getHeading
     </test>
 </suite>
