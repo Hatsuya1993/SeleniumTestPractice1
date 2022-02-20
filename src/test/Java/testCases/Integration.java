@@ -5,6 +5,9 @@ import org.testng.annotations.Test;
 import pageObjects.IntegrationPagePOM;
 import helper.available;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Integration extends Base {
 
     @Test
@@ -393,6 +396,21 @@ public class Integration extends Base {
         else{
             Assert.fail();
             logger.info("2 sub heading module is not displayed");
+        }
+    }
+
+    @Test
+    public void checkHeading() {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        ArrayList<String> data = new ArrayList<>(Arrays.asList("Supplier Modules", "Payment Gateways"));
+        Boolean available = helper.available.checkEachValue(data, integrationPagePOM.getSubHeading());
+        if(available){
+            Assert.assertTrue(true);
+            logger.info("All sub heading values are correctly populated");
+        }
+        else{
+            Assert.fail();
+            logger.info("All sub heading values are not correctly populated");
         }
     }
 }

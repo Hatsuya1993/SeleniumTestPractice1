@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.Integration">
                 <methods>
-                    <include name="getHeading"/>
+                    <include name="checkHeading"/>
                 </methods>
             </class>
         </classes>getHeading

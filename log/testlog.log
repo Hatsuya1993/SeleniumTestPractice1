@@ -822,3 +822,5 @@
 2022-02-19 09:45:12,952 - TestPhpTravels -INFO - URL opened
 2022-02-19 09:47:04,568 - TestPhpTravels -INFO - URL opened
 2022-02-19 09:47:05,080 - TestPhpTravels -INFO - 2 sub heading module is displayed
+2022-02-20 09:57:50,088 - TestPhpTravels -INFO - URL opened
+2022-02-20 09:57:50,693 - TestPhpTravels -INFO - All sub heading values are correctly populated
