@@ -55,4 +55,6 @@ public class IntegrationPagePOM {
     public WebElement getContactUs() { return driver.findElement(By.linkText("CONTACT US"));}
 
     public List<WebElement> getSubHeading() { return driver.findElements(By.cssSelector("h2.heading"));}
+
+    public WebElement getTitle() { return driver.findElement(By.cssSelector("h2.title.strong"));}
 }

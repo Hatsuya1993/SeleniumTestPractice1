@@ -413,4 +413,17 @@ public class Integration extends Base {
             logger.info("All sub heading values are not correctly populated");
         }
     }
+
+    @Test
+    public void checkTitle() {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        if(integrationPagePOM.getTitle().isDisplayed()){
+            Assert.assertTrue(true);
+            logger.info("Title is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Title is not displayed");
+        }
+    }
 }
