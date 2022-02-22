@@ -426,4 +426,17 @@ public class Integration extends Base {
             logger.info("Title is not displayed");
         }
     }
+
+    @Test
+    public void checkTitleData() {
+        IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
+        if(integrationPagePOM.getTitle().getText().contains("Integrations Information")){
+            Assert.assertTrue(true);
+            logger.info("Title is correctly populated");
+        }
+        else{
+            Assert.fail();
+            logger.info("Title is not correctly populated");
+        }
+    }
 }

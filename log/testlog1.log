@@ -826,3 +826,5 @@
 2022-02-20 09:57:50,693 [main] INFO TestPhpTravels - All sub heading values are correctly populated
 2022-02-21 09:38:38,271 [main] INFO TestPhpTravels - URL opened
 2022-02-21 09:38:39,176 [main] INFO TestPhpTravels - Title is displayed
+2022-02-22 08:14:27,028 [main] INFO TestPhpTravels - URL opened
+2022-02-22 08:14:27,806 [main] INFO TestPhpTravels - Title is correctly populated
