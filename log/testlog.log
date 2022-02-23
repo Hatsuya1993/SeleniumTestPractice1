@@ -828,3 +828,6 @@
 2022-02-21 09:38:39,176 - TestPhpTravels -INFO - Title is displayed
 2022-02-22 08:14:27,028 - TestPhpTravels -INFO - URL opened
 2022-02-22 08:14:27,806 - TestPhpTravels -INFO - Title is correctly populated
+2022-02-23 09:54:17,410 - TestPhpTravels -INFO - URL opened
+2022-02-23 09:55:56,724 - TestPhpTravels -INFO - URL opened
+2022-02-23 09:56:00,388 - TestPhpTravels -INFO - Title is displayed for product services

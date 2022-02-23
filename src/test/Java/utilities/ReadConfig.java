@@ -33,6 +33,11 @@ public class ReadConfig {
         return url;
     }
 
+    public String getProductServices() {
+        String url = pro.getProperty("productServices");
+        return url;
+    }
+
     public String getChromePath() {
         String chromePath = pro.getProperty("chromepath");
         return chromePath;
