@@ -21,6 +21,19 @@ public class ProductServices extends Base {
     }
 
     @Test
+    public void checkTheTitleData() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.displayed(productServicesPOM.getTitle());
+        if (productServicesPOM.getTitle().getText().contains("Product Services")) {
+            Assert.assertTrue(true);
+            logger.info("Title is correctly populated for product services");
+        } else {
+            Assert.fail();
+            logger.info("Title is not correctly populated for product services");
+        }
+    }
+
+    @Test
     public void countNumberOfPanel() {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
         if(productServicesPOM.getListOfOptions().size() == 9){

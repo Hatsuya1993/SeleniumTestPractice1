@@ -833,3 +833,5 @@
 2022-02-23 09:56:00,388 [main] INFO TestPhpTravels - Title is displayed for product services
 2022-02-24 09:44:41,942 [main] INFO TestPhpTravels - URL opened
 2022-02-24 09:44:43,391 [main] INFO TestPhpTravels - Number of panels are correctly populated
+2022-02-25 07:14:44,913 [main] INFO TestPhpTravels - URL opened
+2022-02-25 07:14:48,707 [main] INFO TestPhpTravels - Title is correctly populated for product services

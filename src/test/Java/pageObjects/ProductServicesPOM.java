@@ -31,4 +31,6 @@ public class ProductServicesPOM {
     public WebElement getTitle() { return title; }
 
     public List<WebElement> getListOfOptions() { return driver.findElements(By.cssSelector(".panel-body")); }
+
+    public List<WebElement> getAllTitleOfOptions() { return driver.findElements(By.cssSelector(".panel-body .col-md-9 h3 strong")); }
 }

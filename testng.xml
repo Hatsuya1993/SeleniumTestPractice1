@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.ProductServices">
                 <methods>
-                    <include name="countNumberOfPanel"/>
+                    <include name="checkTheTitleData"/>
                 </methods>
             </class>
         </classes>
