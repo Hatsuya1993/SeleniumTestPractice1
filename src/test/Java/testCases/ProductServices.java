@@ -5,6 +5,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.ProductServicesPOM;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class ProductServices extends Base {
 
     @Test
@@ -43,6 +46,21 @@ public class ProductServices extends Base {
         else{
             Assert.fail();
             logger.info("Number of panels are incorrectly populated");
+        }
+    }
+
+    @Test
+    public void checkEachTitleForPanel() {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        List<String> data = Arrays.asList("Installation Web App", "Migrage Website / Upgrade Version", "Troubleshoot", "Additional License", "Payment Gateway Integration", "Extended Support", "Language Pack", "Personal Theme Integration", "XML or Json API Integration", "$100", "$200", "$100", "$100", "$1000", "$100", "$2000", "$2500", "$100");
+        Boolean results = available.checkEachValue(data, productServicesPOM.getAllTitleOfOptions());
+        if(results){
+            Assert.assertTrue(true);
+            logger.info("All titles are correctly populated");
+        }
+        else{
+            Assert.fail();
+            logger.info("All titles are incorrectly populated");
         }
     }
 

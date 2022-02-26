@@ -835,3 +835,7 @@
 2022-02-24 09:44:43,391 - TestPhpTravels -INFO - Number of panels are correctly populated
 2022-02-25 07:14:44,913 - TestPhpTravels -INFO - URL opened
 2022-02-25 07:14:48,707 - TestPhpTravels -INFO - Title is correctly populated for product services
+2022-02-26 09:23:50,667 - TestPhpTravels -INFO - URL opened
+2022-02-26 09:26:14,338 - TestPhpTravels -INFO - URL opened
+2022-02-26 09:30:18,556 - TestPhpTravels -INFO - URL opened
+2022-02-26 09:30:19,806 - TestPhpTravels -INFO - All titles are correctly populated
