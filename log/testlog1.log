@@ -839,3 +839,5 @@
 2022-02-26 09:26:14,338 [main] INFO TestPhpTravels - URL opened
 2022-02-26 09:30:18,556 [main] INFO TestPhpTravels - URL opened
 2022-02-26 09:30:19,806 [main] INFO TestPhpTravels - All titles are correctly populated
+2022-02-27 09:01:23,130 [main] INFO TestPhpTravels - URL opened
+2022-02-27 09:01:33,141 [main] INFO TestPhpTravels - 2 tabs opened for InstallationWebApp is correct

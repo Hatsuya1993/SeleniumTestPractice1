@@ -3,6 +3,7 @@ package testCases;
 import helper.available;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pageObjects.IntegrationPagePOM;
 import pageObjects.ProductServicesPOM;
 
 import java.util.Arrays;
@@ -61,6 +62,19 @@ public class ProductServices extends Base {
         else{
             Assert.fail();
             logger.info("All titles are incorrectly populated");
+        }
+    }
+
+    @Test
+    public void checkTheTabForInstallationWebApp() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getOrderNowForInstallation());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for InstallationWebApp is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for InstallationWebApp is incorrect");
         }
     }
 
