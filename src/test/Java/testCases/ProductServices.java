@@ -78,4 +78,18 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheLinkForInstallationWebApp() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getOrderNowForInstallation());
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
+            Assert.assertTrue(true);
+            logger.info("Url for InstallationWebApp is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for InstallationWebApp is incorrect");
+        }
+    }
+
 }
