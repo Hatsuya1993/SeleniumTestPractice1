@@ -843,3 +843,6 @@
 2022-02-27 09:01:33,141 [main] INFO TestPhpTravels - 2 tabs opened for InstallationWebApp is correct
 2022-02-28 06:52:18,079 [main] INFO TestPhpTravels - URL opened
 2022-02-28 06:52:31,405 [main] INFO TestPhpTravels - Url for InstallationWebApp is correct
+2022-03-01 07:40:02,667 [main] INFO TestPhpTravels - URL opened
+2022-03-01 07:40:58,824 [main] INFO TestPhpTravels - URL opened
+2022-03-01 07:41:08,756 [main] INFO TestPhpTravels - 2 tabs opened for MigrageWebsite is correct

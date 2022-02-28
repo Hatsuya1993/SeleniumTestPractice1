@@ -35,4 +35,6 @@ public class ProductServicesPOM {
     public List<WebElement> getAllTitleOfOptions() { return driver.findElements(By.cssSelector(".panel-body .col-md-9 h3 strong")); }
 
     public WebElement getOrderNowForInstallation() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=13'] button span")); }
+
+    public WebElement getMigrageWebsite() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=27'] button span"));}
 }

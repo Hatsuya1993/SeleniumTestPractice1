@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.ProductServices">
                 <methods>
-                    <include name="checkTheLinkForInstallationWebApp"/>
+                    <include name="checkTheTabForMigrageWebsite"/>
                 </methods>
             </class>
         </classes>
