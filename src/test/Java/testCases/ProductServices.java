@@ -105,4 +105,18 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheLinkForMigrageWebsite() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getMigrageWebsite());
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
+            Assert.assertTrue(true);
+            logger.info("Url for MigrageWebsite is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for MigrageWebsite is incorrect");
+        }
+    }
+
 }
