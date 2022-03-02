@@ -119,4 +119,17 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabTroubleshoot() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getTroubleshoot());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for Troubleshoot is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for Troubleshoot is incorrect");
+        }
+    }
+
 }
