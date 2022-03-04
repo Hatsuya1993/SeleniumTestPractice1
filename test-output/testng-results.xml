@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
+<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-03T07:49:16 SGT" name="All Test Suite" finished-at="2022-03-03T07:49:31 SGT" duration-ms="15360">
+  <suite started-at="2022-03-04T08:47:26 SGT" name="All Test Suite" finished-at="2022-03-04T08:47:44 SGT" duration-ms="18076">
     <groups>
     </groups>
-    <test started-at="2022-03-03T07:49:16 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-03-03T07:49:31 SGT" duration-ms="15360">
+    <test started-at="2022-03-04T08:47:26 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-03-04T08:47:44 SGT" duration-ms="18076">
       <class name="testCases.ProductServices">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.ProductServices@6913c1fb]" started-at="2022-03-03T07:49:16 SGT" name="setup" finished-at="2022-03-03T07:49:20 SGT" duration-ms="4258" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.ProductServices@7530ad9c]" started-at="2022-03-04T08:47:26 SGT" name="setup" finished-at="2022-03-04T08:47:30 SGT" duration-ms="4011" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkTheTabTroubleshoot()[pri:0, instance:testCases.ProductServices@6913c1fb]" started-at="2022-03-03T07:49:20 SGT" name="checkTheTabTroubleshoot" finished-at="2022-03-03T07:49:30 SGT" duration-ms="9913" status="PASS">
+        <test-method signature="checkTheLinkForTroubleshoot()[pri:0, instance:testCases.ProductServices@7530ad9c]" started-at="2022-03-04T08:47:30 SGT" name="checkTheLinkForTroubleshoot" finished-at="2022-03-04T08:47:43 SGT" duration-ms="12857" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTheTabTroubleshoot -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.ProductServices@6913c1fb]" started-at="2022-03-03T07:49:30 SGT" name="teardown" finished-at="2022-03-03T07:49:31 SGT" duration-ms="865" status="PASS">
+        </test-method> <!-- checkTheLinkForTroubleshoot -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.ProductServices@7530ad9c]" started-at="2022-03-04T08:47:43 SGT" name="teardown" finished-at="2022-03-04T08:47:44 SGT" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -132,4 +132,18 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheLinkForTroubleshoot() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getTroubleshoot());
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("cart.php?a=confproduct&i=0")) {
+            Assert.assertTrue(true);
+            logger.info("Url for Troubleshoot is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for Troubleshoot is incorrect");
+        }
+    }
+
 }
