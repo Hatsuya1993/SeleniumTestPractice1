@@ -146,4 +146,17 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabAdditionalLicense() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getAdditionalLicense());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for AdditionalLicense is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for AdditionalLicense is incorrect");
+        }
+    }
+
 }
