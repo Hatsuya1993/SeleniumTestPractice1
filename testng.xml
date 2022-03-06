@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.ProductServices">
                 <methods>
-                    <include name="checkTheTabAdditionalLicense"/>
+                    <include name="checkTheLinkForAdditionalLicense"/>
                 </methods>
             </class>
         </classes>

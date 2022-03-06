@@ -856,3 +856,5 @@
 2022-03-04 08:47:43,712 [main] INFO TestPhpTravels - Url for Troubleshoot is correct
 2022-03-05 08:41:54,662 [main] INFO TestPhpTravels - URL opened
 2022-03-05 08:42:04,344 [main] INFO TestPhpTravels - 2 tabs opened for AdditionalLicense is correct
+2022-03-06 09:21:48,007 [main] INFO TestPhpTravels - URL opened
+2022-03-06 09:22:01,914 [main] INFO TestPhpTravels - Url for AdditionalLicense is correct
