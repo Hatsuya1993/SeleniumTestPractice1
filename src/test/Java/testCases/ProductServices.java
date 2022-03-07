@@ -173,4 +173,17 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabPaymentGateway() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getPaymentGateway());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for PaymentGateway is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for PaymentGateway is incorrect");
+        }
+    }
+
 }
