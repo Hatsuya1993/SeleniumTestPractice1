@@ -861,3 +861,5 @@
 2022-03-07 09:42:46,412 [main] INFO TestPhpTravels - URL opened
 2022-03-07 09:43:36,038 [main] INFO TestPhpTravels - URL opened
 2022-03-07 09:43:45,715 [main] INFO TestPhpTravels - 2 tabs opened for PaymentGateway is correct
+2022-03-08 09:14:50,769 [main] INFO TestPhpTravels - URL opened
+2022-03-08 09:15:03,683 [main] INFO TestPhpTravels - Url for PaymentGateway is correct

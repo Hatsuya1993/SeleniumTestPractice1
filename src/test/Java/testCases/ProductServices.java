@@ -186,4 +186,18 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheLinkForPaymentGateway() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getPaymentGateway());
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("cart.php?a=confproduct&i=0")) {
+            Assert.assertTrue(true);
+            logger.info("Url for PaymentGateway is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for PaymentGateway is incorrect");
+        }
+    }
+
 }
