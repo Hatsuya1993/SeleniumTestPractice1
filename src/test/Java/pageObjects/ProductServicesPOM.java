@@ -45,4 +45,6 @@ public class ProductServicesPOM {
     public WebElement getPaymentGateway() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=25'] button span")); }
 
     public WebElement getExtendedSupport() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=26'] button span"));}
+
+
 }
