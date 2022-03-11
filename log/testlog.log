@@ -868,3 +868,5 @@
 2022-03-10 10:03:40,169 - TestPhpTravels -INFO - URL opened
 2022-03-10 10:04:18,133 - TestPhpTravels -INFO - URL opened
 2022-03-10 10:04:31,017 - TestPhpTravels -INFO - Url for ExtendedSupport is correct
+2022-03-11 09:21:56,804 - TestPhpTravels -INFO - URL opened
+2022-03-11 09:22:06,831 - TestPhpTravels -INFO - 2 tabs opened for LanguagePack is correct

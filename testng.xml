@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.ProductServices">
                 <methods>
-                    <include name="checkTheLinkForExtendedSupport"/>
+                    <include name="checkTheTabLanguagePack"/>
                 </methods>
             </class>
         </classes>

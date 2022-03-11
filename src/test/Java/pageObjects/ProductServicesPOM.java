@@ -46,5 +46,5 @@ public class ProductServicesPOM {
 
     public WebElement getExtendedSupport() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=26'] button span"));}
 
-
+    public WebElement getLanguagePack() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=24'] button span")); }
 }
