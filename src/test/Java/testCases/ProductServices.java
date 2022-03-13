@@ -254,4 +254,17 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabPersonalTheme() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getPersonalTheme());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for PersonalTheme is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for PersonalTheme is incorrect");
+        }
+    }
+
 }
