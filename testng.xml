@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.ProductServices">
                 <methods>
-                    <include name="checkTheLinkForPersonalTheme"/>
+                    <include name="checkTheTabJsonAPI"/>
                 </methods>
             </class>
         </classes>

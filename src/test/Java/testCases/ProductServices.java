@@ -281,4 +281,17 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheTabJsonAPI() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getJsonAPI());
+        if (driver.getWindowHandles().size() == 2) {
+            Assert.assertTrue(true);
+            logger.info("2 tabs opened for JsonAPI is correct");
+        } else {
+            Assert.fail();
+            logger.info("2 tabs opened for JsonAPI is incorrect");
+        }
+    }
+
 }

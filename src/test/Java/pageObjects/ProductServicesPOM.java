@@ -49,4 +49,6 @@ public class ProductServicesPOM {
     public WebElement getLanguagePack() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=24'] button span")); }
 
     public WebElement getPersonalTheme() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=43'] button span")); }
+
+    public WebElement getJsonAPI() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=44'] button span")); }
 }

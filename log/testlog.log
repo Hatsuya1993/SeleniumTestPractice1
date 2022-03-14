@@ -877,3 +877,7 @@
 2022-03-14 08:45:48,866 - TestPhpTravels -INFO - URL opened
 2022-03-14 08:46:44,078 - TestPhpTravels -INFO - URL opened
 2022-03-14 08:46:57,829 - TestPhpTravels -INFO - Url for PersonalTheme is correct
+2022-03-15 06:45:55,154 - TestPhpTravels -INFO - URL opened
+2022-03-15 06:46:25,731 - TestPhpTravels -INFO - URL opened
+2022-03-15 06:47:51,495 - TestPhpTravels -INFO - URL opened
+2022-03-15 06:48:01,388 - TestPhpTravels -INFO - 2 tabs opened for JsonAPI is correct
