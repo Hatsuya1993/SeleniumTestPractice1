@@ -874,3 +874,6 @@
 2022-03-12 10:53:53,560 - TestPhpTravels -INFO - Url for LanguagePack is correct
 2022-03-13 09:43:00,144 - TestPhpTravels -INFO - URL opened
 2022-03-13 09:43:09,851 - TestPhpTravels -INFO - 2 tabs opened for PersonalTheme is correct
+2022-03-14 08:45:48,866 - TestPhpTravels -INFO - URL opened
+2022-03-14 08:46:44,078 - TestPhpTravels -INFO - URL opened
+2022-03-14 08:46:57,829 - TestPhpTravels -INFO - Url for PersonalTheme is correct

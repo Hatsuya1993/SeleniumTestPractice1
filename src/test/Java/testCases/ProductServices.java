@@ -267,4 +267,18 @@ public class ProductServices extends Base {
         }
     }
 
+    @Test
+    public void checkTheLinkForPersonalTheme() throws InterruptedException {
+        ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
+        available.clickItem(productServicesPOM.getPersonalTheme());
+        available.switchTab(1, driver);
+        if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
+            Assert.assertTrue(true);
+            logger.info("Url for PersonalTheme is correct");
+        } else {
+            Assert.fail();
+            logger.info("Url for PersonalTheme is incorrect");
+        }
+    }
+
 }
