@@ -881,3 +881,5 @@
 2022-03-15 06:46:25,731 [main] INFO TestPhpTravels - URL opened
 2022-03-15 06:47:51,495 [main] INFO TestPhpTravels - URL opened
 2022-03-15 06:48:01,388 [main] INFO TestPhpTravels - 2 tabs opened for JsonAPI is correct
+2022-03-16 07:30:27,716 [main] INFO TestPhpTravels - URL opened
+2022-03-16 07:30:41,536 [main] INFO TestPhpTravels - Url for JsonAPI is correct
