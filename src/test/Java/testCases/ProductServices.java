@@ -3,7 +3,6 @@ package testCases;
 import helper.available;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageObjects.IntegrationPagePOM;
 import pageObjects.ProductServicesPOM;
 
 import java.util.Arrays;
