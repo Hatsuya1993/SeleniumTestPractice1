@@ -1,4 +1,21 @@
 package pageObjects;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import utilities.ReadConfig;
+
 public class MainFeaturesPagePOM {
+
+    ReadConfig readConfig = new ReadConfig();
+
+    public String mainFeaturesURL = readConfig.getMainFeatures();
+
+    WebDriver driver;
+
+    public MainFeaturesPagePOM(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(this.driver, this);
+        this.driver.get(mainFeaturesURL);
+    }
+
 }
