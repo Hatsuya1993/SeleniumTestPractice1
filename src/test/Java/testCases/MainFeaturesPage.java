@@ -19,4 +19,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void checkHeaderIsDisplayed() {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(mainFeaturesPagePOM.getMainFeaturesHeader().isDisplayed()){
+            Assert.assertTrue(true);
+            logger.info("Header is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Header is not displayed");
+        }
+    }
+
 }
