@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.MainFeaturesPage">
                 <methods>
-                    <include name="checkHeaderIsDisplayed"/>
+                    <include name="checkSectionIsDisplayed"/>
                 </methods>
             </class>
         </classes>

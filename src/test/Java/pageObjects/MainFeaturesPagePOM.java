@@ -24,4 +24,5 @@ public class MainFeaturesPagePOM {
         return driver.findElement(By.cssSelector(".BS-header"));
     }
 
+    public WebElement getMainFeaturesSection() { return driver.findElement(By.cssSelector(".is-highlighted")); }
 }

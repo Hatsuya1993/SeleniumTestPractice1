@@ -887,3 +887,5 @@
 2022-03-18 09:31:28,676 - TestPhpTravels -INFO - URL is correnct
 2022-03-19 09:06:54,256 - TestPhpTravels -INFO - URL opened
 2022-03-19 09:06:54,810 - TestPhpTravels -INFO - Header is displayed
+2022-03-20 10:10:38,119 - TestPhpTravels -INFO - URL opened
+2022-03-20 10:10:38,783 - TestPhpTravels -INFO - Section is displayed
