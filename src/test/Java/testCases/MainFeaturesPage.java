@@ -58,4 +58,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void checkRegionIsDisplayed() {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(mainFeaturesPagePOM.getRegions().isDisplayed()){
+            Assert.assertTrue(true);
+            logger.info("Region is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Region is not displayed");
+        }
+    }
+
 }
