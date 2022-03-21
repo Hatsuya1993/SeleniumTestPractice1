@@ -45,4 +45,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void checkProcessIsDisplayed() {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(mainFeaturesPagePOM.getProcess().isDisplayed()){
+            Assert.assertTrue(true);
+            logger.info("Process is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Process is not displayed");
+        }
+    }
+
 }

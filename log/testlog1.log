@@ -889,3 +889,5 @@
 2022-03-19 09:06:54,810 [main] INFO TestPhpTravels - Header is displayed
 2022-03-20 10:10:38,119 [main] INFO TestPhpTravels - URL opened
 2022-03-20 10:10:38,783 [main] INFO TestPhpTravels - Section is displayed
+2022-03-21 08:14:32,626 [main] INFO TestPhpTravels - URL opened
+2022-03-21 08:14:34,147 [main] INFO TestPhpTravels - Process is displayed
