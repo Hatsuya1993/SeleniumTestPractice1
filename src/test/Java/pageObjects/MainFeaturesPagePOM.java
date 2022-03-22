@@ -29,4 +29,6 @@ public class MainFeaturesPagePOM {
     public WebElement getProcess() { return driver.findElement(By.cssSelector("#process")); }
 
     public WebElement getRegions() { return driver.findElement(By.cssSelector(".regions")); }
+
+    public WebElement getFooter() { return driver.findElement(By.cssSelector(".BS-footer")); }
 }

@@ -71,4 +71,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void checkFooterIsDisplayed() {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(mainFeaturesPagePOM.getFooter().isDisplayed()){
+            Assert.assertTrue(true);
+            logger.info("Footer is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Footer is not displayed");
+        }
+    }
+
 }

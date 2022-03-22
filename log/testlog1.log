@@ -893,3 +893,5 @@
 2022-03-21 08:14:34,147 [main] INFO TestPhpTravels - Process is displayed
 2022-03-22 07:39:04,113 [main] INFO TestPhpTravels - URL opened
 2022-03-22 07:39:04,783 [main] INFO TestPhpTravels - Region is displayed
+2022-03-23 07:43:10,953 [main] INFO TestPhpTravels - URL opened
+2022-03-23 07:43:11,581 [main] INFO TestPhpTravels - Footer is displayed
