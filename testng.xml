@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.MainFeaturesPage">
                 <methods>
-                    <include name="checkFooterIsDisplayed"/>
+                    <include name="checkBannerIsDisplayed"/>
                 </methods>
             </class>
         </classes>

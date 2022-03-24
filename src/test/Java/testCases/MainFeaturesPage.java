@@ -33,6 +33,19 @@ public class MainFeaturesPage extends Base {
     }
 
     @Test
+    public void checkBannerIsDisplayed() {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(mainFeaturesPagePOM.getbanner().isDisplayed()){
+            Assert.assertTrue(true);
+            logger.info("Banner is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Banner is not displayed");
+        }
+    }
+
+    @Test
     public void checkSectionIsDisplayed() {
         MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
         if(mainFeaturesPagePOM.getMainFeaturesSection().isDisplayed()){
