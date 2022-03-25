@@ -17,7 +17,7 @@ public class Order extends Base{
     public void checkDefaultDataDisplayed()throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getpricingLink());
+        available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         if(order.getOrderPage().isDisplayed()){
             Assert.assertTrue(true);
@@ -33,7 +33,7 @@ public class Order extends Base{
     public void checkDefaultButtonBuyNow() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getpricingLink());
+        available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         if(available.checkEnabled(order.getBuyNowButton(), driver) == false){
             Assert.assertTrue(true);
@@ -49,7 +49,7 @@ public class Order extends Base{
     public void checkButtonActive() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getpricingLink());
+        available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         if(order.selectCheckBox("1")){
             if(available.checkEnabled(order.getBuyNowButton(), driver) == true){
@@ -71,7 +71,7 @@ public class Order extends Base{
     public void checkURLForConfirmOrder() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getpricingLink());
+        available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         Actions actions = new Actions(driver);
         if(order.selectCheckBox("1")){
@@ -95,7 +95,7 @@ public class Order extends Base{
     public void checkButtonDisabledDefaultForOrder() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getpricingLink());
+        available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         Actions actions = new Actions(driver);
         OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);
@@ -120,7 +120,7 @@ public class Order extends Base{
     public void checkTheInputsAfterDataAdded() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getpricingLink());
+        available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         Actions actions = new Actions(driver);
         OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);

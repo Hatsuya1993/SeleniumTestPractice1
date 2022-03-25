@@ -20,17 +20,29 @@ public class MainFeaturesPagePOM {
         this.driver.get(mainFeaturesURL);
     }
 
+    private static final By header = By.cssSelector(".BS-header");
+
+    private  static final By banner = By.cssSelector(".templates-page");
+
+    private static final By mainFeaturesSection = By.cssSelector(".is-highlighted");
+
+    private static final By process = By.cssSelector("#process");
+
+    private static final By regions = By.cssSelector(".regions");
+
+    private static final By footer = By.cssSelector(".BS-footer");
+
     public WebElement getMainFeaturesHeader() {
-        return driver.findElement(By.cssSelector(".BS-header"));
+        return driver.findElement(header);
     }
 
-    public WebElement getbanner() { return driver.findElement(By.cssSelector(".templates-page")); }
+    public WebElement getBanner() { return driver.findElement(banner); }
 
-    public WebElement getMainFeaturesSection() { return driver.findElement(By.cssSelector(".is-highlighted")); }
+    public WebElement getMainFeaturesSection() { return driver.findElement(mainFeaturesSection); }
 
-    public WebElement getProcess() { return driver.findElement(By.cssSelector("#process")); }
+    public WebElement getProcess() { return driver.findElement(process); }
 
-    public WebElement getRegions() { return driver.findElement(By.cssSelector(".regions")); }
+    public WebElement getRegions() { return driver.findElement(regions); }
 
-    public WebElement getFooter() { return driver.findElement(By.cssSelector(".BS-footer")); }
+    public WebElement getFooter() { return driver.findElement(footer); }
 }

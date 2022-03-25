@@ -7,8 +7,6 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.List;
-
 public class DemoPagePOM {
 
     WebDriver driver;
@@ -140,8 +138,9 @@ public class DemoPagePOM {
 
     @FindBy(linkText = "Public Chat")
     @CacheLookup
-    WebElement publicChatlink;
+    WebElement publicChatLink;
 
+    private static By jobsLink = By.cssSelector("span.jobs");
 
 
     public String getTitle(){
@@ -150,7 +149,7 @@ public class DemoPagePOM {
 
     public String getSubTitle() { return subTitle.getText(); }
 
-    public String getheaderTitle() { return headerTitle.getText(); }
+    public String getHeaderTitle() { return headerTitle.getText(); }
 
     public String getHeaderDesc() { return headerDesc.getText(); }
 
@@ -162,7 +161,7 @@ public class DemoPagePOM {
 
     public WebElement getDemoLink() { return demoLink; }
 
-    public WebElement getpricingLink() { return pricingLink; }
+    public WebElement getPricingLink() { return pricingLink; }
 
     public WebElement getIntegrationLink() { return integrationLink; }
 
@@ -196,7 +195,7 @@ public class DemoPagePOM {
 
     public WebElement getContactUsLink() { return contactUsLink; }
 
-    public WebElement getJobsLink() { return driver.findElement(By.cssSelector("span.jobs")); }
+    public WebElement getJobsLink() { return driver.findElement(jobsLink); }
 
     public WebElement getTheTeamLink() { return theTeamLink; }
 
@@ -208,6 +207,6 @@ public class DemoPagePOM {
 
     public WebElement contentProgramLink() { return contentProgramLink; }
 
-    public WebElement getPublicChatlink() { return publicChatlink; }
+    public WebElement getPublicChatlink() { return publicChatLink; }
 
 }

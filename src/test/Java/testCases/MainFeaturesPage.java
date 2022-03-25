@@ -35,7 +35,7 @@ public class MainFeaturesPage extends Base {
     @Test
     public void checkBannerIsDisplayed() {
         MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(mainFeaturesPagePOM.getbanner().isDisplayed()){
+        if(mainFeaturesPagePOM.getBanner().isDisplayed()){
             Assert.assertTrue(true);
             logger.info("Banner is displayed");
         }

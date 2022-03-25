@@ -52,7 +52,7 @@ public class DemoPage extends Base {
     public void checkHeaderTitle() throws InterruptedException {
         DemoPagePOM demoPage = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        if(demoPage.getheaderTitle().equalsIgnoreCase("Application Test Drive")){
+        if(demoPage.getHeaderTitle().equalsIgnoreCase("Application Test Drive")){
             Assert.assertTrue(true);
             logger.info("HeaderTitle is correct");
         }
@@ -72,7 +72,7 @@ public class DemoPage extends Base {
         }
         else{
             Assert.fail();
-            logger.info("Heaer Desc is incorrect");
+            logger.info("Header Desc is incorrect");
         }
     }
 
@@ -140,7 +140,7 @@ public class DemoPage extends Base {
     public void checkPricingLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
         Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getpricingLink());
+        available.clickItem(demoPagePOM.getPricingLink());
         logger.info("clicked on Pricing");
         if(driver.getCurrentUrl().contains("order")){
             Assert.assertTrue(true);
