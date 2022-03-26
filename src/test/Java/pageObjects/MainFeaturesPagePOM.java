@@ -22,7 +22,7 @@ public class MainFeaturesPagePOM {
 
     private static final By header = By.cssSelector(".BS-header");
 
-    private  static final By banner = By.cssSelector(".templates-page");
+    private static final By banner = By.cssSelector(".templates-page");
 
     private static final By mainFeaturesSection = By.cssSelector(".is-highlighted");
 

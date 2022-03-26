@@ -77,29 +77,29 @@ public class Integration extends Base {
     }
 
     @Test
-    public void checkTheTabForAerticket() throws InterruptedException {
+    public void checkTheTabForAerTicket() throws InterruptedException {
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
-        available.clickItem(integrationPagePOM.getAerticket());
+        available.clickItem(integrationPagePOM.getAerTicket());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
-            logger.info("2 tabs opened for Aerticket is correct");
+            logger.info("2 tabs opened for AerTicket is correct");
         } else {
             Assert.fail();
-            logger.info("2 tabs opened for Aerticket is incorrect");
+            logger.info("2 tabs opened for AerTicket is incorrect");
         }
     }
 
     @Test
-    public void checkTheLinkForAerticket() throws InterruptedException {
+    public void checkTheLinkForAerTicket() throws InterruptedException {
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
-        available.clickItem(integrationPagePOM.getAerticket());
+        available.clickItem(integrationPagePOM.getAerTicket());
         available.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("phptravels.gumroad.com/l/aerticket")) {
             Assert.assertTrue(true);
-            logger.info("Url for Aerticket is correct");
+            logger.info("Url for AerTicket is correct");
         } else {
             Assert.fail();
-            logger.info("Url for the Aerticket is incorrect");
+            logger.info("Url for the AerTicket is incorrect");
         }
     }
 
