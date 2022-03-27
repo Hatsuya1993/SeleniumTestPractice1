@@ -28,27 +28,49 @@ public class ProductServicesPOM {
     @CacheLookup
     WebElement title;
 
+    private static final By listOfOptions = By.cssSelector(".panel-body");
+
+    private static final By allTitleOfOptions = By.cssSelector(".panel-body .col-md-9 h3 strong");
+
+    private static final By orderNowForMoreInstallation = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=13'] button span");
+
+    private static final By migrageWebsite = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=27'] button span");
+
+    private static final By troubleShoot = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=28'] button span");
+
+    private static final By additionalLicense = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=15'] button span");
+
+    private static final By paymentGateway = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=25'] button span");
+
+    private static final By extendedSupport = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=26'] button span");
+
+    private static final By languagePack = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=24'] button span");
+
+    private static final By personalTheme = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=43'] button span");
+
+    private static final By jsonAPI = By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=44'] button span");
+
     public WebElement getTitle() { return title; }
 
-    public List<WebElement> getListOfOptions() { return driver.findElements(By.cssSelector(".panel-body")); }
+    public List<WebElement> getListOfOptions() { return driver.findElements(listOfOptions); }
 
-    public List<WebElement> getAllTitleOfOptions() { return driver.findElements(By.cssSelector(".panel-body .col-md-9 h3 strong")); }
+    public List<WebElement> getAllTitleOfOptions() { return driver.findElements(allTitleOfOptions); }
 
-    public WebElement getOrderNowForInstallation() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=13'] button span")); }
+    public WebElement getOrderNowForInstallation() { return driver.findElement(orderNowForMoreInstallation); }
 
-    public WebElement getMigrageWebsite() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=27'] button span"));}
+    public WebElement getMigrageWebsite() { return driver.findElement(migrageWebsite);}
 
-    public WebElement getTroubleshoot() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=28'] button span"));}
+    public WebElement getTroubleshoot() { return driver.findElement(troubleShoot);}
 
-    public WebElement getAdditionalLicense() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=15'] button span"));}
+    public WebElement getAdditionalLicense() { return driver.findElement(additionalLicense);}
 
-    public WebElement getPaymentGateway() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=25'] button span")); }
+    public WebElement getPaymentGateway() { return driver.findElement(paymentGateway); }
 
-    public WebElement getExtendedSupport() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=26'] button span"));}
+    public WebElement getExtendedSupport() { return driver.findElement(extendedSupport);}
 
-    public WebElement getLanguagePack() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=24'] button span")); }
+    public WebElement getLanguagePack() { return driver.findElement(languagePack); }
 
-    public WebElement getPersonalTheme() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=43'] button span")); }
+    public WebElement getPersonalTheme() { return driver.findElement(personalTheme); }
 
-    public WebElement getJsonAPI() { return driver.findElement(By.cssSelector("[action*='phptravels.org/cart.php?a=add&pid=44'] button span")); }
+    public WebElement getJsonAPI() { return driver.findElement(jsonAPI); }
 }
