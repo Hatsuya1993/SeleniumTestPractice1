@@ -1,5 +1,6 @@
 package testCases;
 
+import helper.available;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.MainFeaturesPagePOM;
@@ -94,6 +95,20 @@ public class MainFeaturesPage extends Base {
         else{
             Assert.fail();
             logger.info("Footer is not displayed");
+        }
+    }
+
+    @Test
+    public void clickLogoToHomePage() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        available.hoverClick(mainFeaturesPagePOM.getLogo(), driver);
+        if(driver.getCurrentUrl().contains("phptravels")){
+            Assert.assertTrue(true);
+            logger.info("Website is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Website is incorrect");
         }
     }
 

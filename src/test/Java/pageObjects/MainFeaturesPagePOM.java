@@ -32,6 +32,8 @@ public class MainFeaturesPagePOM {
 
     private static final By footer = By.cssSelector(".BS-footer");
 
+    private static final By logo = By.cssSelector("#PHPTRAVELS");
+
     public WebElement getMainFeaturesHeader() {
         return driver.findElement(header);
     }
@@ -45,4 +47,6 @@ public class MainFeaturesPagePOM {
     public WebElement getRegions() { return driver.findElement(regions); }
 
     public WebElement getFooter() { return driver.findElement(footer); }
+
+    public WebElement getLogo() { return driver.findElement(logo); }
 }
