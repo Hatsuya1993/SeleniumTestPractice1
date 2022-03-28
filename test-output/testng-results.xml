@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-28T07:43:25 SGT" name="All Test Suite" finished-at="2022-03-28T07:43:44 SGT" duration-ms="18892">
+  <suite started-at="2022-03-29T07:42:58 SGT" name="All Test Suite" finished-at="2022-03-29T07:43:15 SGT" duration-ms="16942">
     <groups>
     </groups>
-    <test started-at="2022-03-28T07:43:25 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-03-28T07:43:44 SGT" duration-ms="18892">
+    <test started-at="2022-03-29T07:42:58 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-03-29T07:43:15 SGT" duration-ms="16942">
       <class name="testCases.MainFeaturesPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@752325ad]" started-at="2022-03-28T07:43:26 SGT" name="setup" finished-at="2022-03-28T07:43:32 SGT" duration-ms="6703" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@6913c1fb]" started-at="2022-03-29T07:42:58 SGT" name="setup" finished-at="2022-03-29T07:43:04 SGT" duration-ms="5339" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickLogoToHomePage()[pri:0, instance:testCases.MainFeaturesPage@752325ad]" started-at="2022-03-28T07:43:32 SGT" name="clickLogoToHomePage" finished-at="2022-03-28T07:43:43 SGT" duration-ms="10822" status="PASS">
+        <test-method signature="demonButtonNewPage()[pri:0, instance:testCases.MainFeaturesPage@6913c1fb]" started-at="2022-03-29T07:43:04 SGT" name="demonButtonNewPage" finished-at="2022-03-29T07:43:14 SGT" duration-ms="10399" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickLogoToHomePage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@752325ad]" started-at="2022-03-28T07:43:43 SGT" name="teardown" finished-at="2022-03-28T07:43:44 SGT" duration-ms="851" status="PASS">
+        </test-method> <!-- demonButtonNewPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@6913c1fb]" started-at="2022-03-29T07:43:14 SGT" name="teardown" finished-at="2022-03-29T07:43:15 SGT" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

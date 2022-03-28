@@ -34,6 +34,8 @@ public class MainFeaturesPagePOM {
 
     private static final By logo = By.cssSelector("#PHPTRAVELS");
 
+    private static final By demoButton = By.cssSelector("[href*='phptravels.com/demo']");
+
     public WebElement getMainFeaturesHeader() {
         return driver.findElement(header);
     }
@@ -49,4 +51,6 @@ public class MainFeaturesPagePOM {
     public WebElement getFooter() { return driver.findElement(footer); }
 
     public WebElement getLogo() { return driver.findElement(logo); }
+
+    public WebElement getDemoButton() { return driver.findElement(demoButton); }
 }

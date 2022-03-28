@@ -112,4 +112,18 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void demonButtonNewPage() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        available.hoverClick(mainFeaturesPagePOM.getDemoButton(), driver);
+        if(driver.getCurrentUrl().contains("demo")){
+            Assert.assertTrue(true);
+            logger.info("Demon button moves to a new page");
+        }
+        else{
+            Assert.fail();
+            logger.info("Demo button doesnt move to a new page");
+        }
+    }
+
 }

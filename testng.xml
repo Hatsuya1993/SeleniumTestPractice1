@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.MainFeaturesPage">
                 <methods>
-                    <include name="clickLogoToHomePage"/>
+                    <include name="demonButtonNewPage"/>
                 </methods>
             </class>
         </classes>
