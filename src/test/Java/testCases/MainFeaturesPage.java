@@ -126,4 +126,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void sectionTitleDisplayed() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(available.displayed(mainFeaturesPagePOM.getSectionButton())){
+            Assert.assertTrue(true);
+            logger.info("Section title is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Section title is not displayed");
+        }
+    }
+
 }
