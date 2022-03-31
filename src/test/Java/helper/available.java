@@ -82,6 +82,13 @@ public class available {
         }
     }
 
-
+    public static boolean checkText(WebElement expect, String actual) throws InterruptedException {
+         if(displayed(expect)){
+             if(expect.getText().equalsIgnoreCase(actual)){
+                 return true;
+             }
+         }
+         return false;
+    }
 
 }

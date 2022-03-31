@@ -38,6 +38,8 @@ public class MainFeaturesPagePOM {
 
     private static final By sectionTitle = By.cssSelector(".section-title");
 
+    private static final By applicationFeatures = By.cssSelector(".section-title span");
+
     public WebElement getMainFeaturesHeader() {
         return driver.findElement(header);
     }
@@ -57,4 +59,6 @@ public class MainFeaturesPagePOM {
     public WebElement getDemoButton() { return driver.findElement(demoButton); }
 
     public WebElement getSectionButton() { return driver.findElement(sectionTitle); }
+
+    public WebElement getApplicationFeature() { return driver.findElement(applicationFeatures); }
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+<testng-results ignored="10" total="11" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-30T07:58:37 SGT" name="All Test Suite" finished-at="2022-03-30T07:58:49 SGT" duration-ms="11470">
+  <suite started-at="2022-03-31T08:25:23 SGT" name="All Test Suite" finished-at="2022-03-31T08:25:33 SGT" duration-ms="9415">
     <groups>
     </groups>
-    <test started-at="2022-03-30T07:58:37 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-03-30T07:58:49 SGT" duration-ms="11470">
+    <test started-at="2022-03-31T08:25:23 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-03-31T08:25:33 SGT" duration-ms="9415">
       <class name="testCases.MainFeaturesPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@609cd4d8]" started-at="2022-03-30T07:58:38 SGT" name="setup" finished-at="2022-03-30T07:58:44 SGT" duration-ms="6637" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@17f7cd29]" started-at="2022-03-31T08:25:24 SGT" name="setup" finished-at="2022-03-31T08:25:28 SGT" duration-ms="4614" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sectionTitleDisplayed()[pri:0, instance:testCases.MainFeaturesPage@609cd4d8]" started-at="2022-03-30T07:58:44 SGT" name="sectionTitleDisplayed" finished-at="2022-03-30T07:58:48 SGT" duration-ms="3595" status="PASS">
+        <test-method signature="checkTextApplicationFeatures()[pri:0, instance:testCases.MainFeaturesPage@17f7cd29]" started-at="2022-03-31T08:25:28 SGT" name="checkTextApplicationFeatures" finished-at="2022-03-31T08:25:32 SGT" duration-ms="3623" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sectionTitleDisplayed -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@609cd4d8]" started-at="2022-03-30T07:58:48 SGT" name="teardown" finished-at="2022-03-30T07:58:49 SGT" duration-ms="811" status="PASS">
+        </test-method> <!-- checkTextApplicationFeatures -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@17f7cd29]" started-at="2022-03-31T08:25:32 SGT" name="teardown" finished-at="2022-03-31T08:25:33 SGT" duration-ms="840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

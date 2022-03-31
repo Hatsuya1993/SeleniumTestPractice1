@@ -139,4 +139,18 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+
+    @Test
+    public void checkTextApplicationFeatures() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(available.displayed(mainFeaturesPagePOM.getApplicationFeature())){
+            Assert.assertTrue(true);
+            logger.info("Application features is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Application features is not displayed");
+        }
+    }
+
 }

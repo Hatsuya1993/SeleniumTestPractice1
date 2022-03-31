@@ -907,3 +907,12 @@
 2022-03-29 07:43:14,640 [main] INFO TestPhpTravels - Demon button moves to a new page
 2022-03-30 07:58:44,984 [main] INFO TestPhpTravels - URL opened
 2022-03-30 07:58:48,592 [main] INFO TestPhpTravels - Section title is displayed
+2022-03-31 08:12:52,485 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:13:31,401 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:16:15,141 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:19:15,037 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:19:59,451 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:21:08,374 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:22:59,067 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:25:28,844 [main] INFO TestPhpTravels - URL opened
+2022-03-31 08:25:32,477 [main] INFO TestPhpTravels - Application features is displayed
