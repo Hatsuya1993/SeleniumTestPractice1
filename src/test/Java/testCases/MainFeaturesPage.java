@@ -141,7 +141,7 @@ public class MainFeaturesPage extends Base {
 
 
     @Test
-    public void checkTextApplicationFeatures() throws InterruptedException {
+    public void applicationFeaturesDisplayed() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
         if(available.displayed(mainFeaturesPagePOM.getApplicationFeature())){
             Assert.assertTrue(true);
@@ -150,6 +150,19 @@ public class MainFeaturesPage extends Base {
         else{
             Assert.fail();
             logger.info("Application features is not displayed");
+        }
+    }
+
+    @Test
+    public void maximumSecurityDisplayed() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(available.displayed(mainFeaturesPagePOM.getMaximumSecurity())){
+            Assert.assertTrue(true);
+            logger.info("Maximum security is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Maximum security is not displayed");
         }
     }
 
