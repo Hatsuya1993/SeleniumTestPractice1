@@ -918,3 +918,6 @@
 2022-03-31 08:25:32,477 - TestPhpTravels -INFO - Application features is displayed
 2022-04-01 08:30:49,615 - TestPhpTravels -INFO - URL opened
 2022-04-01 08:30:53,184 - TestPhpTravels -INFO - Maximum security is displayed
+2022-04-02 11:42:35,640 - TestPhpTravels -INFO - URL opened
+2022-04-02 11:43:37,002 - TestPhpTravels -INFO - URL opened
+2022-04-02 11:43:41,871 - TestPhpTravels -INFO - Maximum security is displaying the right data

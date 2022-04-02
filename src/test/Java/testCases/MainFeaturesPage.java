@@ -166,4 +166,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void maximumSecurityTextShouldBeCorrect() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(available.checkText(mainFeaturesPagePOM.getMaximumSecurity(), "Maximum Security and Reliability")){
+            Assert.assertTrue(true);
+            logger.info("Maximum security is displaying the right data");
+        }
+        else{
+            Assert.fail();
+            logger.info("Maximum security is not displaying the correct data");
+        }
+    }
+
 }
