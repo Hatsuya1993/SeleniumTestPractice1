@@ -179,4 +179,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void guaranteedByOurTopDevelopersIsDisplayed() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        if(available.displayed(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers())){
+            Assert.assertTrue(true);
+            logger.info("Guaranteed by our top developers is displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Guaranteed by our top developers is not displayed");
+        }
+    }
+
 }

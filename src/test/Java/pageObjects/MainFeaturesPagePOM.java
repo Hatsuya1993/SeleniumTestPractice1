@@ -42,6 +42,8 @@ public class MainFeaturesPagePOM {
 
     private static final By maximumSecurity = By.cssSelector(".section-title h2");
 
+    public static final By guaranteedByOurTopDevelopers = By.cssSelector(".section-title p");
+
     public WebElement getMainFeaturesHeader() {
         return driver.findElement(header);
     }
@@ -65,4 +67,6 @@ public class MainFeaturesPagePOM {
     public WebElement getApplicationFeature() { return driver.findElement(applicationFeatures); }
 
     public WebElement getMaximumSecurity() { return driver.findElement(maximumSecurity); }
+
+    public WebElement getGuaranteedByOurTopDevelopers() { return driver.findElement(guaranteedByOurTopDevelopers); }
 }

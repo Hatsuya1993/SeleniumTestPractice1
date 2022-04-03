@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
+<testng-results ignored="13" total="14" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-02T11:43:28 SGT" name="All Test Suite" finished-at="2022-04-02T11:43:42 SGT" duration-ms="14352">
+  <suite started-at="2022-04-03T08:40:27 SGT" name="All Test Suite" finished-at="2022-04-03T08:40:39 SGT" duration-ms="11884">
     <groups>
     </groups>
-    <test started-at="2022-04-02T11:43:28 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-04-02T11:43:42 SGT" duration-ms="14352">
+    <test started-at="2022-04-03T08:40:27 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-04-03T08:40:39 SGT" duration-ms="11884">
       <class name="testCases.MainFeaturesPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@13b6aecc]" started-at="2022-04-02T11:43:28 SGT" name="setup" finished-at="2022-04-02T11:43:37 SGT" duration-ms="8360" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@5fbe4146]" started-at="2022-04-03T08:40:27 SGT" name="setup" finished-at="2022-04-03T08:40:35 SGT" duration-ms="7406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="maximumSecurityTextShouldBeCorrect()[pri:0, instance:testCases.MainFeaturesPage@13b6aecc]" started-at="2022-04-02T11:43:37 SGT" name="maximumSecurityTextShouldBeCorrect" finished-at="2022-04-02T11:43:41 SGT" duration-ms="4865" status="PASS">
+        <test-method signature="guaranteedByOurTopDevelopersIsDisplayed()[pri:0, instance:testCases.MainFeaturesPage@5fbe4146]" started-at="2022-04-03T08:40:35 SGT" name="guaranteedByOurTopDevelopersIsDisplayed" finished-at="2022-04-03T08:40:38 SGT" duration-ms="3505" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- maximumSecurityTextShouldBeCorrect -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@13b6aecc]" started-at="2022-04-02T11:43:41 SGT" name="teardown" finished-at="2022-04-02T11:43:42 SGT" duration-ms="788" status="PASS">
+        </test-method> <!-- guaranteedByOurTopDevelopersIsDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@5fbe4146]" started-at="2022-04-03T08:40:38 SGT" name="teardown" finished-at="2022-04-03T08:40:39 SGT" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
