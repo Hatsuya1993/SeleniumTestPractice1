@@ -1,5 +1,6 @@
 package testCases;
 
+import helper.Actions;
 import helper.available;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -192,4 +193,17 @@ public class MainFeaturesPage extends Base {
         }
     }
 
+    @Test
+    public void guaranteedByOurTopDevelopersTextIsCorrect() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        Actions.scrollHelper(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), driver);
+        if(available.checkText(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), "Guaranteed by our top developers")){
+            Assert.assertTrue(true);
+            logger.info("Guaranteed by our top developers text is correct");
+        }
+        else{
+            Assert.fail();
+            logger.info("Guaranteed by our top developers text is incorrect");
+        }
+    }
 }

@@ -73,10 +73,9 @@ public class Order extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
-        Actions actions = new Actions(driver);
         if(order.selectCheckBox("1")){
             if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
-                actions.scrollHelper(200);
+                Actions.scrollHelper(order.getBuyNowButton(), driver);
                 available.clickItem(order.getBuyNowButton());
                 if(driver.getCurrentUrl().contains("order-confirm")){
                     Assert.assertTrue(true);
@@ -97,11 +96,10 @@ public class Order extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
-        Actions actions = new Actions(driver);
         OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);
         if(order.selectCheckBox("1")){
             if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
-                actions.scrollHelper(200);
+                Actions.scrollHelper(order.getBuyNowButton(), driver);
                 available.clickItem(order.getBuyNowButton());
                 if(available.checkEnabled(orderConfirmPOM.getConfirmOrder(), driver) == false){
                     Assert.assertTrue(true);
@@ -122,11 +120,10 @@ public class Order extends Base{
         Thread.sleep(helper.shortWait);
         available.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
-        Actions actions = new Actions(driver);
         OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);
         if(order.selectCheckBox("1")){
             if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
-                actions.scrollHelper(200);
+                Actions.scrollHelper(order.getBuyNowButton(), driver);
                 available.clickItem(order.getBuyNowButton());
                 HashMap<String, String> testData = new HashMap<String, String>();
                 testData.put("firstNameInput","testName");
