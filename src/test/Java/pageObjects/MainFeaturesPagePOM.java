@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import utilities.ReadConfig;
 
+import java.util.List;
+
 public class MainFeaturesPagePOM {
 
     ReadConfig readConfig = new ReadConfig();
@@ -24,7 +26,8 @@ public class MainFeaturesPagePOM {
 
     private static final By banner = By.cssSelector(".templates-page");
 
-    private static final By mainFeaturesSection = By.cssSelector(".is-highlighted");
+    private static final By mainFeaturesSection = By.cssSelector(".is" +
+            "-highlighted");
 
     private static final By process = By.cssSelector("#process");
 
@@ -34,39 +37,71 @@ public class MainFeaturesPagePOM {
 
     private static final By logo = By.cssSelector("#PHPTRAVELS");
 
-    private static final By demoButton = By.cssSelector("[href*='phptravels.com/demo']");
+    private static final By demoButton = By.cssSelector("[href*='phptravels" +
+            ".com/demo']");
 
     private static final By sectionTitle = By.cssSelector(".section-title");
 
-    private static final By applicationFeatures = By.cssSelector(".section-title span");
+    private static final By applicationFeatures = By.cssSelector(".section" +
+            "-title span");
 
-    private static final By maximumSecurity = By.cssSelector(".section-title h2");
+    private static final By maximumSecurity = By.cssSelector(".section-title " +
+            "h2");
 
-    public static final By guaranteedByOurTopDevelopers = By.cssSelector(".section-title p");
+    public static final By guaranteedByOurTopDevelopers = By.cssSelector(
+            ".section-title p");
+
+    public static final By securityOptions = By.cssSelector(".row.row-10");
 
     public WebElement getMainFeaturesHeader() {
         return driver.findElement(header);
     }
 
-    public WebElement getBanner() { return driver.findElement(banner); }
+    public WebElement getBanner() {
+        return driver.findElement(banner);
+    }
 
-    public WebElement getMainFeaturesSection() { return driver.findElement(mainFeaturesSection); }
+    public WebElement getMainFeaturesSection() {
+        return driver.findElement(mainFeaturesSection);
+    }
 
-    public WebElement getProcess() { return driver.findElement(process); }
+    public WebElement getProcess() {
+        return driver.findElement(process);
+    }
 
-    public WebElement getRegions() { return driver.findElement(regions); }
+    public WebElement getRegions() {
+        return driver.findElement(regions);
+    }
 
-    public WebElement getFooter() { return driver.findElement(footer); }
+    public WebElement getFooter() {
+        return driver.findElement(footer);
+    }
 
-    public WebElement getLogo() { return driver.findElement(logo); }
+    public WebElement getLogo() {
+        return driver.findElement(logo);
+    }
 
-    public WebElement getDemoButton() { return driver.findElement(demoButton); }
+    public WebElement getDemoButton() {
+        return driver.findElement(demoButton);
+    }
 
-    public WebElement getSectionButton() { return driver.findElement(sectionTitle); }
+    public WebElement getSectionButton() {
+        return driver.findElement(sectionTitle);
+    }
 
-    public WebElement getApplicationFeature() { return driver.findElement(applicationFeatures); }
+    public WebElement getApplicationFeature() {
+        return driver.findElement(applicationFeatures);
+    }
 
-    public WebElement getMaximumSecurity() { return driver.findElement(maximumSecurity); }
+    public WebElement getMaximumSecurity() {
+        return driver.findElement(maximumSecurity);
+    }
 
-    public WebElement getGuaranteedByOurTopDevelopers() { return driver.findElement(guaranteedByOurTopDevelopers); }
+    public WebElement getGuaranteedByOurTopDevelopers() {
+        return driver.findElement(guaranteedByOurTopDevelopers);
+    }
+
+    public WebElement getSecurityOptions() {
+        return driver.findElement(securityOptions);
+    }
 }

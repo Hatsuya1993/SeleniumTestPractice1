@@ -10,12 +10,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void checkURL() {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(driver.getCurrentUrl().contains("features")){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (driver.getCurrentUrl().contains("features")) {
             Assert.assertTrue(true);
             logger.info("URL is correnct");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("URL is incorrect");
         }
@@ -23,12 +23,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void checkHeaderIsDisplayed() {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(mainFeaturesPagePOM.getMainFeaturesHeader().isDisplayed()){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (mainFeaturesPagePOM.getMainFeaturesHeader().isDisplayed()) {
             Assert.assertTrue(true);
             logger.info("Header is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Header is not displayed");
         }
@@ -36,12 +36,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void checkBannerIsDisplayed() {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(mainFeaturesPagePOM.getBanner().isDisplayed()){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (mainFeaturesPagePOM.getBanner().isDisplayed()) {
             Assert.assertTrue(true);
             logger.info("Banner is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Banner is not displayed");
         }
@@ -49,12 +49,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void checkSectionIsDisplayed() {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(mainFeaturesPagePOM.getMainFeaturesSection().isDisplayed()){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (mainFeaturesPagePOM.getMainFeaturesSection().isDisplayed()) {
             Assert.assertTrue(true);
             logger.info("Section is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Section is not displayed");
         }
@@ -62,12 +62,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void checkProcessIsDisplayed() {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(mainFeaturesPagePOM.getProcess().isDisplayed()){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (mainFeaturesPagePOM.getProcess().isDisplayed()) {
             Assert.assertTrue(true);
             logger.info("Process is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Process is not displayed");
         }
@@ -75,12 +75,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void checkRegionIsDisplayed() {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(mainFeaturesPagePOM.getRegions().isDisplayed()){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (mainFeaturesPagePOM.getRegions().isDisplayed()) {
             Assert.assertTrue(true);
             logger.info("Region is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Region is not displayed");
         }
@@ -88,12 +88,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void checkFooterIsDisplayed() {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(mainFeaturesPagePOM.getFooter().isDisplayed()){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (mainFeaturesPagePOM.getFooter().isDisplayed()) {
             Assert.assertTrue(true);
             logger.info("Footer is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Footer is not displayed");
         }
@@ -101,13 +101,13 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void clickLogoToHomePage() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
         available.hoverClick(mainFeaturesPagePOM.getLogo(), driver);
-        if(driver.getCurrentUrl().contains("phptravels")){
+        if (driver.getCurrentUrl().contains("phptravels")) {
             Assert.assertTrue(true);
             logger.info("Website is correct");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Website is incorrect");
         }
@@ -115,13 +115,13 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void demonButtonNewPage() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
         available.hoverClick(mainFeaturesPagePOM.getDemoButton(), driver);
-        if(driver.getCurrentUrl().contains("demo")){
+        if (driver.getCurrentUrl().contains("demo")) {
             Assert.assertTrue(true);
             logger.info("Demon button moves to a new page");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Demo button doesnt move to a new page");
         }
@@ -129,12 +129,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void sectionTitleDisplayed() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(available.displayed(mainFeaturesPagePOM.getSectionButton())){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (available.displayed(mainFeaturesPagePOM.getSectionButton())) {
             Assert.assertTrue(true);
             logger.info("Section title is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Section title is not displayed");
         }
@@ -143,12 +143,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void applicationFeaturesDisplayed() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(available.displayed(mainFeaturesPagePOM.getApplicationFeature())){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (available.displayed(mainFeaturesPagePOM.getApplicationFeature())) {
             Assert.assertTrue(true);
             logger.info("Application features is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Application features is not displayed");
         }
@@ -156,12 +156,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void maximumSecurityDisplayed() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(available.displayed(mainFeaturesPagePOM.getMaximumSecurity())){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (available.displayed(mainFeaturesPagePOM.getMaximumSecurity())) {
             Assert.assertTrue(true);
             logger.info("Maximum security is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Maximum security is not displayed");
         }
@@ -169,12 +169,13 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void maximumSecurityTextShouldBeCorrect() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(available.checkText(mainFeaturesPagePOM.getMaximumSecurity(), "Maximum Security and Reliability")){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (available.checkText(mainFeaturesPagePOM.getMaximumSecurity(),
+                "Maximum Security and Reliability")) {
             Assert.assertTrue(true);
             logger.info("Maximum security is displaying the right data");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Maximum security is not displaying the correct data");
         }
@@ -182,12 +183,12 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void guaranteedByOurTopDevelopersIsDisplayed() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
-        if(available.displayed(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers())){
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (available.displayed(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers())) {
             Assert.assertTrue(true);
             logger.info("Guaranteed by our top developers is displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Guaranteed by our top developers is not displayed");
         }
@@ -195,15 +196,28 @@ public class MainFeaturesPage extends Base {
 
     @Test
     public void guaranteedByOurTopDevelopersTextIsCorrect() throws InterruptedException {
-        MainFeaturesPagePOM mainFeaturesPagePOM = new MainFeaturesPagePOM(driver);
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
         Actions.scrollHelper(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), driver);
-        if(available.checkText(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), "Guaranteed by our top developers")){
+        if (available.checkText(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), "Guaranteed by our top developers")) {
             Assert.assertTrue(true);
             logger.info("Guaranteed by our top developers text is correct");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Guaranteed by our top developers text is incorrect");
+        }
+    }
+
+    @Test
+    public void securityOptionsCount() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        if (available.displayed(mainFeaturesPagePOM.getSecurityOptions())) {
+            Assert.assertTrue(true);
+            logger.info("Security options is displayed");
+        } else {
+            Assert.fail();
+            logger.info("Security options is not displayed");
         }
     }
 }
