@@ -1,7 +1,8 @@
 package testCases;
 
 import helper.Actions;
-import helper.available;
+import helper.Helper;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.MainFeaturesPagePOM;
@@ -103,7 +104,7 @@ public class MainFeaturesPage extends Base {
     public void clickLogoToHomePage() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        available.hoverClick(mainFeaturesPagePOM.getLogo(), driver);
+        Helper.hoverClick(mainFeaturesPagePOM.getLogo(), driver);
         if (driver.getCurrentUrl().contains("phptravels")) {
             Assert.assertTrue(true);
             logger.info("Website is correct");
@@ -117,7 +118,7 @@ public class MainFeaturesPage extends Base {
     public void demonButtonNewPage() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        available.hoverClick(mainFeaturesPagePOM.getDemoButton(), driver);
+        Helper.hoverClick(mainFeaturesPagePOM.getDemoButton(), driver);
         if (driver.getCurrentUrl().contains("demo")) {
             Assert.assertTrue(true);
             logger.info("Demon button moves to a new page");
@@ -131,7 +132,7 @@ public class MainFeaturesPage extends Base {
     public void sectionTitleDisplayed() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        if (available.displayed(mainFeaturesPagePOM.getSectionButton())) {
+        if (Helper.displayed(mainFeaturesPagePOM.getSectionButton())) {
             Assert.assertTrue(true);
             logger.info("Section title is displayed");
         } else {
@@ -145,7 +146,7 @@ public class MainFeaturesPage extends Base {
     public void applicationFeaturesDisplayed() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        if (available.displayed(mainFeaturesPagePOM.getApplicationFeature())) {
+        if (Helper.displayed(mainFeaturesPagePOM.getApplicationFeature())) {
             Assert.assertTrue(true);
             logger.info("Application features is displayed");
         } else {
@@ -158,7 +159,7 @@ public class MainFeaturesPage extends Base {
     public void maximumSecurityDisplayed() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        if (available.displayed(mainFeaturesPagePOM.getMaximumSecurity())) {
+        if (Helper.displayed(mainFeaturesPagePOM.getMaximumSecurity())) {
             Assert.assertTrue(true);
             logger.info("Maximum security is displayed");
         } else {
@@ -171,7 +172,7 @@ public class MainFeaturesPage extends Base {
     public void maximumSecurityTextShouldBeCorrect() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        if (available.checkText(mainFeaturesPagePOM.getMaximumSecurity(),
+        if (Helper.checkText(mainFeaturesPagePOM.getMaximumSecurity(),
                 "Maximum Security and Reliability")) {
             Assert.assertTrue(true);
             logger.info("Maximum security is displaying the right data");
@@ -185,7 +186,7 @@ public class MainFeaturesPage extends Base {
     public void guaranteedByOurTopDevelopersIsDisplayed() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        if (available.displayed(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers())) {
+        if (Helper.displayed(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers())) {
             Assert.assertTrue(true);
             logger.info("Guaranteed by our top developers is displayed");
         } else {
@@ -199,7 +200,7 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelper(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), driver);
-        if (available.checkText(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), "Guaranteed by our top developers")) {
+        if (Helper.checkText(mainFeaturesPagePOM.getGuaranteedByOurTopDevelopers(), "Guaranteed by our top developers")) {
             Assert.assertTrue(true);
             logger.info("Guaranteed by our top developers text is correct");
         } else {
@@ -212,12 +213,26 @@ public class MainFeaturesPage extends Base {
     public void securityOptionsCount() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
-        if (available.displayed(mainFeaturesPagePOM.getSecurityOptions())) {
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptions())) {
             Assert.assertTrue(true);
             logger.info("Security options is displayed");
         } else {
             Assert.fail();
             logger.info("Security options is not displayed");
+        }
+    }
+
+    @Test
+    public void securityOptionsCountCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.countCheck(mainFeaturesPagePOM.getSecurityOptionsSelector(), 15)) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector displayed all 15 options");
+        } else {
+            Assert.fail();
+            logger.info("Security options is not displayed all 15 options");
         }
     }
 }

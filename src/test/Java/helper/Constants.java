@@ -1,6 +1,6 @@
 package helper;
 
-public class helper {
+public class Constants {
 
     public static int shortWait = 3000;
     public static int longWait = 5000;

@@ -1,6 +1,6 @@
 package pageObjects;
 
-import helper.available;
+import helper.Helper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,8 +34,8 @@ public class OrderPOM {
     }
 
     public boolean selectCheckBox(String idNum) throws InterruptedException {
-        if (available.displayed(driver.findElement(By.id((idNum))))){
-            available.clickItem(driver.findElement(By.id(idNum)));
+        if (Helper.displayed(driver.findElement(By.id((idNum))))){
+            Helper.clickItem(driver.findElement(By.id(idNum)));
             return true;
         }
         else{

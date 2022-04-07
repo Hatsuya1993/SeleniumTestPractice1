@@ -1,6 +1,6 @@
 package testCases;
 
-import helper.available;
+import helper.Helper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.ProductServicesPOM;
@@ -13,7 +13,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTitle() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.displayed(productServicesPOM.getTitle());
+        Helper.displayed(productServicesPOM.getTitle());
         if (productServicesPOM.getTitle().isDisplayed()) {
             Assert.assertTrue(true);
             logger.info("Title is displayed for product services");
@@ -26,7 +26,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTitleData() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.displayed(productServicesPOM.getTitle());
+        Helper.displayed(productServicesPOM.getTitle());
         if (productServicesPOM.getTitle().getText().contains("Product Services")) {
             Assert.assertTrue(true);
             logger.info("Title is correctly populated for product services");
@@ -53,7 +53,7 @@ public class ProductServices extends Base {
     public void checkEachTitleForPanel() {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
         List<String> data = Arrays.asList("Installation Web App", "Migrage Website / Upgrade Version", "Troubleshoot", "Additional License", "Payment Gateway Integration", "Extended Support", "Language Pack", "Personal Theme Integration", "XML or Json API Integration", "$100", "$200", "$100", "$100", "$1000", "$100", "$2000", "$2500", "$100");
-        Boolean results = available.checkEachValue(data, productServicesPOM.getAllTitleOfOptions());
+        Boolean results = Helper.checkEachValue(data, productServicesPOM.getAllTitleOfOptions());
         if(results){
             Assert.assertTrue(true);
             logger.info("All titles are correctly populated");
@@ -67,7 +67,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabForInstallationWebApp() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getOrderNowForInstallation());
+        Helper.clickItem(productServicesPOM.getOrderNowForInstallation());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for InstallationWebApp is correct");
@@ -80,8 +80,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForInstallationWebApp() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getOrderNowForInstallation());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getOrderNowForInstallation());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
             Assert.assertTrue(true);
             logger.info("Url for InstallationWebApp is correct");
@@ -94,7 +94,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabForMigrageWebsite() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getMigrageWebsite());
+        Helper.clickItem(productServicesPOM.getMigrageWebsite());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for MigrageWebsite is correct");
@@ -107,8 +107,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForMigrageWebsite() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getMigrageWebsite());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getMigrageWebsite());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
             Assert.assertTrue(true);
             logger.info("Url for MigrageWebsite is correct");
@@ -121,7 +121,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabTroubleshoot() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getTroubleshoot());
+        Helper.clickItem(productServicesPOM.getTroubleshoot());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for Troubleshoot is correct");
@@ -134,8 +134,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForTroubleshoot() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getTroubleshoot());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getTroubleshoot());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=confproduct&i=0")) {
             Assert.assertTrue(true);
             logger.info("Url for Troubleshoot is correct");
@@ -148,7 +148,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabAdditionalLicense() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getAdditionalLicense());
+        Helper.clickItem(productServicesPOM.getAdditionalLicense());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for AdditionalLicense is correct");
@@ -161,8 +161,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForAdditionalLicense() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getAdditionalLicense());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getAdditionalLicense());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=confproduct&i=0")) {
             Assert.assertTrue(true);
             logger.info("Url for AdditionalLicense is correct");
@@ -175,7 +175,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabPaymentGateway() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getPaymentGateway());
+        Helper.clickItem(productServicesPOM.getPaymentGateway());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for PaymentGateway is correct");
@@ -188,8 +188,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForPaymentGateway() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getPaymentGateway());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getPaymentGateway());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=confproduct&i=0")) {
             Assert.assertTrue(true);
             logger.info("Url for PaymentGateway is correct");
@@ -202,7 +202,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabExtendedSupport() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getExtendedSupport());
+        Helper.clickItem(productServicesPOM.getExtendedSupport());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for getExtendedSupport is correct");
@@ -215,8 +215,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForExtendedSupport() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getExtendedSupport());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getExtendedSupport());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
             Assert.assertTrue(true);
             logger.info("Url for ExtendedSupport is correct");
@@ -229,7 +229,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabLanguagePack() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getLanguagePack());
+        Helper.clickItem(productServicesPOM.getLanguagePack());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for LanguagePack is correct");
@@ -242,8 +242,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForLanguagePack() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getLanguagePack());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getLanguagePack());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=confproduct&i=0")) {
             Assert.assertTrue(true);
             logger.info("Url for LanguagePack is correct");
@@ -256,7 +256,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabPersonalTheme() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getPersonalTheme());
+        Helper.clickItem(productServicesPOM.getPersonalTheme());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for PersonalTheme is correct");
@@ -269,8 +269,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForPersonalTheme() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getPersonalTheme());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getPersonalTheme());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
             Assert.assertTrue(true);
             logger.info("Url for PersonalTheme is correct");
@@ -283,7 +283,7 @@ public class ProductServices extends Base {
     @Test
     public void checkTheTabJsonAPI() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getJsonAPI());
+        Helper.clickItem(productServicesPOM.getJsonAPI());
         if (driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened for JsonAPI is correct");
@@ -296,8 +296,8 @@ public class ProductServices extends Base {
     @Test
     public void checkTheLinkForJsonAPI() throws InterruptedException {
         ProductServicesPOM productServicesPOM = new ProductServicesPOM(driver);
-        available.clickItem(productServicesPOM.getJsonAPI());
-        available.switchTab(1, driver);
+        Helper.clickItem(productServicesPOM.getJsonAPI());
+        Helper.switchTab(1, driver);
         if (driver.getCurrentUrl().contains("cart.php?a=checkout")) {
             Assert.assertTrue(true);
             logger.info("Url for JsonAPI is correct");

@@ -2,17 +2,16 @@ package helper;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class available {
+public class Helper {
 
      public static Boolean displayed(WebElement item) throws InterruptedException {
-        Thread.sleep(helper.shortWait);
+        Thread.sleep(Constants.shortWait);
         try{
             ExpectedConditions.visibilityOf(item);
             return true;
@@ -24,10 +23,10 @@ public class available {
     }
 
     public static void clickItem(WebElement item) throws InterruptedException {
-         Thread.sleep(helper.shortWait);
+         Thread.sleep(Constants.shortWait);
              if(displayed(item)){
                  item.click();
-                 Thread.sleep(helper.shortWait);
+                 Thread.sleep(Constants.shortWait);
              }
              else{
                  System.out.println("clickItem Failed");
@@ -35,20 +34,20 @@ public class available {
     }
 
     public static void switchTab(int tab, WebDriver driver) throws InterruptedException {
-         Thread.sleep(helper.shortWait);
+         Thread.sleep(Constants.shortWait);
         ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(tab));
     }
 
     public static void goBackCurrent(int tab, WebDriver driver) throws InterruptedException {
-        Thread.sleep(helper.shortWait);
+        Thread.sleep(Constants.shortWait);
         ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
         driver.close();
         driver.switchTo().window(tabs2.get(tab));
     }
 
     public static boolean checkEnabled (WebElement item, WebDriver driver) throws InterruptedException {
-        Thread.sleep(helper.shortWait);
+        Thread.sleep(Constants.shortWait);
         if(item.isEnabled()){
             return true;
         }
@@ -72,11 +71,11 @@ public class available {
     }
 
     public static void hoverClick(WebElement data, WebDriver driver) throws InterruptedException {
-        Thread.sleep(helper.shortWait);
+        Thread.sleep(Constants.shortWait);
          Actions actions = new Actions(driver);
         if(displayed(data)){
             actions.moveToElement(data).click(data).perform();
-            Thread.sleep(helper.shortWait);
+            Thread.sleep(Constants.shortWait);
         }
         else{
             System.out.println("clickItem Failed");
@@ -90,6 +89,17 @@ public class available {
              }
          }
          return false;
+    }
+
+    public static boolean countCheck(List<WebElement> expect, int actual) throws InterruptedException {
+        System.out.println(expect.size());
+        System.out.println(actual);
+        if(displayed(expect.get(1))){
+            if(expect.size() == actual){
+                return true;
+            }
+        }
+        return false;
     }
 
 }

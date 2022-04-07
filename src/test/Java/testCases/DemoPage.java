@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.DemoPagePOM;
-import helper.helper;
-import helper.available;
+import helper.Constants;
+import helper.Helper;
 
 public class DemoPage extends Base {
 
@@ -51,7 +51,7 @@ public class DemoPage extends Base {
     @Test
     public void checkHeaderTitle() throws InterruptedException {
         DemoPagePOM demoPage = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
+        Thread.sleep(Constants.shortWait);
         if(demoPage.getHeaderTitle().equalsIgnoreCase("Application Test Drive")){
             Assert.assertTrue(true);
             logger.info("HeaderTitle is correct");
@@ -65,7 +65,7 @@ public class DemoPage extends Base {
     @Test
     public void checkHeaderDesc() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
+        Thread.sleep(Constants.shortWait);
         if(demoPagePOM.getHeaderDesc().equalsIgnoreCase("Test drive online the demo product available with complete features")){
             Assert.assertTrue(true);
             logger.info("Header Desc is correct");
@@ -79,7 +79,7 @@ public class DemoPage extends Base {
     @Test
     public void checkMainTitle() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
+        Thread.sleep(Constants.shortWait);
         if(demoPagePOM.getMainTitle().equalsIgnoreCase("Demo Credentials for Frontend and Backend")){
             Assert.assertTrue(true);
             logger.info("Main title is correct");
@@ -93,8 +93,8 @@ public class DemoPage extends Base {
     @Test
     public void checkNavOption() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        if(available.displayed(demoPagePOM.getNavOption())){
+        Thread.sleep(Constants.shortWait);
+        if(Helper.displayed(demoPagePOM.getNavOption())){
             Assert.assertTrue(true);
             logger.info("Nav option is available");
         }
@@ -107,8 +107,8 @@ public class DemoPage extends Base {
     @Test
     public void checkRowofItems() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        if(available.displayed(demoPagePOM.getRowOfItems())){
+        Thread.sleep(Constants.shortWait);
+        if(Helper.displayed(demoPagePOM.getRowOfItems())){
             int countRow = driver.findElements(By.cssSelector("div.resource-box")).size();
             System.out.println(countRow);
             Assert.assertEquals(countRow, 6);
@@ -123,8 +123,8 @@ public class DemoPage extends Base {
     @Test
     public void checkDemoLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getDemoLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getDemoLink());
         logger.info("clicked on Demo");
         if(driver.getCurrentUrl().contains("demo")){
             Assert.assertTrue(true);
@@ -139,8 +139,8 @@ public class DemoPage extends Base {
     @Test
     public void checkPricingLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPricingLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPricingLink());
         logger.info("clicked on Pricing");
         if(driver.getCurrentUrl().contains("order")){
             Assert.assertTrue(true);
@@ -155,8 +155,8 @@ public class DemoPage extends Base {
     @Test
     public void checkIntegrationLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getIntegrationLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getIntegrationLink());
         if(driver.getCurrentUrl().contains("integrations")){
             Assert.assertTrue(true);
             logger.info("Integration link is correct");
@@ -170,8 +170,8 @@ public class DemoPage extends Base {
     @Test
     public void countTabsForDocs() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getDocsLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getDocsLink());
         if(driver.getWindowHandles().size() == 2) {
             Assert.assertTrue(true);
             logger.info("2 tabs opened when docs is clicked");
@@ -185,26 +185,26 @@ public class DemoPage extends Base {
     @Test
     public void checkDocTabUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getDocsLink());
-        available.switchTab(1, driver);
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getDocsLink());
+        Helper.switchTab(1, driver);
         if(driver.getCurrentUrl().contains("docs")){
             Assert.assertTrue(true);
             logger.info("URL for docs tab is correct");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
         else{
             Assert.fail();
             logger.info("URL for docs tab is incorrect");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
     }
 
     @Test
     public void countTabsForBlog() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getBlogLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getBlogLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
             logger.info("2 tabs opened when blog is clicked");
@@ -218,26 +218,26 @@ public class DemoPage extends Base {
     @Test
     public void checkBlogUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getBlogLink());
-        available.switchTab(1, driver);
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getBlogLink());
+        Helper.switchTab(1, driver);
         if(driver.getCurrentUrl().contains("blog")){
             Assert.assertTrue(true);
             logger.info("URL for blog tab is correct");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
         else{
             Assert.fail();
             logger.info("URL for blog is incorrect");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
     }
 
     @Test
     public void countTabsForLogin() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getBlogLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getBlogLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
             logger.info("2 tabs opened when login is clicked");
@@ -251,26 +251,26 @@ public class DemoPage extends Base {
     @Test
     public void checkLoginUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getLoginLink());
-        available.switchTab(1, driver);
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getLoginLink());
+        Helper.switchTab(1, driver);
         if(driver.getCurrentUrl().contains("login")){
             Assert.assertTrue(true);
             logger.info("URL for login is correct");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
         else{
             Assert.fail();
             logger.info("URL for login is incorrect");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
     }
 
     @Test
     public void checkForDesktopAppUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getDesktopApp());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getDesktopApp());
         if(driver.getCurrentUrl().contains("desktop-application")){
             Assert.assertTrue(true);
             logger.info("URl is correct when desktop application is clicked");
@@ -284,8 +284,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForMobileAppUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getMobileApp());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getMobileApp());
         if(driver.getCurrentUrl().contains("mobile-applications")){
             Assert.assertTrue(true);
             logger.info("URL is correct when mobile apps is clicked");
@@ -299,8 +299,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForFeaturesUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getFeaturesLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getFeaturesLink());
         if(driver.getCurrentUrl().contains("features")){
             Assert.assertTrue(true);
             logger.info("URL is correct when features is clicked");
@@ -314,8 +314,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForRequirementsUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getRequirementsLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getRequirementsLink());
         if(driver.getCurrentUrl().contains("requirements")){
             Assert.assertTrue(true);
             logger.info("URL is correct when requirements is clicked");
@@ -329,8 +329,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForTechnologyUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getTechnologyLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getTechnologyLink());
         if(driver.getCurrentUrl().contains("technology")){
             Assert.assertTrue(true);
             logger.info("URL is correct when technology is clicked");
@@ -344,8 +344,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForChangeLogUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getChangeLogLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getChangeLogLink());
         if(driver.getCurrentUrl().contains("change-log")){
             Assert.assertTrue(true);
             logger.info("URL is correct when changelog is clicked");
@@ -359,8 +359,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForUpdatesLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getUpdatesLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getUpdatesLink());
         if(driver.getCurrentUrl().contains("updates")){
             Assert.assertTrue(true);
             logger.info("URL is correct when updates is clicked");
@@ -374,8 +374,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForProvidersLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getProvidersLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getProvidersLink());
         if(driver.getCurrentUrl().contains("providers")){
             Assert.assertTrue(true);
             logger.info("URL is correct when providers is clicked");
@@ -389,8 +389,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForAffiliateLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getAffiliateLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getAffiliateLink());
         if(driver.getCurrentUrl().contains("affiliate")){
             Assert.assertTrue(true);
             logger.info("URL is correct when affiliate is clicked");
@@ -404,8 +404,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForRoadmapLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getRoadMapLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getRoadMapLink());
         if(driver.getCurrentUrl().contains("roadmap")){
             Assert.assertTrue(true);
             logger.info("URL is correct when roadmap is clicked");
@@ -419,8 +419,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForAboutUsLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getAboutUsLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getAboutUsLink());
         if(driver.getCurrentUrl().contains("about-us")){
             Assert.assertTrue(true);
             logger.info("URL is correct when about us link is clicked");
@@ -434,8 +434,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForContactUs() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getContactUsLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getContactUsLink());
         if(driver.getCurrentUrl().contains("contact-us")){
             Assert.assertTrue(true);
             logger.info("URL is correct when contact us is clicked");
@@ -449,8 +449,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForJobsLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getJobsLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getJobsLink());
         if(driver.getCurrentUrl().contains("jobs")){
             Assert.assertTrue(true);
             logger.info("URL is correct when job is clicked");
@@ -464,8 +464,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForTheTeamsLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getTheTeamLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getTheTeamLink());
         if(driver.getCurrentUrl().contains("the-team")){
             Assert.assertTrue(true);
             logger.info("URL is correct when teams link is clicked");
@@ -479,8 +479,8 @@ public class DemoPage extends Base {
     @Test
     public void checkForTermsOfServiceLink() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getTermsOfService());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getTermsOfService());
         if(driver.getCurrentUrl().contains("terms-and-conditions")){
             Assert.assertTrue(true);
             logger.info("URL is correct when terms and conditions link is clicked");
@@ -494,8 +494,8 @@ public class DemoPage extends Base {
     @Test
     public void getPrivacyPolicy() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPrivacyPolicy());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPrivacyPolicy());
         if(driver.getCurrentUrl().contains("privacy-statement")){
             Assert.assertTrue(true);
             logger.info("URL is correct when privacy policy link is clicked");
@@ -509,8 +509,8 @@ public class DemoPage extends Base {
     @Test
     public void countTabsForLiveChat() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getLiveChatLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getLiveChatLink());
         if(driver.getWindowHandles().size() == 2){
             Assert.assertTrue(true);
             logger.info("2 tabs opened when live chat is clicked");
@@ -524,26 +524,26 @@ public class DemoPage extends Base {
     @Test
     public void checkLiveChatUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getLiveChatLink());
-        available.switchTab(1, driver);
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getLiveChatLink());
+        Helper.switchTab(1, driver);
         if(driver.getCurrentUrl().contains("chat")){
             Assert.assertTrue(true);
             logger.info("URL for live chat is correct");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
         else{
             Assert.fail();
             logger.info("URL for live chat is incorrect");
-            available.goBackCurrent(0, driver);
+            Helper.goBackCurrent(0, driver);
         }
     }
 
     @Test
     public void getContentProgramUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.contentProgramLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.contentProgramLink());
         if(driver.getCurrentUrl().contains("earn-with-phptravels")){
             Assert.assertTrue(true);
             logger.info("URL is correct when content program link is clicked");
@@ -557,8 +557,8 @@ public class DemoPage extends Base {
     @Test
     public void getChatUrl() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPublicChatlink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPublicChatlink());
         if(driver.getCurrentUrl().contains("chat")){
             Assert.assertTrue(true);
             logger.info("URL is correct when public chat link is clicked");

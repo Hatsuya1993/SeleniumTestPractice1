@@ -1,7 +1,7 @@
 package testCases;
 
-import helper.available;
-import helper.helper;
+import helper.Helper;
+import helper.Constants;
 import helper.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -16,8 +16,8 @@ public class Order extends Base{
     @Test
     public void checkDefaultDataDisplayed()throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPricingLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         if(order.getOrderPage().isDisplayed()){
             Assert.assertTrue(true);
@@ -32,10 +32,10 @@ public class Order extends Base{
     @Test
     public void checkDefaultButtonBuyNow() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPricingLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
-        if(available.checkEnabled(order.getBuyNowButton(), driver) == false){
+        if(Helper.checkEnabled(order.getBuyNowButton(), driver) == false){
             Assert.assertTrue(true);
             logger.info("Order page by default buy now button is disabled");
         }
@@ -48,11 +48,11 @@ public class Order extends Base{
     @Test
     public void checkButtonActive() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPricingLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         if(order.selectCheckBox("1")){
-            if(available.checkEnabled(order.getBuyNowButton(), driver) == true){
+            if(Helper.checkEnabled(order.getBuyNowButton(), driver) == true){
                 Assert.assertTrue(true);
                 logger.info("Order page buy now button is active");
             }
@@ -70,13 +70,13 @@ public class Order extends Base{
     @Test
     public void checkURLForConfirmOrder() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPricingLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         if(order.selectCheckBox("1")){
-            if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
+            if(Helper.checkEnabled(order.getBuyNowButton(), driver) == true) {
                 Actions.scrollHelper(order.getBuyNowButton(), driver);
-                available.clickItem(order.getBuyNowButton());
+                Helper.clickItem(order.getBuyNowButton());
                 if(driver.getCurrentUrl().contains("order-confirm")){
                     Assert.assertTrue(true);
                     logger.info("URl is correct for confirm order");
@@ -93,15 +93,15 @@ public class Order extends Base{
     @Test
     public void checkButtonDisabledDefaultForOrder() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPricingLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);
         if(order.selectCheckBox("1")){
-            if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
+            if(Helper.checkEnabled(order.getBuyNowButton(), driver) == true) {
                 Actions.scrollHelper(order.getBuyNowButton(), driver);
-                available.clickItem(order.getBuyNowButton());
-                if(available.checkEnabled(orderConfirmPOM.getConfirmOrder(), driver) == false){
+                Helper.clickItem(order.getBuyNowButton());
+                if(Helper.checkEnabled(orderConfirmPOM.getConfirmOrder(), driver) == false){
                     Assert.assertTrue(true);
                     logger.info("Confirm order button is false by default");
                 }
@@ -117,14 +117,14 @@ public class Order extends Base{
     @Test
     public void checkTheInputsAfterDataAdded() throws InterruptedException {
         DemoPagePOM demoPagePOM = new DemoPagePOM(driver);
-        Thread.sleep(helper.shortWait);
-        available.clickItem(demoPagePOM.getPricingLink());
+        Thread.sleep(Constants.shortWait);
+        Helper.clickItem(demoPagePOM.getPricingLink());
         OrderPOM order = new OrderPOM(driver);
         OrderConfirmPOM orderConfirmPOM = new OrderConfirmPOM(driver);
         if(order.selectCheckBox("1")){
-            if(available.checkEnabled(order.getBuyNowButton(), driver) == true) {
+            if(Helper.checkEnabled(order.getBuyNowButton(), driver) == true) {
                 Actions.scrollHelper(order.getBuyNowButton(), driver);
-                available.clickItem(order.getBuyNowButton());
+                Helper.clickItem(order.getBuyNowButton());
                 HashMap<String, String> testData = new HashMap<String, String>();
                 testData.put("firstNameInput","testName");
                 testData.put("lastNameInput","testLast");

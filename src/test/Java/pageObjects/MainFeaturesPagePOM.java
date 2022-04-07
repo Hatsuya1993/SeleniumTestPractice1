@@ -53,6 +53,9 @@ public class MainFeaturesPagePOM {
 
     public static final By securityOptions = By.cssSelector(".row.row-10");
 
+    public static final By securityOptionsSelect = By.cssSelector(".wow" +
+            ".fadeIn.col-md-4.col-sm-6.animated");
+
     public WebElement getMainFeaturesHeader() {
         return driver.findElement(header);
     }
@@ -103,5 +106,9 @@ public class MainFeaturesPagePOM {
 
     public WebElement getSecurityOptions() {
         return driver.findElement(securityOptions);
+    }
+
+    public List<WebElement> getSecurityOptionsSelector() {
+        return driver.findElements(securityOptionsSelect);
     }
 }
