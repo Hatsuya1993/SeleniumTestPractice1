@@ -111,4 +111,8 @@ public class MainFeaturesPagePOM {
     public List<WebElement> getSecurityOptionsSelector() {
         return driver.findElements(securityOptionsSelect);
     }
+
+    public WebElement getSecurityOptionsSelectorFirstTitle() {
+        return driver.findElements(securityOptionsSelect).get(1).findElement(By.cssSelector(".box h3"));
+    }
 }

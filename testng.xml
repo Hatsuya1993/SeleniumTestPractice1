@@ -9,7 +9,7 @@
         <classes>
             <class name="testCases.MainFeaturesPage">
                 <methods>
-                    <include name="securityOptionsCountCheck"/>
+                    <include name="securityOptionsFirstCheck"/>
                 </methods>
             </class>
         </classes>

@@ -235,4 +235,19 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options is not displayed all 15 options");
         }
     }
+
+    @Test
+    public void securityOptionsFirstCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorFirstTitle())){
+            Assert.assertTrue(true);
+            logger.info("Security options selector first title displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Security options first title is not displayed");
+        }
+    }
 }
