@@ -11,8 +11,6 @@ public class Actions {
 
     public static void scrollHelperImplicit(int value, WebDriver driver) {
         for (int i = 0; i < value; i++) {
-            System.out.println(i);
-            System.out.println(value);
             ((JavascriptExecutor) driver).executeScript("window.scrollBy(0,10)"
                     , "");
         }

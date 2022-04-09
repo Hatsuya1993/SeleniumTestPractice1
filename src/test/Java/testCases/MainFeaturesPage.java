@@ -241,13 +241,28 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorFirstTitle())){
+        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(0))){
             Assert.assertTrue(true);
             logger.info("Security options selector first title displayed");
         }
         else{
             Assert.fail();
             logger.info("Security options first title is not displayed");
+        }
+    }
+
+    @Test
+    public void securityOptionsFirstCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(0),"Secured")){
+            Assert.assertTrue(true);
+            logger.info("Security options selector first title is correctly populated");
+        }
+        else{
+            Assert.fail();
+            logger.info("Security options first title is not correctly populated");
         }
     }
 }

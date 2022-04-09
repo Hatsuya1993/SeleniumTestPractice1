@@ -992,3 +992,9 @@
 2022-04-07 09:08:35,134 - TestPhpTravels -INFO - Security options selector displayed all 15 options
 2022-04-08 08:22:11,058 - TestPhpTravels -INFO - URL opened
 2022-04-08 08:22:22,480 - TestPhpTravels -INFO - Security options selector first title displayed
+2022-04-09 07:57:57,546 - TestPhpTravels -INFO - URL opened
+2022-04-09 07:59:11,561 - TestPhpTravels -INFO - URL opened
+2022-04-09 07:59:51,889 - TestPhpTravels -INFO - URL opened
+2022-04-09 08:00:30,973 - TestPhpTravels -INFO - URL opened
+2022-04-09 08:01:48,522 - TestPhpTravels -INFO - URL opened
+2022-04-09 08:02:00,109 - TestPhpTravels -INFO - Security options selector first title is correctly populated
