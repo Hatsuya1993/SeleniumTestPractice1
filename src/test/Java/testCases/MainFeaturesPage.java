@@ -265,4 +265,19 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options first title is not correctly populated");
         }
     }
+
+    @Test
+    public void securityOptionsSecondCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(1),"Payment Gateways")){
+            Assert.assertTrue(true);
+            logger.info("Security options selector second title is correctly populated");
+        }
+        else{
+            Assert.fail();
+            logger.info("Security options second title is not correctly populated");
+        }
+    }
 }
