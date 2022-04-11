@@ -402,7 +402,7 @@ public class Integration extends Base {
     @Test
     public void checkHeading() {
         IntegrationPagePOM integrationPagePOM = new IntegrationPagePOM(driver);
-        ArrayList<String> data = new ArrayList<>(Arrays.asList("Supplier Modules", "Payment Gateways"));
+        ArrayList<String> data = new ArrayList<String>(Arrays.asList("Supplier Modules", "Payment Gateways"));
         Boolean available = Helper.checkEachValue(data, integrationPagePOM.getSubHeading());
         if(available){
             Assert.assertTrue(true);

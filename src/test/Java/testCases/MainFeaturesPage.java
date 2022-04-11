@@ -267,6 +267,21 @@ public class MainFeaturesPage extends Base {
     }
 
     @Test
+    public void securityOptionsSecondCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(1))){
+            Assert.assertTrue(true);
+            logger.info("Security options selector second title displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Security options second title is not displayed");
+        }
+    }
+
+    @Test
     public void securityOptionsSecondCheckData() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
@@ -282,6 +297,21 @@ public class MainFeaturesPage extends Base {
     }
 
     @Test
+    public void securityOptionsThirdCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(2))){
+            Assert.assertTrue(true);
+            logger.info("Security options selector third title displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Security options third title is not displayed");
+        }
+    }
+
+    @Test
     public void securityOptionsThirdCheckData() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
@@ -293,6 +323,21 @@ public class MainFeaturesPage extends Base {
         else{
             Assert.fail();
             logger.info("Security options third title is not correctly populated");
+        }
+    }
+
+    @Test
+    public void securityOptionsFourthCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(3))){
+            Assert.assertTrue(true);
+            logger.info("Security options selector fourth title displayed");
+        }
+        else{
+            Assert.fail();
+            logger.info("Security options fourth title is not displayed");
         }
     }
 }
