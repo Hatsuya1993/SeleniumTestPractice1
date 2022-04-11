@@ -280,4 +280,19 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options second title is not correctly populated");
         }
     }
+
+    @Test
+    public void securityOptionsThirdCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(2),"Multi Currency")){
+            Assert.assertTrue(true);
+            logger.info("Security options selector third title is correctly populated");
+        }
+        else{
+            Assert.fail();
+            logger.info("Security options third title is not correctly populated");
+        }
+    }
 }
