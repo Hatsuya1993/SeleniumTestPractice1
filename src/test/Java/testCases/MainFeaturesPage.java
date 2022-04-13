@@ -2,7 +2,6 @@ package testCases;
 
 import helper.Actions;
 import helper.Helper;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.MainFeaturesPagePOM;
@@ -241,11 +240,10 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(0))){
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(0))) {
             Assert.assertTrue(true);
             logger.info("Security options selector first title displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Security options first title is not displayed");
         }
@@ -256,13 +254,14 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(0),"Secured")){
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(0), "Secured")) {
             Assert.assertTrue(true);
-            logger.info("Security options selector first title is correctly populated");
-        }
-        else{
+            logger.info("Security options selector first title is correctly " +
+                    "populated");
+        } else {
             Assert.fail();
-            logger.info("Security options first title is not correctly populated");
+            logger.info("Security options first title is not correctly " +
+                    "populated");
         }
     }
 
@@ -271,11 +270,10 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(1))){
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(1))) {
             Assert.assertTrue(true);
             logger.info("Security options selector second title displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Security options second title is not displayed");
         }
@@ -286,13 +284,14 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(1),"Payment Gateways")){
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(1), "Payment Gateways")) {
             Assert.assertTrue(true);
-            logger.info("Security options selector second title is correctly populated");
-        }
-        else{
+            logger.info("Security options selector second title is correctly " +
+                    "populated");
+        } else {
             Assert.fail();
-            logger.info("Security options second title is not correctly populated");
+            logger.info("Security options second title is not correctly " +
+                    "populated");
         }
     }
 
@@ -301,11 +300,10 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(2))){
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(2))) {
             Assert.assertTrue(true);
             logger.info("Security options selector third title displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Security options third title is not displayed");
         }
@@ -316,13 +314,14 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(2),"Multi Currency")){
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(2), "Multi Currency")) {
             Assert.assertTrue(true);
-            logger.info("Security options selector third title is correctly populated");
-        }
-        else{
+            logger.info("Security options selector third title is correctly " +
+                    "populated");
+        } else {
             Assert.fail();
-            logger.info("Security options third title is not correctly populated");
+            logger.info("Security options third title is not correctly " +
+                    "populated");
         }
     }
 
@@ -331,13 +330,28 @@ public class MainFeaturesPage extends Base {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
-        if(Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(3))){
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(3))) {
             Assert.assertTrue(true);
             logger.info("Security options selector fourth title displayed");
-        }
-        else{
+        } else {
             Assert.fail();
             logger.info("Security options fourth title is not displayed");
+        }
+    }
+
+    @Test
+    public void securityOptionsFifthCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(3), "Multi Language")) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector fifth title is correctly " +
+                    "populated");
+        } else {
+            Assert.fail();
+            logger.info("Security options fifth title is not correctly " +
+                    "populated");
         }
     }
 }

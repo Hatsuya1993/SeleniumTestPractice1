@@ -82,7 +82,6 @@ public class Helper {
     }
 
     public static boolean checkText(WebElement expect, String actual) throws InterruptedException {
-        System.out.println(expect.getText());
         if (displayed(expect)) {
             if (expect.getText().equalsIgnoreCase(actual)) {
                 return true;
