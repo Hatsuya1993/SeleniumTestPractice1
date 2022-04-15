@@ -368,4 +368,20 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options sixth title is not displayed");
         }
     }
+
+    @Test
+    public void securityOptionsSixthCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(4), "CMS Management")) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector sixth title is correctly " +
+                    "populated");
+        } else {
+            Assert.fail();
+            logger.info("Security options sixth title is not correctly " +
+                    "populated");
+        }
+    }
 }

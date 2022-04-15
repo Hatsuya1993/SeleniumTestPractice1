@@ -1011,3 +1011,5 @@
 2022-04-14 10:10:40,125 [main] INFO TestPhpTravels - URL opened
 2022-04-14 10:11:09,312 [main] INFO TestPhpTravels - URL opened
 2022-04-14 10:11:20,732 [main] INFO TestPhpTravels - Security options selector sixth title displayed
+2022-04-15 08:54:44,209 [main] INFO TestPhpTravels - URL opened
+2022-04-15 08:54:55,705 [main] INFO TestPhpTravels - Security options selector sixth title is correctly populated
