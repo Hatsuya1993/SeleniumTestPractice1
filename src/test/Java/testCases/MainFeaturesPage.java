@@ -398,4 +398,20 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options seventh title is not displayed");
         }
     }
+
+    @Test
+    public void securityOptionsSeventhCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(5), "Social Connections")) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector seventh title is correctly " +
+                    "populated");
+        } else {
+            Assert.fail();
+            logger.info("Security options seventh title is not correctly " +
+                    "populated");
+        }
+    }
 }
