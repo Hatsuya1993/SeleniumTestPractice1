@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="28" total="29" passed="1" failed="0" skipped="0">
+<testng-results ignored="29" total="30" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-18T09:11:51 SGT" name="All Test Suite" finished-at="2022-04-18T09:12:08 SGT" duration-ms="16942">
+  <suite started-at="2022-04-19T09:45:14 SGT" name="All Test Suite" finished-at="2022-04-19T09:45:33 SGT" duration-ms="19042">
     <groups>
     </groups>
-    <test started-at="2022-04-18T09:11:51 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-04-18T09:12:08 SGT" duration-ms="16942">
+    <test started-at="2022-04-19T09:45:14 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-04-19T09:45:33 SGT" duration-ms="19042">
       <class name="testCases.MainFeaturesPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@33c911a1]" started-at="2022-04-18T09:11:51 SGT" name="setup" finished-at="2022-04-18T09:11:55 SGT" duration-ms="4120" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@f79e]" started-at="2022-04-19T09:45:14 SGT" name="setup" finished-at="2022-04-19T09:45:20 SGT" duration-ms="5803" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="securityOptionsSeventhCheckData()[pri:0, instance:testCases.MainFeaturesPage@33c911a1]" started-at="2022-04-18T09:11:55 SGT" name="securityOptionsSeventhCheckData" finished-at="2022-04-18T09:12:07 SGT" duration-ms="11698" status="PASS">
+        <test-method signature="securityOptionsEighthCheck()[pri:0, instance:testCases.MainFeaturesPage@f79e]" started-at="2022-04-19T09:45:20 SGT" name="securityOptionsEighthCheck" finished-at="2022-04-19T09:45:32 SGT" duration-ms="12213" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- securityOptionsSeventhCheckData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@33c911a1]" started-at="2022-04-18T09:12:07 SGT" name="teardown" finished-at="2022-04-18T09:12:08 SGT" duration-ms="755" status="PASS">
+        </test-method> <!-- securityOptionsEighthCheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@f79e]" started-at="2022-04-19T09:45:32 SGT" name="teardown" finished-at="2022-04-19T09:45:33 SGT" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
