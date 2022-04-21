@@ -1021,3 +1021,5 @@
 2022-04-19 09:45:32,836 - TestPhpTravels -INFO - Security options selector eighth title displayed
 2022-04-20 09:11:33,210 - TestPhpTravels -INFO - URL opened
 2022-04-20 09:11:44,732 - TestPhpTravels -INFO - Security options selector eighth title is correctly populated
+2022-04-21 08:05:08,619 - TestPhpTravels -INFO - URL opened
+2022-04-21 08:05:20,260 - TestPhpTravels -INFO - Security options selector ninth title displayed
