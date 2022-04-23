@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="32" total="33" passed="1" failed="0" skipped="0">
+<testng-results ignored="33" total="34" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-22T09:34:49 SGT" name="All Test Suite" finished-at="2022-04-22T09:35:05 SGT" duration-ms="16211">
+  <suite started-at="2022-04-23T08:57:31 SGT" name="All Test Suite" finished-at="2022-04-23T08:57:49 SGT" duration-ms="18303">
     <groups>
     </groups>
-    <test started-at="2022-04-22T09:34:49 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-04-22T09:35:05 SGT" duration-ms="16211">
+    <test started-at="2022-04-23T08:57:31 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-04-23T08:57:49 SGT" duration-ms="18303">
       <class name="testCases.MainFeaturesPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@291caca8]" started-at="2022-04-22T09:34:49 SGT" name="setup" finished-at="2022-04-22T09:34:55 SGT" duration-ms="5348" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@6a2f6f80]" started-at="2022-04-23T08:57:31 SGT" name="setup" finished-at="2022-04-23T08:57:36 SGT" duration-ms="5242" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="securityOptionsNinthCheckData()[pri:0, instance:testCases.MainFeaturesPage@291caca8]" started-at="2022-04-22T09:34:55 SGT" name="securityOptionsNinthCheckData" finished-at="2022-04-22T09:35:04 SGT" duration-ms="9754" status="PASS">
+        <test-method signature="securityOptionsTenthCheck()[pri:0, instance:testCases.MainFeaturesPage@6a2f6f80]" started-at="2022-04-23T08:57:36 SGT" name="securityOptionsTenthCheck" finished-at="2022-04-23T08:57:48 SGT" duration-ms="11887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- securityOptionsNinthCheckData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@291caca8]" started-at="2022-04-22T09:35:04 SGT" name="teardown" finished-at="2022-04-22T09:35:05 SGT" duration-ms="718" status="PASS">
+        </test-method> <!-- securityOptionsTenthCheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@6a2f6f80]" started-at="2022-04-23T08:57:48 SGT" name="teardown" finished-at="2022-04-23T08:57:49 SGT" duration-ms="829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

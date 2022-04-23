@@ -474,4 +474,18 @@ public class MainFeaturesPage extends Base {
                     "populated");
         }
     }
+
+    @Test
+    public void securityOptionsTenthCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(8))) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector tenth title displayed");
+        } else {
+            Assert.fail();
+            logger.info("Security options tenth title is not displayed");
+        }
+    }
 }
