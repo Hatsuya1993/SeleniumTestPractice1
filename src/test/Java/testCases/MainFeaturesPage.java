@@ -534,4 +534,18 @@ public class MainFeaturesPage extends Base {
                     "populated");
         }
     }
+
+    @Test
+    public void securityOptionsTwelvethCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(10))) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector Twelveth title displayed");
+        } else {
+            Assert.fail();
+            logger.info("Security options Twelveth title is not displayed");
+        }
+    }
 }
