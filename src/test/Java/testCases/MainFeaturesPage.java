@@ -518,4 +518,20 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options Eleventh title is not displayed");
         }
     }
+
+    @Test
+    public void securityOptionsEleventhCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(9), "Extras")) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector Eleventh title is correctly " +
+                    "populated");
+        } else {
+            Assert.fail();
+            logger.info("Security options Eleventh title is not correctly " +
+                    "populated");
+        }
+    }
 }
