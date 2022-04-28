@@ -548,4 +548,20 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options Twelveth title is not displayed");
         }
     }
+
+    @Test
+    public void securityOptionsTwelvethCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(10), "Theme Engine")) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector Twelveth title is correctly " +
+                    "populated");
+        } else {
+            Assert.fail();
+            logger.info("Security options Twelveth title is not correctly " +
+                    "populated");
+        }
+    }
 }
