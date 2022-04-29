@@ -564,4 +564,18 @@ public class MainFeaturesPage extends Base {
                     "populated");
         }
     }
+
+    @Test
+    public void securityOptionsThirtenthCheck() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.displayed(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(11))) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector Thirtenth title displayed");
+        } else {
+            Assert.fail();
+            logger.info("Security options Thirtenth title is not displayed");
+        }
+    }
 }
