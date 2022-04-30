@@ -1040,3 +1040,5 @@
 2022-04-28 08:45:15,556 [main] INFO TestPhpTravels - Security options selector Twelveth title is correctly populated
 2022-04-29 08:54:20,437 [main] INFO TestPhpTravels - URL opened
 2022-04-29 08:54:33,131 [main] INFO TestPhpTravels - Security options selector Thirtenth title displayed
+2022-04-30 09:16:30,926 [main] INFO TestPhpTravels - URL opened
+2022-04-30 09:16:42,889 [main] INFO TestPhpTravels - Security options selector Thirtenth title is correctly populated

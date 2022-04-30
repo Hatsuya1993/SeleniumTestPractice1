@@ -578,4 +578,20 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options Thirtenth title is not displayed");
         }
     }
+
+    @Test
+    public void securityOptionsThirtenthCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(11), "Full Calendar")) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector Thirtenth title is correctly " +
+                    "populated");
+        } else {
+            Assert.fail();
+            logger.info("Security options Thirtenth title is not correctly " +
+                    "populated");
+        }
+    }
 }
