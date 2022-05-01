@@ -580,17 +580,17 @@ public class MainFeaturesPage extends Base {
     }
 
     @Test
-    public void securityOptionsThirtenthCheckData() throws InterruptedException {
+    public void securityOptionsFourteenthCheckData() throws InterruptedException {
         MainFeaturesPagePOM mainFeaturesPagePOM =
                 new MainFeaturesPagePOM(driver);
         Actions.scrollHelperImplicit(500, driver);
         if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(11), "Full Calendar")) {
             Assert.assertTrue(true);
-            logger.info("Security options selector Thirtenth title is correctly " +
+            logger.info("Security options selector Fourteenth title is correctly " +
                     "populated");
         } else {
             Assert.fail();
-            logger.info("Security options Thirtenth title is not correctly " +
+            logger.info("Security options Fourteenth title is not correctly " +
                     "populated");
         }
     }
