@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="40" total="41" passed="1" failed="0" skipped="0">
+<testng-results ignored="41" total="42" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-01T09:03:39 SGT" name="All Test Suite" finished-at="2022-05-01T09:04:06 SGT" duration-ms="26545">
+  <suite started-at="2022-05-02T08:46:34 SGT" name="All Test Suite" finished-at="2022-05-02T08:46:51 SGT" duration-ms="16752">
     <groups>
     </groups>
-    <test started-at="2022-05-01T09:03:39 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-05-01T09:04:06 SGT" duration-ms="26545">
+    <test started-at="2022-05-02T08:46:34 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-05-02T08:46:51 SGT" duration-ms="16752">
       <class name="testCases.MainFeaturesPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@4c39bec8]" started-at="2022-05-01T09:03:40 SGT" name="setup" finished-at="2022-05-01T09:03:45 SGT" duration-ms="5016" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@1f59a598]" started-at="2022-05-02T08:46:34 SGT" name="setup" finished-at="2022-05-02T08:46:39 SGT" duration-ms="4310" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="securityOptionsFourteenthCheckData()[pri:0, instance:testCases.MainFeaturesPage@4c39bec8]" started-at="2022-05-01T09:03:45 SGT" name="securityOptionsFourteenthCheckData" finished-at="2022-05-01T09:04:05 SGT" duration-ms="19847" status="PASS">
+        <test-method signature="securityOptionsFourteenthCheck()[pri:0, instance:testCases.MainFeaturesPage@1f59a598]" started-at="2022-05-02T08:46:39 SGT" name="securityOptionsFourteenthCheck" finished-at="2022-05-02T08:46:50 SGT" duration-ms="11435" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- securityOptionsFourteenthCheckData -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@4c39bec8]" started-at="2022-05-01T09:04:05 SGT" name="teardown" finished-at="2022-05-01T09:04:06 SGT" duration-ms="1294" status="PASS">
+        </test-method> <!-- securityOptionsFourteenthCheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@1f59a598]" started-at="2022-05-02T08:46:50 SGT" name="teardown" finished-at="2022-05-02T08:46:51 SGT" duration-ms="746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
