@@ -668,4 +668,20 @@ public class MainFeaturesPage extends Base {
             logger.info("Security options Sixteenth title is not displayed");
         }
     }
+
+    @Test
+    public void securityOptionsSixteenthCheckData() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if (Helper.checkText(mainFeaturesPagePOM.getSecurityOptionsSelectorHelper(14), "Coupon Code")) {
+            Assert.assertTrue(true);
+            logger.info("Security options selector Sixteenth title is correctly " +
+                    "populated");
+        } else {
+            Assert.fail();
+            logger.info("Security options Sixteenth title is not correctly " +
+                    "populated");
+        }
+    }
 }
