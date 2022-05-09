@@ -1056,3 +1056,5 @@
 2022-05-06 08:46:13,651 [main] INFO TestPhpTravels - Security options selector Sixteenth title displayed
 2022-05-08 08:47:54,900 [main] INFO TestPhpTravels - URL opened
 2022-05-08 08:48:07,226 [main] INFO TestPhpTravels - Security options selector Sixteenth title is correctly populated
+2022-05-09 22:29:15,216 [main] INFO TestPhpTravels - URL opened
+2022-05-09 22:29:26,823 [main] INFO TestPhpTravels - Demo text is displayed

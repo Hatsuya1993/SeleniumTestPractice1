@@ -48,6 +48,8 @@ public class MainFeaturesPagePOM {
     private static final By maximumSecurity = By.cssSelector(".section-title " +
             "h2");
 
+    private static final By demoText = By.cssSelector("div.cw.text-center");
+
     public static final By guaranteedByOurTopDevelopers = By.cssSelector(
             ".section-title p");
 
@@ -114,5 +116,9 @@ public class MainFeaturesPagePOM {
 
     public WebElement getSecurityOptionsSelectorHelper(int index){
         return driver.findElements(securityOptionsSelect).get(index).findElement(By.cssSelector(".box h3"));
+    }
+
+    public WebElement getDemoText() {
+        return driver.findElement(demoText);
     }
 }

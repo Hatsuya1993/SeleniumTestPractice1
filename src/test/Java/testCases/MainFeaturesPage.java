@@ -684,4 +684,18 @@ public class MainFeaturesPage extends Base {
                     "populated");
         }
     }
+
+    @Test
+    public void demoTextShouldBeDisplayed() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.displayed(mainFeaturesPagePOM.getDemoText())){
+            Assert.assertTrue(true);
+            logger.info("Demo text is displayed");
+        } else {
+            Assert.fail();
+            logger.info("Demo text is not displayed");
+        }
+    }
 }
