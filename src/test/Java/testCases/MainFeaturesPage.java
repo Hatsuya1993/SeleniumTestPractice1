@@ -698,4 +698,21 @@ public class MainFeaturesPage extends Base {
             logger.info("Demo text is not displayed");
         }
     }
+
+    @Test
+    public void demoTextShouldBeDisplayedCorrectly() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        if(Helper.checkText(mainFeaturesPagePOM.getDemoText(), "The features " +
+                "provided above the major features only, but for the complete experience\n" +
+                "\n" +
+                "DEMO")){
+            Assert.assertTrue(true);
+            logger.info("Demo text is displayed correctly");
+        } else {
+            Assert.fail();
+            logger.info("Demo text is not displayed incorrectly");
+        }
+    }
 }
