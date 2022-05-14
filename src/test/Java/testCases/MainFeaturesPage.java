@@ -715,4 +715,20 @@ public class MainFeaturesPage extends Base {
             logger.info("Demo text is not displayed incorrectly");
         }
     }
+
+    @Test
+    public void clickDemoWillRouteToDemoPage() throws InterruptedException {
+        MainFeaturesPagePOM mainFeaturesPagePOM =
+                new MainFeaturesPagePOM(driver);
+        Actions.scrollHelperImplicit(500, driver);
+        Helper.clickItem(mainFeaturesPagePOM.getDemoButton());
+        if(driver.getCurrentUrl().contains("demo")){
+            Assert.assertTrue(true);
+            logger.info("Clicking demo opens routes to demo page");
+        }
+        else{
+            Assert.fail();
+            logger.info("Clicking demo does not route to demo page");
+        }
+    }
 }

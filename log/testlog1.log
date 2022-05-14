@@ -1067,3 +1067,7 @@
 2022-05-11 21:34:42,319 [main] INFO TestPhpTravels - URL opened
 2022-05-11 21:35:23,605 [main] INFO TestPhpTravels - URL opened
 2022-05-11 21:35:33,790 [main] INFO TestPhpTravels - Demo text is displayed correctly
+2022-05-14 22:10:10,595 [main] INFO TestPhpTravels - URL opened
+2022-05-14 22:11:22,438 [main] INFO TestPhpTravels - URL opened
+2022-05-14 22:13:03,080 [main] INFO TestPhpTravels - URL opened
+2022-05-14 22:13:20,128 [main] INFO TestPhpTravels - Clicking demo opens routes to demo page
