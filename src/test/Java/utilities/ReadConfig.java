@@ -42,6 +42,11 @@ public class ReadConfig {
         return url;
     }
 
+    public String getHotelsModuleFeatures() {
+        String url = pro.getProperty("hotelsModuleFeatures");
+        return url;
+    }
+
     public String getChromePath() {
         String chromePath = pro.getProperty("chromepath");
         return chromePath;
