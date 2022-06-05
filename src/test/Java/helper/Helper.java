@@ -91,6 +91,7 @@ public class Helper {
     }
 
     public static boolean countCheck(List<WebElement> expect, int actual) throws InterruptedException {
+        System.out.println(expect.size());
         if (displayed(expect.get(1))) {
             if (expect.size() == actual) {
                 return true;

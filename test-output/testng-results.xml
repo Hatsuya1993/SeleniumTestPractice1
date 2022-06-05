@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="49" total="50" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-14T22:12:58 SGT" name="All Test Suite" finished-at="2022-05-14T22:13:20 SGT" duration-ms="22071">
+  <suite started-at="2022-06-04T15:03:15 SGT" name="All Test Suite" finished-at="2022-06-04T15:06:48 SGT" duration-ms="213120">
     <groups>
     </groups>
-    <test started-at="2022-05-14T22:12:58 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-05-14T22:13:20 SGT" duration-ms="22071">
-      <class name="testCases.MainFeaturesPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.MainFeaturesPage@5c671d7f]" started-at="2022-05-14T22:12:59 SGT" name="setup" finished-at="2022-05-14T22:13:03 SGT" duration-ms="3754" status="PASS">
+    <test started-at="2022-06-04T15:03:15 SGT" name="C:/Users/hal19/IdeaProjects/TestPhpTravels" finished-at="2022-06-04T15:06:48 SGT" duration-ms="213120">
+      <class name="testCases.HotelsModuleFeaturesPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:03:16 SGT" name="setup" finished-at="2022-06-04T15:03:20 SGT" duration-ms="4117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,395 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="clickDemoWillRouteToDemoPage()[pri:0, instance:testCases.MainFeaturesPage@5c671d7f]" started-at="2022-05-14T22:13:03 SGT" name="clickDemoWillRouteToDemoPage" finished-at="2022-05-14T22:13:20 SGT" duration-ms="17038" status="PASS">
+        <test-method signature="checkEacTitleOfFeaturesCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:03:20 SGT" name="checkEacTitleOfFeaturesCorrectly" finished-at="2022-06-04T15:03:49 SGT" duration-ms="29444" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickDemoWillRouteToDemoPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.MainFeaturesPage@5c671d7f]" started-at="2022-05-14T22:13:20 SGT" name="teardown" finished-at="2022-05-14T22:13:20 SGT" duration-ms="826" status="PASS">
+        </test-method> <!-- checkEacTitleOfFeaturesCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:03:49 SGT" name="teardown" finished-at="2022-06-04T15:03:50 SGT" duration-ms="912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.MainFeaturesPage -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:03:50 SGT" name="setup" finished-at="2022-06-04T15:03:53 SGT" duration-ms="2575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkEacTitleOfFeaturesDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:03:53 SGT" name="checkEacTitleOfFeaturesDisplayed" finished-at="2022-06-04T15:04:22 SGT" duration-ms="28990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEacTitleOfFeaturesDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:04:22 SGT" name="teardown" finished-at="2022-06-04T15:04:23 SGT" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:04:23 SGT" name="setup" finished-at="2022-06-04T15:04:27 SGT" duration-ms="4682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkEachImageOfFeaturesDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:04:27 SGT" name="checkEachImageOfFeaturesDisplayed" finished-at="2022-06-04T15:04:58 SGT" duration-ms="30105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEachImageOfFeaturesDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:04:58 SGT" name="teardown" finished-at="2022-06-04T15:04:59 SGT" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:04:59 SGT" name="setup" finished-at="2022-06-04T15:05:02 SGT" duration-ms="3798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkFullCalendarCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:02 SGT" name="checkFullCalendarCorrectly" finished-at="2022-06-04T15:05:04 SGT" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFullCalendarCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:04 SGT" name="teardown" finished-at="2022-06-04T15:05:05 SGT" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:05 SGT" name="setup" finished-at="2022-06-04T15:05:09 SGT" duration-ms="3690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkFullCalendarDescriptionCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:09 SGT" name="checkFullCalendarDescriptionCorrectly" finished-at="2022-06-04T15:05:11 SGT" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFullCalendarDescriptionCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:11 SGT" name="teardown" finished-at="2022-06-04T15:05:12 SGT" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:12 SGT" name="setup" finished-at="2022-06-04T15:05:15 SGT" duration-ms="3088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkFullCalendarDescriptionDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:15 SGT" name="checkFullCalendarDescriptionDisplayed" finished-at="2022-06-04T15:05:16 SGT" duration-ms="1728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFullCalendarDescriptionDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:16 SGT" name="teardown" finished-at="2022-06-04T15:05:17 SGT" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:17 SGT" name="setup" finished-at="2022-06-04T15:05:21 SGT" duration-ms="3272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkFullCalendarDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:21 SGT" name="checkFullCalendarDisplayed" finished-at="2022-06-04T15:05:22 SGT" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFullCalendarDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:22 SGT" name="teardown" finished-at="2022-06-04T15:05:23 SGT" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:23 SGT" name="setup" finished-at="2022-06-04T15:05:27 SGT" duration-ms="3579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkFullCalendarImageDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:27 SGT" name="checkFullCalendarImageDisplayed" finished-at="2022-06-04T15:05:29 SGT" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFullCalendarImageDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:29 SGT" name="teardown" finished-at="2022-06-04T15:05:30 SGT" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:30 SGT" name="setup" finished-at="2022-06-04T15:05:33 SGT" duration-ms="3044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkHotelsBookingModuleCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:33 SGT" name="checkHotelsBookingModuleCorrectly" finished-at="2022-06-04T15:05:34 SGT" duration-ms="1657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelsBookingModuleCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:34 SGT" name="teardown" finished-at="2022-06-04T15:05:35 SGT" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:35 SGT" name="setup" finished-at="2022-06-04T15:05:39 SGT" duration-ms="3265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkHotelsBookingModuleDescriptionCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:39 SGT" name="checkHotelsBookingModuleDescriptionCorrectly" finished-at="2022-06-04T15:05:40 SGT" duration-ms="1597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelsBookingModuleDescriptionCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:40 SGT" name="teardown" finished-at="2022-06-04T15:05:41 SGT" duration-ms="1030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:41 SGT" name="setup" finished-at="2022-06-04T15:05:45 SGT" duration-ms="3231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkHotelsBookingModuleDescriptionDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:45 SGT" name="checkHotelsBookingModuleDescriptionDisplayed" finished-at="2022-06-04T15:05:46 SGT" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelsBookingModuleDescriptionDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:46 SGT" name="teardown" finished-at="2022-06-04T15:05:47 SGT" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:47 SGT" name="setup" finished-at="2022-06-04T15:05:50 SGT" duration-ms="3054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkHotelsBookingModuleDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:50 SGT" name="checkHotelsBookingModuleDisplayed" finished-at="2022-06-04T15:05:52 SGT" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelsBookingModuleDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:52 SGT" name="teardown" finished-at="2022-06-04T15:05:53 SGT" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:53 SGT" name="setup" finished-at="2022-06-04T15:05:56 SGT" duration-ms="3223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkHotelsBookingModuleImageDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:56 SGT" name="checkHotelsBookingModuleImageDisplayed" finished-at="2022-06-04T15:05:58 SGT" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHotelsBookingModuleImageDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:58 SGT" name="teardown" finished-at="2022-06-04T15:05:59 SGT" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:05:59 SGT" name="setup" finished-at="2022-06-04T15:06:02 SGT" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkMainFeaturesTitleCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:02 SGT" name="checkMainFeaturesTitleCorrectly" finished-at="2022-06-04T15:06:04 SGT" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainFeaturesTitleCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:04 SGT" name="teardown" finished-at="2022-06-04T15:06:05 SGT" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:05 SGT" name="setup" finished-at="2022-06-04T15:06:08 SGT" duration-ms="3042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkMainFeaturesTitleDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:08 SGT" name="checkMainFeaturesTitleDisplayed" finished-at="2022-06-04T15:06:09 SGT" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMainFeaturesTitleDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:09 SGT" name="teardown" finished-at="2022-06-04T15:06:11 SGT" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:11 SGT" name="setup" finished-at="2022-06-04T15:06:14 SGT" duration-ms="3247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkNumberOfFeatures()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:14 SGT" name="checkNumberOfFeatures" finished-at="2022-06-04T15:06:18 SGT" duration-ms="4656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNumberOfFeatures -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:18 SGT" name="teardown" finished-at="2022-06-04T15:06:20 SGT" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:20 SGT" name="setup" finished-at="2022-06-04T15:06:22 SGT" duration-ms="2838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTitleCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:22 SGT" name="checkTitleCorrectly" finished-at="2022-06-04T15:06:24 SGT" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:24 SGT" name="teardown" finished-at="2022-06-04T15:06:26 SGT" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:26 SGT" name="setup" finished-at="2022-06-04T15:06:29 SGT" duration-ms="3170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTitleDescriptionCorrectly()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:29 SGT" name="checkTitleDescriptionCorrectly" finished-at="2022-06-04T15:06:30 SGT" duration-ms="1692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleDescriptionCorrectly -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:30 SGT" name="teardown" finished-at="2022-06-04T15:06:31 SGT" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:31 SGT" name="setup" finished-at="2022-06-04T15:06:34 SGT" duration-ms="3023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTitleDescriptionDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:34 SGT" name="checkTitleDescriptionDisplayed" finished-at="2022-06-04T15:06:36 SGT" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleDescriptionDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:36 SGT" name="teardown" finished-at="2022-06-04T15:06:37 SGT" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:37 SGT" name="setup" finished-at="2022-06-04T15:06:40 SGT" duration-ms="2797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkTitleDisplayed()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:40 SGT" name="checkTitleDisplayed" finished-at="2022-06-04T15:06:42 SGT" duration-ms="1623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:42 SGT" name="teardown" finished-at="2022-06-04T15:06:43 SGT" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:43 SGT" name="setup" finished-at="2022-06-04T15:06:46 SGT" duration-ms="3081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkURL()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:46 SGT" name="checkURL" finished-at="2022-06-04T15:06:47 SGT" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkURL -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.HotelsModuleFeaturesPage@7530ad9c]" started-at="2022-06-04T15:06:47 SGT" name="teardown" finished-at="2022-06-04T15:06:48 SGT" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.HotelsModuleFeaturesPage -->
     </test> <!-- C:/Users/hal19/IdeaProjects/TestPhpTravels -->
   </suite> <!-- All Test Suite -->
 </testng-results>

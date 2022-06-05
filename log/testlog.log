@@ -1071,3 +1071,459 @@
 2022-05-14 22:11:22,438 - TestPhpTravels -INFO - URL opened
 2022-05-14 22:13:03,080 - TestPhpTravels -INFO - URL opened
 2022-05-14 22:13:20,128 - TestPhpTravels -INFO - Clicking demo opens routes to demo page
+2022-06-04 09:40:57,235 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:40:58,772 - TestPhpTravels -INFO - Title is correct
+2022-06-04 09:41:01,523 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:41:03,224 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 09:50:03,752 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:50:09,816 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:50:11,312 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 09:50:14,735 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:50:20,034 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:50:21,484 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 09:50:24,622 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:50:26,247 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 09:51:26,557 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:51:28,210 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 09:51:31,855 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:51:33,339 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 09:51:36,656 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:51:42,224 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:51:43,869 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 09:51:47,217 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:51:48,872 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 09:53:09,353 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:53:11,026 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 09:53:14,190 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:53:15,845 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 09:53:19,837 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:53:21,416 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 09:53:24,779 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:53:26,262 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 09:53:29,599 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:53:31,220 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 09:59:24,505 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:59:30,731 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:59:47,105 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:59:48,797 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 09:59:52,929 - TestPhpTravels -INFO - URL opened
+2022-06-04 09:59:54,751 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:00:16,993 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:00:32,929 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:00:48,807 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:00:50,471 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 10:00:53,650 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:00:55,359 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:01:00,548 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:01:02,441 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:01:07,116 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:01:08,815 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 10:01:14,001 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:01:15,741 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 10:01:39,243 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:01:57,340 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:02:15,433 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:02:17,111 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 10:02:22,057 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:02:23,670 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:02:28,198 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:02:29,880 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:02:33,544 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:02:40,835 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:02:42,518 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 10:03:58,084 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:03:59,579 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:04:02,886 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:04:04,720 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:04:07,655 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:04:09,095 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 10:04:12,486 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:04:14,095 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:04:17,214 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:04:18,699 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:04:23,251 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:04:24,767 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 10:04:28,319 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:04:29,929 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 10:06:39,999 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:06:41,497 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:06:44,435 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:06:49,552 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:06:51,256 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:06:54,308 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:06:55,738 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:06:58,689 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:07:02,961 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:07:05,373 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:07:08,956 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:07:10,653 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:07:13,719 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:07:15,453 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 10:07:18,391 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:07:19,813 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 10:08:04,703 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:06,190 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:08:09,491 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:11,150 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:08:14,088 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:15,678 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:08:18,723 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:20,314 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:08:23,272 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:28,197 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:29,858 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:08:33,206 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:34,958 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:08:38,448 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:39,941 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 10:08:44,356 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:08:46,091 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 10:10:03,009 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:04,727 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:10:08,296 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:09,997 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:10:13,759 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:15,401 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:10:19,080 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:20,762 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:10:24,177 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:25,927 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 10:10:29,201 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:30,704 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:10:34,041 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:35,624 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:10:38,868 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:40,379 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 10:10:43,677 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:10:45,162 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 10:14:25,695 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:27,131 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:14:30,220 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:31,653 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:14:34,953 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:36,450 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:14:39,572 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:40,982 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:14:43,885 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:45,337 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 10:14:48,289 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:49,925 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 10:14:52,863 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:54,282 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:14:57,197 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:14:58,631 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:15:02,288 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:15:03,757 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 10:15:06,750 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:15:08,412 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 10:19:05,669 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:07,191 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 10:19:10,184 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:11,878 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 10:19:14,840 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:16,535 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:19:19,622 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:21,067 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 10:19:24,005 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:25,759 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:19:28,635 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:30,358 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 10:19:33,221 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:34,216 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 10:19:36,987 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:38,596 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 10:19:42,338 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:43,937 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 10:19:47,072 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:49,472 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 10:19:52,738 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:55,041 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 10:19:58,048 - TestPhpTravels -INFO - URL opened
+2022-06-04 10:19:59,803 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 12:42:33,977 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:42:35,768 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 12:42:38,666 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:42:40,194 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 12:42:43,143 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:42:44,711 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 12:42:47,732 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:42:49,378 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 12:42:52,452 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:42:53,971 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:42:56,939 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:42:58,364 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:43:02,247 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:03,908 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:43:07,057 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:08,728 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:43:11,634 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:13,558 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 12:43:16,476 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:18,085 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 12:43:20,856 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:22,348 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 12:43:26,451 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:28,223 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 12:43:33,275 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:35,210 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 12:43:40,636 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:43:42,586 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 12:46:04,114 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:05,656 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 12:46:08,498 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:09,957 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 12:46:12,780 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:14,547 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 12:46:17,512 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:19,171 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 12:46:22,027 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:23,738 - TestPhpTravels -INFO - FullCalendarImage is displayed
+2022-06-04 12:46:26,562 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:28,167 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:46:30,999 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:32,472 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:46:35,409 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:36,808 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:46:39,725 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:41,306 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:46:44,125 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:45,602 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 12:46:48,372 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:49,890 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 12:46:52,638 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:54,388 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 12:46:57,067 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:46:58,510 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 12:47:01,305 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:47:02,970 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 12:47:05,643 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:47:07,022 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 12:50:28,910 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:50:30,508 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 12:50:33,291 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:50:34,686 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 12:50:37,598 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:50:39,031 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 12:50:41,833 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:50:43,385 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 12:50:46,252 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:50:47,674 - TestPhpTravels -INFO - FullCalendarImage is displayed
+2022-06-04 12:50:50,577 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:50:52,926 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:50:55,765 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:50:57,394 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:51:00,173 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:02,632 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:51:05,535 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:07,030 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:51:09,975 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:12,158 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 12:51:15,137 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:16,681 - TestPhpTravels -INFO - MainFeaturesTitle is displayed
+2022-06-04 12:51:19,433 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:21,192 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 12:51:23,914 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:25,447 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 12:51:28,195 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:29,970 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 12:51:32,911 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:34,369 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 12:51:37,131 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:51:37,909 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 12:54:59,469 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:01,138 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 12:55:04,002 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:05,484 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 12:55:09,207 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:10,788 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 12:55:13,611 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:15,315 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 12:55:18,150 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:19,185 - TestPhpTravels -INFO - FullCalendarImage is displayed
+2022-06-04 12:55:22,071 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:23,725 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:55:26,527 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:27,922 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 12:55:30,838 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:32,483 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:55:35,284 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:36,687 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 12:55:39,521 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:41,073 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 12:55:43,763 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:44,622 - TestPhpTravels -INFO - MainFeaturesTitle is displayed correctly
+2022-06-04 12:55:47,506 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:49,095 - TestPhpTravels -INFO - MainFeaturesTitle is displayed
+2022-06-04 12:55:52,413 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:54,034 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 12:55:57,646 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:55:59,166 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 12:56:01,946 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:56:03,485 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 12:56:06,369 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:56:08,809 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 12:56:11,745 - TestPhpTravels -INFO - URL opened
+2022-06-04 12:56:13,350 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 13:06:13,140 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:14,840 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 13:06:18,181 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:19,676 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 13:06:22,583 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:23,408 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 13:06:26,964 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:28,431 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 13:06:31,149 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:32,602 - TestPhpTravels -INFO - FullCalendarImage is displayed
+2022-06-04 13:06:35,464 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:36,844 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 13:06:40,353 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:41,928 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 13:06:44,549 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:46,226 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 13:06:49,176 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:50,872 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 13:06:53,653 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:06:55,329 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 13:06:58,334 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:07:00,718 - TestPhpTravels -INFO - MainFeaturesTitle is displayed correctly
+2022-06-04 13:07:03,419 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:07:05,028 - TestPhpTravels -INFO - MainFeaturesTitle is displayed
+2022-06-04 13:07:08,039 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:07:09,460 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 13:07:12,369 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:07:14,783 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 13:07:17,664 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:07:19,371 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 13:07:22,260 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:07:24,072 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 13:07:27,799 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:07:29,340 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 13:08:03,990 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:05,467 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 13:08:08,190 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:09,818 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 13:08:12,581 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:14,049 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 13:08:17,175 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:18,609 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 13:08:22,296 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:23,688 - TestPhpTravels -INFO - FullCalendarImage is displayed
+2022-06-04 13:08:26,522 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:27,995 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 13:08:31,152 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:32,847 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 13:08:35,594 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:37,231 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 13:08:39,913 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:41,603 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 13:08:44,313 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:45,934 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 13:08:48,708 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:50,392 - TestPhpTravels -INFO - MainFeaturesTitle is displayed correctly
+2022-06-04 13:08:53,424 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:08:54,267 - TestPhpTravels -INFO - MainFeaturesTitle is displayed
+2022-06-04 13:08:57,363 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:09:02,711 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:09:04,282 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 13:09:07,564 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:09:08,997 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 13:09:12,071 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:09:13,584 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 13:09:16,610 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:09:18,275 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 13:09:21,740 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:09:23,296 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 13:10:30,068 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:10:31,728 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 13:10:34,404 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:10:35,789 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 13:10:38,593 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:10:39,995 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 13:10:42,947 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:10:44,443 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 13:10:47,233 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:10:48,924 - TestPhpTravels -INFO - FullCalendarImage is displayed
+2022-06-04 13:10:51,720 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:10:53,365 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 13:10:56,214 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:10:57,612 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 13:11:00,461 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:02,111 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 13:11:04,875 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:06,378 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 13:11:09,056 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:10,494 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 13:11:13,269 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:14,297 - TestPhpTravels -INFO - MainFeaturesTitle is displayed correctly
+2022-06-04 13:11:17,342 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:18,872 - TestPhpTravels -INFO - MainFeaturesTitle is displayed
+2022-06-04 13:11:21,931 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:37,956 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:39,680 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 13:11:42,649 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:44,071 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 13:11:47,191 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:49,603 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 13:11:53,051 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:11:54,816 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 13:11:58,981 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:12:00,658 - TestPhpTravels -INFO - URL is correnct
+2022-06-04 13:13:47,176 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:14:50,954 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:15:34,822 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:16:28,645 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:17:49,521 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:18:55,527 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:19:00,246 - TestPhpTravels -INFO - NumberOfFeatures is correct
+2022-06-04 13:25:18,060 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:25:47,097 - TestPhpTravels -INFO - All image are displayed
+2022-06-04 13:29:06,437 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:29:36,255 - TestPhpTravels -INFO - All images are displayed
+2022-06-04 13:51:07,515 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:51:36,570 - TestPhpTravels -INFO - All description are displayed
+2022-06-04 13:54:25,944 - TestPhpTravels -INFO - URL opened
+2022-06-04 13:54:54,754 - TestPhpTravels -INFO - All title are displayed
+2022-06-04 14:59:52,412 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:00:22,005 - TestPhpTravels -INFO - All title are correctly displayed
+2022-06-04 15:03:20,175 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:03:49,633 - TestPhpTravels -INFO - All title are correctly displayed
+2022-06-04 15:03:53,133 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:04:22,125 - TestPhpTravels -INFO - All title are displayed
+2022-06-04 15:04:27,895 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:04:58,001 - TestPhpTravels -INFO - All images are displayed
+2022-06-04 15:05:02,873 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:04,588 - TestPhpTravels -INFO - FullCalendar is displayed correctly
+2022-06-04 15:05:09,425 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:11,121 - TestPhpTravels -INFO - FullCalendarDescription is displayed correctly
+2022-06-04 15:05:15,212 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:16,941 - TestPhpTravels -INFO - FullCalendarDescription is displayed
+2022-06-04 15:05:21,255 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:22,905 - TestPhpTravels -INFO - FullCalendar is displayed
+2022-06-04 15:05:27,524 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:29,166 - TestPhpTravels -INFO - FullCalendarImage is displayed
+2022-06-04 15:05:33,296 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:34,955 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 15:05:39,167 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:40,765 - TestPhpTravels -INFO - HotelsBookingModule is displayed correctly
+2022-06-04 15:05:45,027 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:46,761 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 15:05:50,866 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:52,502 - TestPhpTravels -INFO - HotelsBookingModuleTitle is displayed
+2022-06-04 15:05:56,727 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:05:58,408 - TestPhpTravels -INFO - HotelsBookingModuleImage is displayed
+2022-06-04 15:06:02,430 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:04,026 - TestPhpTravels -INFO - MainFeaturesTitle is displayed correctly
+2022-06-04 15:06:08,065 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:09,818 - TestPhpTravels -INFO - MainFeaturesTitle is displayed
+2022-06-04 15:06:14,304 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:18,962 - TestPhpTravels -INFO - NumberOfFeatures is correct
+2022-06-04 15:06:22,997 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:24,833 - TestPhpTravels -INFO - Title is displayed correctly
+2022-06-04 15:06:29,233 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:30,927 - TestPhpTravels -INFO - Title description is displayed correctly
+2022-06-04 15:06:34,946 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:36,741 - TestPhpTravels -INFO - Title description is displayed
+2022-06-04 15:06:40,485 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:42,110 - TestPhpTravels -INFO - Title is displayed
+2022-06-04 15:06:46,312 - TestPhpTravels -INFO - URL opened
+2022-06-04 15:06:47,875 - TestPhpTravels -INFO - URL is correnct
